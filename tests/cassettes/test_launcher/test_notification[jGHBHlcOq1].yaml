@@ -1,0 +1,45 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getNotification?launcher_id=jGHBHlcOq1
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"notifications\":[{\"notification_id\":\"k2bOxPJ9T5\",\"type\":\"NOTIFICATION_TYPE_RED_DOT\",\"start_time\":\"1768363200\",\"end_time\":\"1768968000\",\"red_dot_info\":{\"game\":{\"id\":\"1Z8W5NHUQb\",\"biz\":\"hk4e_cn\"}},\"message_info\":null,\"status\":\"NOTIFICATION_STATUS_EFFECTIVE\"},{\"notification_id\":\"lpp4GxUwka\",\"type\":\"NOTIFICATION_TYPE_MESSAGE\",\"start_time\":\"1768363200\",\"end_time\":\"1768968000\",\"red_dot_info\":null,\"message_info\":{\"title\":\"\u300C\u7A7A\u6708\u5F52\u4E61\xB7\u54E5\u4F26\u6BD4\u5A05\u300D\u7948\u613F\u5F00\u542F\uFF01\",\"content\":\"\u300C\u7A7A\u6708\u4E4B\u6B4C\xB7\u7EC8\u66F2\u300D\u4E0A\u7EBF\uFF1A\u51B3\u6218\u300C\u535A\u58EB\u300D\uFF0C\u5BFB\u56DE\u771F\u5B9E\u4E4B\u6708\uFF01\u7248\u672C\u671F\u95F4\u767B\u5F55\u53EF\u83B7\u5F97\u4E8C\u5341\u8FDE\u62BD\u7B49\u798F\u5229\uFF0C\u5B8C\u6210\u9B54\u795E\u4EFB\u52A1\u83B7\u53D6\u300C\u65C5\u884C\u8005\u300D\u8863\u88C5\uFF01\",\"content_image\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/04/0533fbf0d692d269163e75382fd3ce72_3417099151715383108.png\",\"link\":\"\",\"login_state_in_link\":false},\"header_icon\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/10/14/9ebf1bc5af2d83ca5fca21adb49cf341_1713549758249501746.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"jump_type\":\"NOTIFICATION_JUMP_TYPE_GAME_DETAIL\",\"game\":{\"id\":\"1Z8W5NHUQb\",\"biz\":\"hk4e_cn\"},\"jump_url\":\"\",\"msg_tmpl\":\"NOTIFICATION_MSG_TMPL_STRENGTHEN\"},\"status\":\"NOTIFICATION_STATUS_EFFECTIVE\"}]}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1292'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:29:17 GMT
+      EagleId:
+      - a3b5a49c17689193571952350e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5a49c17689193571952350e38f3061ab1274ebe2e25fe23e709f35a;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5a49c17689193571952350e38f3061ab1274ebe2e25fe23e709f35a;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=c9c342ef1c80ac931953715f295a0621|1768919357|1768919357;Path=/
+      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1768919357|1768919357;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Accept-Encoding
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache21.l2ea120-5[53,0], ens-cache15.l2ph1[142,0], cache8.sg24[176,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 21bd20de426fb03b:21bd20de426fb03b:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

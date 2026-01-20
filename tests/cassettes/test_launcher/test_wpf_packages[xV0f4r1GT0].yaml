@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getWPFPackages?launcher_id=xV0f4r1GT0
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"wpf_packages":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '55'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:28:41 GMT
+      EagleId:
+      - a3b5a49d17689193215045979e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5a49d17689193215045979e9adf1c673620965d8a26afc6a49cf7d5;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5a49d17689193215045979e9adf1c673620965d8a26afc6a49cf7d5;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=53010d26c506be13c63a08e3531f584d|1768919321|1768919321;Path=/
+      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1768919321|1768919321;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache60.l2ea120-5[50,0], ens-cache10.l2ph1[111,0], cache9.sg24[148,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 713a0da00396a19a:713a0da00396a19a:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

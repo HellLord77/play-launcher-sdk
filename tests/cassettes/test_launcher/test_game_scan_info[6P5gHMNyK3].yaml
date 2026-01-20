@@ -1,0 +1,45 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameScanInfo?launcher_id=6P5gHMNyK3
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"EdtUqXfCHh","game_exe_list":[{"version":"3.8.0","md5":"02b84b6cd1be48efdaf3687eaafd6fea"},{"version":"3.7.0","md5":"c70e8c37f294fae41e584342cfbae4c3"},{"version":"3.6.0","md5":"613741aee881de63a829a2abeb40175f"},{"version":"3.5.0","md5":"5b84e1b02eecc2fe3ea8ee455241032f"},{"version":"3.4.0","md5":"413a9bbbca58c7e88d6e5fd170f4796d"},{"version":"3.3.0","md5":"553de28eba911d2529cf517eabfb89ae"},{"version":"2.0.0","md5":"76c985e9e76150d13463bf9dc5505fc7"},{"version":"2.1.0","md5":"b2887938c585cba452086f83aa9ea3b8"},{"version":"2.2.0","md5":"1bcca177cdfbccb3a7fe7d0d1b5997d1"},{"version":"2.3.0","md5":"09cbebe3306f81dbb1498e2c214b897d"},{"version":"2.4.0","md5":"56dece03e454f0e95aca75a40d9c1a82"},{"version":"2.5.0","md5":"90648a00ffe279d2f9cd78b3d0f70387"},{"version":"2.6.0","md5":"cc60406ede6dcce797ca5642a6567732"},{"version":"2.7.0","md5":"663044f64ca83a6027e8b09fbc4e0f8d"},{"version":"3.0.0","md5":"c36fa773dafd0eacb44a8a2b92f0d671"},{"version":"3.1.0","md5":"4662fe2753d563b955c8346f3c377aea"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1075'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:28:18 GMT
+      EagleId:
+      - a3b5529817689192988182299e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5529817689192988182299e7ca284469c52a73115e60a0c4a02e45e;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5529817689192988182299e7ca284469c52a73115e60a0c4a02e45e;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=7fa0eb59517e49e4c882c00d17f4aa3e|1768919298|1768919298;Path=/
+      - SERVERCORSID=7fa0eb59517e49e4c882c00d17f4aa3e|1768919298|1768919298;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Accept-Encoding
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache9.l2ea120-5[42,0], ens-cache2.l2ph1[126,0], ens-cache4.sg13[158,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 5368a1bdfff998ea:5368a1bdfff998ea:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

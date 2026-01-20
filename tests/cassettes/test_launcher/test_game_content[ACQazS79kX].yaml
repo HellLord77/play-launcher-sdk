@@ -1,0 +1,81 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=ACQazS79kX
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"5TIVvvcwtM","biz":"bh3_global","display":{"language":"en-us","name":"Honkai
+        Impact 3rd","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/3526a039dddb4c8ca9d1083555f5781b_6841086697744260757.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/1aa568b2f1d93bf5e9ed30fefb4b7de7_8503220238812872813.webp","link":"","login_state_in_link":false},"logo":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/746d0f9bdea8bec75dcba30363ee4869_5042730857509214632.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/cc7803752504e6b23a9aded8b60596cf_8442822819633803061.png","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/12/23/b654cc6fb434b7054a3e3fefe1f4a9a0_5274544621224741390.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"b654cc6fb434b7054a3e3fefe1f4a9a0","size":398969},"wpf_icon":null},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[{"i18n_name":"Honkai
+        Impact 3rd","i18n_description":"Europe \u0026 Americas Servers","package_name":"glb_official","auto_scan_registry_key":"Honkai
+        Impact 3rd","package_detection_info":"glb_official","game_id":"5TIVvvcwtM","reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1626'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:44:37 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 42711b32043ef413dd139e4e07296056.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - tk9kuI_SXKZrbpA0iyypPnIuSuuD6Mvasz5q7DPJ1TYp9Lu-BmrkCA==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 288f31be5bfe48e7:288f31be5bfe48e7:0:1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=ACQazS79kX&game_id=5TIVvvcwtM
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"5TIVvvcwtM\",\"biz\":\"bh3_global\"},\"language\":\"\",\"banners\":[{\"id\":\"aq4xLi1GFx\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/31/87278290d225c28a04923fdb8c0540c7_7040013701916628415.jpg\",\"link\":\"https://youtu.be/pDVKpiSs-xI\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"elgNm4gOxe\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/26/abdbc02a0387d85162da584303b00b9f_3583191187014296739.png\",\"link\":\"https://youtu.be/X54wCKVzNNg\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"KTMFFFGrXc\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Update-Ank\xFCndigung:
+        v8.6 \\\"Geheimoperation: Bankett\\\"\",\"link\":\"https://hoyo.link/IO83s5QKK\",\"date\":\"12/31\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"L8XcBJ34sN\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Ritas
+        neuer Rang-S-Kampfanzug \\\"Fr\xE4ulein Spionin\\\" erscheint\",\"link\":\"https://hoyo.link/bQD7kROei\",\"date\":\"12/30\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"}],\"social_media_list\":[{\"id\":\"dvOv2I2Gt2\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/33a1c76536265a82344a200b29da408d_1100616699269552016.png\",\"hover_url\":\"\",\"link\":\"https://honkaiimpact3.mihoyo.com/global\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"6fRUWl54T7\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/4f88c988da20e30a9a0e13eafe4b102c_6757827193489975771.png\",\"hover_url\":\"\",\"link\":\"https://www.facebook.com/global.honkaiimpact\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"tE3lIeMEim\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/879ab65b973fe41a1a6866f9bd25d1a2_728659397457656107.png\",\"hover_url\":\"\",\"link\":\"https://twitter.com/HonkaiImpact3rd\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"tLmGjXNZIa\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/40264556b28596d0a341adad12de7e71_9023444244169576395.png\",\"hover_url\":\"\",\"link\":\"https://www.instagram.com/honkaiimpact3rd/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"LD4oxwipeE\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/f5791d34a7ad83161c5a191729e8aa90_7372566705021942509.png\",\"hover_url\":\"\",\"link\":\"https://www.youtube.com/channel/UCko6H6LokKM__B03i5_vBQQ\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"wSRLI0eT7C\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/ca9481b418f0cf5ea7acafffa9f82df9_7410202488293728087.png\",\"hover_url\":\"\",\"link\":\"https://www.hoyolab.com/accountCenter/postList?id=147839994\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"r8RN2wly0k\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/17/d38c58957c07609b40c5f0fcd31260ab_658360629443435069.png\",\"hover_url\":\"\",\"link\":\"https://www.hoyolab.com/article_pre/18014398241029629\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"}]}}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:44:40 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 6e2546ea32838b55b78a977d2eb9b06c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - a02B2eeO0XM50ATxOm8z6JpPp9gNbLynMYTSSJ9uFUCj3bZ32JI4nA==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 647864e5ce8aa441:647864e5ce8aa441:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

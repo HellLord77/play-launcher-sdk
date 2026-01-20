@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameDeprecatedFileConfigs?launcher_id=VYTpXlbWo8
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"deprecated_file_configs":[{"game":{"id":"gopR6Cufr3","biz":"hk4e_global"},"deprecated_files":[{"name":"mhyprot3.Sys"},{"name":"GenshinImpact_Data/blueReporter.exe"},{"name":"GenshinImpact_Data/Plugins/hdiffz.dll"},{"name":"GenshinImpact_Data/Plugins/xlua.dll"},{"name":"GenshinImpact_Data/Plugins/metakeeper.dll"},{"name":"GenshinImpact_Data/Plugins/sqlite3.dll"},{"name":"GenshinImpact_Data/Plugins/LumiFractureExport.dll"},{"name":"GenshinImpact_Data/Plugins/PCGameSDK.dll"},{"name":"UnityPlayer.dll"},{"name":"GenshinImpact_Data/Plugins/cri_vip_unity_pc.dll"},{"name":"GenshinImpact_Data/Native/UserAssembly.dll"},{"name":"GenshinImpact_Data/Plugins/widevinecdmadapter.dll"},{"name":"GenshinImpact_Data/Plugins/InControlNative.dll"},{"name":"GenshinImpact_Data/Plugins/d3dcompiler_43.dll"},{"name":"GenshinImpact_Data/Plugins/XInputInterface64.dll"},{"name":"GenshinImpact_Data/Plugins/mihoyonet.dll"},{"name":"mhyprot2.Sys"},{"name":"GenshinImpact_Data/Plugins/APMLog.dll"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1019'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:21:09 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 798b754fe782dce9ae05123d80edbd3c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ztvzx4jRyaJgRx4_6AvshotrXRD1qHwnMyktufBl8boWG-q45vnPkw==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 28e04788d74adbb4:28e04788d74adbb4:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

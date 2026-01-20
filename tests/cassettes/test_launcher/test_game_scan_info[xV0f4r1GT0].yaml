@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameScanInfo?launcher_id=xV0f4r1GT0
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"HXAFlmYa17","game_exe_list":[{"version":"2.5.0","md5":"5c0224941dcb0ee883b7d237fa819b0c"},{"version":"2.4.0","md5":"214b1acaee68ec8f0a6bb3d2ccc3f87e"},{"version":"2.3.0","md5":"7cc3ac5fbab3c846facb500fc40d00eb"},{"version":"2.2.0","md5":"cefb06c6573824232e3fe92a79b59e70"},{"version":"2.1.0","md5":"8a5154f002805dcac55d36a55621133c"},{"version":"2.0.0","md5":"24b12bcf6df4739d5fadac875dad03b4"},{"version":"1.7.0","md5":"65063638e0b60a64ebb43aa8c101e1bf"},{"version":"1.6.0","md5":"a7eae05778eaf9f15b3e4c68d2f7cb50"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '587'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:28:44 GMT
+      EagleId:
+      - a3b5a49d17689193240717226e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5a49d17689193240717226ef327d50877ec45a951c3e596cc4b80a0;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5a49d17689193240717226ef327d50877ec45a951c3e596cc4b80a0;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=c9c342ef1c80ac931953715f295a0621|1768919324|1768919324;Path=/
+      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1768919324|1768919324;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache14.l2ea120-5[57,0], ens-cache10.l2ph1[140,0], cache9.sg24[172,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 7202d16f9493ccf8:7202d16f9493ccf8:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

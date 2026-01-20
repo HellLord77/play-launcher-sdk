@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameDeprecatedFileConfigs?launcher_id=xV0f4r1GT0
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"deprecated_file_configs":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:28:36 GMT
+      EagleId:
+      - a3b5519b17689193163931908e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5519b17689193163931908e2fbb1f739c1b7f9aa77aacbc3548c66a;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5519b17689193163931908e2fbb1f739c1b7f9aa77aacbc3548c66a;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1768919316|1768919316;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1768919316|1768919316;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache57.l2ea120-5[44,0], ens-cache22.l2ph1[114,0], cache7.sg12[151,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 99ca2f47c72f2e9:99ca2f47c72f2e9:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

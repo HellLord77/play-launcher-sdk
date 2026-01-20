@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameScanInfo?launcher_id=L83o6ar17w
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"wkE5P5WsIf","game_exe_list":[{"version":"8.6.0","md5":"9239202c474c91da3f0d7c2552e53a74"},{"version":"8.5.0","md5":"a342c0780668c51bcb22e40d6d3652fe"},{"version":"8.4.0","md5":"f569c0014126e4eb41fd9d6a6c452ca0"},{"version":"8.3.0","md5":"0862483056235528c8b4a1327741e26f"},{"version":"8.2.0","md5":"33a9ca0da1ac48ed605639057d32fe4a"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '404'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:24:58 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 9ee8b835a4cdf0b35993615e21a3b5f8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - AcZoXNct37M3sgXajKgexpwpWsXs0OhDSaMzyXBOKLVH6SwgDoBb8w==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 230ec57287c93d8a:230ec57287c93d8a:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

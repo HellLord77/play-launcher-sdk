@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getNotification?launcher_id=0hUu4SbmhI
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"notifications":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:24:54 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 ad4d8134b7edbfc8b2d709b8e2f72270.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 6O6o4PWgfkOrMsmDo2hkFZBmzCsub-3eU328pPS5rB7N6Jx6TFqA-w==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 15da1ac389ef7a36:15da1ac389ef7a36:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

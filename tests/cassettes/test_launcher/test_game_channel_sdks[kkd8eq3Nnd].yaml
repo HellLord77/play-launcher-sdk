@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameChannelSDKs?launcher_id=kkd8eq3Nnd&channel=1&sub_channel=3
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_channel_sdks":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '60'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:26:28 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 42711b32043ef413dd139e4e07296056.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - i2x-DBi4bvMIsuLPEEvrdoqBrUS2cwgci_RDN8ZVbBBwwvJN1yzGnw==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 5dc0f2fdeedb0b24:5dc0f2fdeedb0b24:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

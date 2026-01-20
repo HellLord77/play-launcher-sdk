@@ -1,0 +1,40 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=L83o6ar17w
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"wkE5P5WsIf\",\"biz\":\"bh3_global\",\"display\":{\"language\":\"en-us\",\"name\":\"\u5D29\u58DE3rd\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/3526a039dddb4c8ca9d1083555f5781b_4561228993487886361.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/d181190a18375eb77fa923b582160378_7079386488352318022.webp\",\"link\":\"\",\"login_state_in_link\":false},\"logo\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/11/b0ab0ec4ad165771d804e374688bd27e_653685432563040028.png\",\"link\":\"\",\"login_state_in_link\":false},\"thumbnail\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/cc7803752504e6b23a9aded8b60596cf_7147944388992174426.png\",\"link\":\"\",\"login_state_in_link\":false},\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/12/23/b654cc6fb434b7054a3e3fefe1f4a9a0_7131181854140008204.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"b654cc6fb434b7054a3e3fefe1f4a9a0\",\"size\":398969},\"wpf_icon\":null},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[{\"i18n_name\":\"\u5D29\u58DE3rd\",\"i18n_description\":\"Traditional
+        Chinese Server\",\"package_name\":\"asia_official\",\"auto_scan_registry_key\":\"\u5D29\u58DE3rd\",\"package_detection_info\":\"asia_official\",\"game_id\":\"wkE5P5WsIf\",\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\"}]}]}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1599'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:24:57 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 7ab61ce3d7d648e0eaae5b45a81a89dc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 61AHUUqrDCuyhKQ_IugyklblDjKnQzTcb0vX-gCe96Fi6bn8xV5ZFg==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 3466c139b9ee1c2b:3466c139b9ee1c2b:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

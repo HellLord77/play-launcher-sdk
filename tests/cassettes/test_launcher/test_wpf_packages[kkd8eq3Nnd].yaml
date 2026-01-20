@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getWPFPackages?launcher_id=kkd8eq3Nnd
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"wpf_packages":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '55'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:26:29 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 f881b3dd31ab6286675d899fd085a370.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Slp_Rd7M3-CYcpXxiCX4mWnyeoOFx-H_3bfU6AOFzwVI5DENhSCE8Q==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 4d13b7cf39e9f708:4d13b7cf39e9f708:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,260 @@
+{
+  "games": [
+    {
+      "id": "U5hbdsT9W7",
+      "biz": "nap_global",
+      "display": {
+        "language": "en-us",
+        "name": "Zenless Zone Zero",
+        "icon": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/db01dfe29c36a283b774d295b2322b54_6508212206846113861.png",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "",
+          "size": 0
+        },
+        "title": "",
+        "subtitle": "",
+        "background": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/22/48de742c7ab48b8ad1b25ae7579c096d_7192295705544624235.webp",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "logo": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/07/03/beab753b7e3d2a50b372697647fa2e72_8064756669861889000.png",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "thumbnail": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/07/03/1357f4534e1bbca74ed59b303781efe2_6312953840017286157.png",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "korea_rating": null,
+        "shortcut": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/6d1cf7d5575dfb9d0518ba9ecb42ad7c_7622002898463700803.ico",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "6d1cf7d5575dfb9d0518ba9ecb42ad7c",
+          "size": 116372
+        },
+        "wpf_icon": {
+          "url": "",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "",
+          "size": 0
+        }
+      },
+      "reservation": null,
+      "display_status": "LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE",
+      "game_server_configs": []
+    },
+    {
+      "id": "4ziysqXOQ8",
+      "biz": "hkrpg_global",
+      "display": {
+        "language": "en-us",
+        "name": "Honkai Star Rail",
+        "icon": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/22/4cc51f558225dba65cc875ecd642cfe2_6726801704251292131.png",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "",
+          "size": 0
+        },
+        "title": "",
+        "subtitle": "",
+        "background": {
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/11/56468a48fa2f0e736cd0b0ce72f7d11e_727438596459716080.webp",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "logo": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/7d03590f49a14d80da4ae256bf34c5f8_5507399597629772203.png",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "thumbnail": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/c45dd543cc497fd0a8d2e9494cc2d234_3006379750487578987.png",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "korea_rating": null,
+        "shortcut": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/01/17cf9eb7905c972059e648c9d1eddb84_5207807436729218446.ico",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "17cf9eb7905c972059e648c9d1eddb84",
+          "size": 340872
+        },
+        "wpf_icon": {
+          "url": "",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "",
+          "size": 0
+        }
+      },
+      "reservation": null,
+      "display_status": "LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE",
+      "game_server_configs": []
+    },
+    {
+      "id": "gopR6Cufr3",
+      "biz": "hk4e_global",
+      "display": {
+        "language": "en-us",
+        "name": "Genshin Impact",
+        "icon": {
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "",
+          "size": 0
+        },
+        "title": "",
+        "subtitle": "",
+        "background": {
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/02/43a91b3b497efdb5c99cbe339c7a1302_7709846301520683181.webp",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "logo": {
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/7f777384d29cac1ea0d34b4e16d4487b_2092553358310716519.png",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "thumbnail": {
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/68e8178e137f6b0259e4da49b5a9be8e_8412451782424407383.png",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "korea_rating": null,
+        "shortcut": {
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/11/329c587494692a8e3724d10deb406844_5995617087587994357.ico",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "329c587494692a8e3724d10deb406844",
+          "size": 228875
+        },
+        "wpf_icon": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/10/11/7ca67838ed44d0cfdb3d31bd8f2ad51f_4432816980583971143.png",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "",
+          "size": 0
+        }
+      },
+      "reservation": null,
+      "display_status": "LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE",
+      "game_server_configs": []
+    },
+    {
+      "id": "5TIVvvcwtM",
+      "biz": "bh3_global",
+      "display": {
+        "language": "en-us",
+        "name": "Honkai Impact 3rd",
+        "icon": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "",
+          "size": 0
+        },
+        "title": "",
+        "subtitle": "",
+        "background": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/16/8e1b8adb0633e5bc9127e7918f3d3610_5798365623637323970.webp",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "logo": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/24/746d0f9bdea8bec75dcba30363ee4869_3926270346992269590.png",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "thumbnail": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/13/cc7803752504e6b23a9aded8b60596cf_8308546497417221966.png",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "korea_rating": null,
+        "shortcut": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/12/16/b654cc6fb434b7054a3e3fefe1f4a9a0_6490963881407393036.ico",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "b654cc6fb434b7054a3e3fefe1f4a9a0",
+          "size": 398969
+        },
+        "wpf_icon": null
+      },
+      "reservation": null,
+      "display_status": "LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE",
+      "game_server_configs": [
+        {
+          "i18n_name": "Honkai Impact 3rd",
+          "i18n_description": "Europe \u0026 Americas Servers",
+          "package_name": "glb_official",
+          "auto_scan_registry_key": "Honkai Impact 3rd",
+          "package_detection_info": "glb_official",
+          "game_id": "5TIVvvcwtM",
+          "reservation": null,
+          "display_status": "LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE"
+        },
+        {
+          "i18n_name": "崩壊3rd",
+          "i18n_description": "JP Server",
+          "package_name": "jp_official",
+          "auto_scan_registry_key": "崩壊3rd",
+          "package_detection_info": "jp_official",
+          "game_id": "g0mMIvshDb",
+          "reservation": null,
+          "display_status": "LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE"
+        },
+        {
+          "i18n_name": "붕괴3rd",
+          "i18n_description": "KR Server ",
+          "package_name": "kr_official",
+          "auto_scan_registry_key": "붕괴3rd",
+          "package_detection_info": "kr_official",
+          "game_id": "uxB4MC7nzC",
+          "reservation": null,
+          "display_status": "LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE"
+        },
+        {
+          "i18n_name": "Honkai Impact 3",
+          "i18n_description": "SEA Server",
+          "package_name": "overseas_official",
+          "auto_scan_registry_key": "Honkai Impact 3",
+          "package_detection_info": "overseas_official",
+          "game_id": "bxPTXSET5t",
+          "reservation": null,
+          "display_status": "LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE"
+        },
+        {
+          "i18n_name": "崩壞3rd",
+          "i18n_description": "Traditional Chinese Server",
+          "package_name": "asia_official",
+          "auto_scan_registry_key": "崩壞3rd",
+          "package_detection_info": "asia_official",
+          "game_id": "wkE5P5WsIf",
+          "reservation": null,
+          "display_status": "LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE"
+        }
+      ]
+    }
+  ]
+}

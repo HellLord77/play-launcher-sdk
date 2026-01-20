@@ -1,0 +1,40 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=0hUu4SbmhI
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"FUoEmzPdP3","biz":"nap_global","display":{"language":"en-us","name":"Zenless
+        Zone Zero","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/db01dfe29c36a283b774d295b2322b54_8151375525791945073.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/107ec31f7c257bc451f37012d3abbff8_4940587300850802606.webp","link":"","login_state_in_link":false},"logo":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/fdf7a7f32b1b98b74b2c14066cc4b522_3355189533200148852.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/c29f67e99818cc3b11a86d2f95b01df6_5692496366356860909.jpg","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/6d1cf7d5575dfb9d0518ba9ecb42ad7c_3478985393225088813.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"6d1cf7d5575dfb9d0518ba9ecb42ad7c","size":116372},"wpf_icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0}},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1403'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:24:47 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 18b24b9d82f8c92dd1fa9bebaf56af42.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 38C6hOIVuw6em4SpCeFePgGFWxSzb3tdKIegtWLkCTpbkyUyFGzk-w==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 40b54437529b141c:40b54437529b141c:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

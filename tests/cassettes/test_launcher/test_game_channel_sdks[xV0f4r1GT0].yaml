@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameChannelSDKs?launcher_id=xV0f4r1GT0&channel=1&sub_channel=3
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_channel_sdks":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '60'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:28:31 GMT
+      EagleId:
+      - a3b5a49a17689193109462295e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5a49a17689193109462295ef1c604339f3eac101514aaf5b74d64df;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5a49a17689193109462295ef1c604339f3eac101514aaf5b74d64df;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1768919311|1768919311;Path=/
+      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1768919311|1768919311;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache69.l2ea120-5[41,0], ens-cache10.l2ph1[132,0], cache6.sg24[166,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 44eb73e4047d39e6:44eb73e4047d39e6:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

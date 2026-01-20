@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameDeprecatedFileConfigs?launcher_id=0hUu4SbmhI
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"deprecated_file_configs":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:24:45 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 081f4dccbf59d5fd34750786ea392d28.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - I8LumKAzzoAcRcNH-u5ToMSL1Sd6-RUUW6LUi8mQ55UZPHINeYg6mA==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 48cd76035f1f625a:48cd76035f1f625a:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

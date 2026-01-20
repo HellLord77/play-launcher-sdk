@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameScanInfo?launcher_id=gGoJxKOusQ
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"4ziysqXOQ8","game_exe_list":[{"version":"3.8.0","md5":"55bbccc9714b0c1f4fe6d6ebffdf322c"},{"version":"3.7.0","md5":"3d08a1a7e30c18dec524f60557b913f2"},{"version":"3.6.0","md5":"eb4130bafd9b06975933a2a434c4c387"},{"version":"3.5.0","md5":"3684f0954db2c9e387e87435442f62d7"},{"version":"3.4.0","md5":"90557caa22aa087da34d8642364f81ae"},{"version":"3.3.0","md5":"83f9bedf4f10e268f2dbc261a3ea52d5"},{"version":"3.2.0","md5":"c2eb57cb2650ab5ddd13d3a9ee84eb84"},{"version":"2.0.0","md5":"9a6bc7e5775d1b54ed384a7e85c296f9"},{"version":"2.1.0","md5":"8fbe4ba1c7808dd6309b7c34a1f7d4fc"},{"version":"2.2.0","md5":"0fda6f84a391af3ce23ec7dc3ec7545c"},{"version":"2.3.0","md5":"6249184d715c8a14242558c6a8b507b6"},{"version":"2.4.0","md5":"35a503636bee652827da288086ef5ee0"},{"version":"2.5.0","md5":"264d9d87bbe4776e9d8e2ec874f03264"},{"version":"2.6.0","md5":"8dd425198f41cafe5b69846718a15fc7"},{"version":"2.7.0","md5":"abec0cf1d221be619920344e51389116"},{"version":"3.0.0","md5":"e84b8d1c2714d1b5307adea26944604a"},{"version":"3.1.0","md5":"d3b959a2e3668581fa49ae14b09f1999"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1136'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:24:22 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 18b24b9d82f8c92dd1fa9bebaf56af42.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ZxgFeuMooHHLnSoMfa-JVxV6v5C1JJ-lUClgV0SwE9LDD1beQ5CjVQ==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 72f9a808be9b222f:72f9a808be9b222f:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

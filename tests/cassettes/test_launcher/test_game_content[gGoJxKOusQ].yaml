@@ -1,0 +1,85 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=gGoJxKOusQ
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"4ziysqXOQ8","biz":"hkrpg_global","display":{"language":"en-us","name":"Honkai
+        Star Rail","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/22/4cc51f558225dba65cc875ecd642cfe2_7265423663688588850.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":null,"logo":null,"thumbnail":null,"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/01/17cf9eb7905c972059e648c9d1eddb84_4090972074732121243.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"17cf9eb7905c972059e648c9d1eddb84","size":340872},"wpf_icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0}},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '899'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:44:31 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 d52d1c01e4ec71ae1ac4a7de9d75c37a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - v7g9bgXMn1SGOvoNtiynxY25sWJC4fZg2r-7bXD0IBIAARZracRLMg==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 217f2faf04f41e05:217f2faf04f41e05:0:1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=gGoJxKOusQ&game_id=4ziysqXOQ8
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"4ziysqXOQ8\",\"biz\":\"hkrpg_global\"},\"language\":\"\",\"banners\":[{\"id\":\"1Jc81kAMEW\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/16/849cf591503536f7b15a3ce2b1b947c5_9030020689261469146.jpg\",\"link\":\"https://hoyo.link/weL63ypaK\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"N0cGZZSIub\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/06/cb92f3df471d4c9f95254e0a3b68b713_8029733677944208200.png\",\"link\":\"https://hoyo.link/C40Al790z\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"p2B6rwbWoZ\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/30/2e01bc1d7a7a2c45121e78c697eafadd_2988621531402015648.png\",\"link\":\"https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311\\u0026hyl_auth_required=true\\u0026hyl_presentation_style=fullscreen\\u0026utm_campaign=checkin\\u0026utm_id=6\\u0026utm_medium=notice\\u0026utm_source=ingame\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"jRlEDD219w\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2024/09/10/ff36819399bdf96665b3da154b94c8aa_762567157333143462.png\",\"link\":\"https://act.hoyolab.com/bbs/event/bbs-event-20230908mimo/index.html?from=hkrpg\\u0026hyl_auth_required=true\\u0026hyl_hide_status_bar=true\\u0026hyl_portrait=true\\u0026hyl_presentation_style=fullscreen\\u0026utm_id=6\\u0026utm_medium=banner\\u0026utm_source=launcher\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"RshTO0pxAe\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Aktionswarps
+        von Version 3.8 (Phase 2)\",\"link\":\"https://hoyo.link/C40Al790z\",\"date\":\"01/06\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"RsA27T033d\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Erl\xE4uterungen
+        zur Aktualisierung auf Version 3.8 \u201EErinnerungen sind der Prolog der
+        Tr\xE4ume\u201C\",\"link\":\"https://hoyo.link/USx4QAR4d\",\"date\":\"12/17\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"2NA305Pg5K\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"Awuuh-Meisterschaft
+        von Chrysos: K\xE4mpfe mit Chim\xE4ren und erhalte Belohnungen wie Selbstformendes
+        Harz, Spuren des Schicksals und Chatfenster!\",\"link\":\"https://hoyo.link/dRF77yMVL\",\"date\":\"12/15\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"S0TRGXSbiB\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"\xDCbersicht
+        zu Version 3.8 \u201EErinnerungen sind der Prolog der Tr\xE4ume\u201C\",\"link\":\"https://hoyo.link/B2KTYlnot\",\"date\":\"12/11\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"ZPgBOZrveJ\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Trailer
+        zu Version 3.8: \u201EErinnerungen sind der Prolog der Tr\xE4ume\u201C | Honkai:
+        Star Rail\",\"link\":\"https://youtu.be/dUZl4ssk5Pw\",\"date\":\"12/05\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"}],\"social_media_list\":[{\"id\":\"02Q1XiHoGs\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/b0881a2b8bf096f3c62f04409d05e0fd_8168509000021527307.png\",\"hover_url\":\"\",\"link\":\"https://hsr.hoyoverse.com/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"Mg424fykvz\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/21/4845cf1bc6ae3bec33f6dfcf51f83798_5828492236020829448.png\",\"hover_url\":\"\",\"link\":\"https://x.com/honkaisrdeu\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"3XMFfLyiMh\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/225a1377c8770eda8f2046825cae2e4b_8077814310853310857.png\",\"hover_url\":\"\",\"link\":\"https://www.youtube.com/channel/UC2PeMPA8PAOp-bynLoCeMLA?sub_confirmation=1\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"IcQHkRM62G\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/c73bd42a335fbcd608e4082d268ed565_4184113527758602835.png\",\"hover_url\":\"\",\"link\":\"https://www.instagram.com/honkaistarrail/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"IL4Xo9megP\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/ef5d7b7519c3efb7066a665f6cd6e0cc_2386361577197399153.png\",\"hover_url\":\"\",\"link\":\"https://www.facebook.com/HonkaiStarRail.DE/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"MIFQ1HaZPf\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/58c4c54ac476a3b288fc99314a22cc85_4013353179466145032.png\",\"hover_url\":\"\",\"link\":\"https://www.tiktok.com/@honkaistarrail_official\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"EYLDfZOoe9\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/f42bb38323597283ace4408fcb5c21d4_1306075388448378466.png\",\"hover_url\":\"\",\"link\":\"https://discord.gg/honkaistarrail\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"3A9mDUz2k1\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/912e3a9dda4c0cd0db3472a16ab4b1ed_2058623815846926479.png\",\"hover_url\":\"\",\"link\":\"https://www.hoyolab.com/accountCenter/postList?id=172534910\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"}]}}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:44:34 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 9bd5493f891e1fa14bf1ea842e28f016.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - bVVH3MT7aDZTzcrAM3mPXQRP2KR2grsBXBOQ99fnsO89XNZOH_a3FA==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 5d715f347aad590b:5d715f347aad590b:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

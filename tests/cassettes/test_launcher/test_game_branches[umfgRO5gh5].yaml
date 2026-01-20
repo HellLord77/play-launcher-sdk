@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameBranches?launcher_id=umfgRO5gh5
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"T2S0Gz4Dr2","biz":"hk4e_cn"},"main":{"package_id":"ShYmPEuLMY","branch":"main","password":"4Rj5ER1XxjQh","tag":"6.3.0","diff_tags":["6.2.0","6.1.0"],"categories":[{"category_id":"10017","matching_field":"game"},{"category_id":"10018","matching_field":"zh-cn"},{"category_id":"10019","matching_field":"en-us"},{"category_id":"10021","matching_field":"ja-jp"},{"category_id":"10020","matching_field":"ko-kr"}],"required_client_version":""},"pre_download":null}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '529'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:27:40 GMT
+      EagleId:
+      - 2b6d27a417689192607458092e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=2b6d27a417689192607458092e29e64e2d23504450b1cfced18a7aa9b8;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d27a417689192607458092e29e64e2d23504450b1cfced18a7aa9b8;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1768919260|1768919260;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1768919260|1768919260;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache57.l2ea120-5[53,0], ens-cache18.l2ph1[166,0], ens-cache16.sg32[203,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 3d523de13e6df4fd:3d523de13e6df4fd:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

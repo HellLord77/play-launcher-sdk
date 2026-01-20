@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getWPFPackages?launcher_id=jGHBHlcOq1
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"wpf_packages":[{"game":{"id":"1Z8W5NHUQb","biz":"hk4e_cn"},"wpf_package":{"version":"6.3.0.41515171","url":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20260108110201_vkX3rxY57B05m9Nn/BeyondAssets_CN_6.3.0.41515171.zip","md5":"e1d650f88c82a256c7ee8d30232ca27b","size":"364761976"}}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '337'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:29:08 GMT
+      EagleId:
+      - a3b5a49a17689193487108208e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5a49a17689193487108208eee802cfe5bf6f1cd639e85011e485e5d;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5a49a17689193487108208eee802cfe5bf6f1cd639e85011e485e5d;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1768919348|1768919348;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1768919348|1768919348;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache38.l2ea120-5[34,0], ens-cache22.l2ph1[136,0], cache6.sg24[177,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 38c89b2d1e9b2779:38c89b2d1e9b2779:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

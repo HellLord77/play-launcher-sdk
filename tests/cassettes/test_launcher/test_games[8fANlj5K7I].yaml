@@ -1,0 +1,40 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=8fANlj5K7I
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"gopR6Cufr3","biz":"hk4e_global","display":{"language":"en-us","name":"Genshin
+        Impact","icon":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/a5555e5aa4f4da3d1efc3b86ef65e456_7792457472547838550.webp","link":"","login_state_in_link":false},"logo":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/7f777384d29cac1ea0d34b4e16d4487b_2092553358310716519.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/68e8178e137f6b0259e4da49b5a9be8e_8412451782424407383.png","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/11/329c587494692a8e3724d10deb406844_5995617087587994357.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"329c587494692a8e3724d10deb406844","size":228875},"wpf_icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/10/11/7ca67838ed44d0cfdb3d31bd8f2ad51f_1736444674914902843.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0}},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1484'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:23:43 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 18b24b9d82f8c92dd1fa9bebaf56af42.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - qFbmg0PpgmSMOtiPQHLRYB2CN3LjJuTd_Uow8qZYZSa49EGTD0wAlA==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 339882344b703acd:339882344b703acd:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

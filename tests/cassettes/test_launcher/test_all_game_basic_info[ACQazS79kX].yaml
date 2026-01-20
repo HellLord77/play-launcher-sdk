@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=ACQazS79kX
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"5TIVvvcwtM","biz":"bh3_global"},"backgrounds":[{"id":"XXn963JPAZ","background":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/08/974379b0df46e4415b0bad5f00c4c6e6_157275545718430086.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/08/a46fa4e195461d91ab89a67517ffcd7d_3237206529355963383.webm","size":0},"theme":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/08/bd1017cbe2a2ab04a83fe6f07e88a244_4162184865439147956.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '781'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:25:38 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 44dd3bb75c40a6b0e432843186941cfe.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - xS7OQ78Xww9eL_9y8ayTAaN4DE5mGpR54-hvL14jWe9_jlFdMGHluw==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 2fc195c65153945f:2fc195c65153945f:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=0hUu4SbmhI
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"FUoEmzPdP3","biz":"nap_global"},"backgrounds":[{"id":"BZUp9NGn3W","background":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/28/bea9b94160cd36b44cdd9ac5c99a5603_5022184107219905704.webp","link":"","login_state_in_link":false},"icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/03/cad8a2c7157c839ec0f54fd5a7264544_5177108118458409447.png","hover_url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/03/729dc33b21e0f978671e1d4e96f0fcbd_5803432973633683376.png","link":"https://www.hoyolab.com/article/42957231?utm_source=launcher\u0026utm_medium=backgroundbanner\u0026utm_id=8","login_state_in_link":true,"md5":"","size":0},"video":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/30/a1b387b4bdafde39c28131c03a5ed077_5521005771205717855.webm","size":0},"theme":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/29/cfcf5744c8dd95c929f0f420ae963c09_4668734353109293147.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1128'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:24:54 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 9ee8b835a4cdf0b35993615e21a3b5f8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 3dQzO9BdWvKByi0BBmzsglXi98mNDD95Pi0Pgu8Uk5tQDIKTwNzf3w==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 35490905bc7aea30:35490905bc7aea30:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

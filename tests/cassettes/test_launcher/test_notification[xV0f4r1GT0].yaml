@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getNotification?launcher_id=xV0f4r1GT0
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"notifications":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:29:01 GMT
+      EagleId:
+      - a3b551ac17689193411448501e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b551ac17689193411448501edf8a8c877456e32a59a31564a554b94c;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b551ac17689193411448501edf8a8c877456e32a59a31564a554b94c;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=7fa0eb59517e49e4c882c00d17f4aa3e|1768919341|1768919341;Path=/
+      - SERVERCORSID=7fa0eb59517e49e4c882c00d17f4aa3e|1768919341|1768919341;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache29.l2ea120-5[51,0], ens-cache19.l2ph1[150,0], cache24.sg12[188,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 17a181bd7cf96c2d:17a181bd7cf96c2d:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

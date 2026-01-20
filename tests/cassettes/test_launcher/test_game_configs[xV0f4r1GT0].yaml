@@ -1,0 +1,46 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameConfigs?launcher_id=xV0f4r1GT0
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"launch_configs\":[{\"game\":{\"id\":\"HXAFlmYa17\",\"biz\":\"nap_cn\"},\"exe_file_name\":\"ZenlessZoneZero.exe\",\"installation_dir\":\"ZenlessZoneZero
+        Game\",\"audio_pkg_scan_dir\":\"ZenlessZoneZero_Data/Persistent/audio_lang_launcher\",\"audio_pkg_res_dir\":\"ZenlessZoneZero_Data/StreamingAssets/Audio\",\"audio_pkg_cache_dir\":\"ZenlessZoneZero_Data/Persistent/Audio\",\"game_cached_res_dir\":\"ZenlessZoneZero_Data/Persistent\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%userprofile%/AppData/LocalLow/miHoYo/\u7EDD\u533A\u96F6\",\"game_crash_file_gen_dir\":\"%userprofile%\\\\AppData\\\\Local\\\\Temp\\\\miHoYo\\\\\u7EDD\u533A\u96F6\\\\Crashes\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":false,\"local_res_dir\":\"ZenlessZoneZero_Data/StreamingAssets\",\"local_res_cache_dir\":\"ZenlessZoneZero_Data/Persistent\",\"res_category_dir\":\"ZenlessZoneZero_Data/Persistent/res_category_launcher\",\"game_res_cut_dir\":\"file_category_launcher\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"\",\"wpf_pkg_version_dir\":\"\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":true,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[],\"enable_ldiff\":false}]}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1343'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:28:30 GMT
+      EagleId:
+      - a3b5a49d17689193105434927e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5a49d17689193105434927efdb9549c7477410c2812285fff390612;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5a49d17689193105434927efdb9549c7477410c2812285fff390612;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1768919310|1768919310;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1768919310|1768919310;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Accept-Encoding
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache19.l2ea120-5[15,0], ens-cache10.l2ph1[104,0], cache9.sg24[145,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 29e7d3ee9710dac0:29e7d3ee9710dac0:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGamePackages?launcher_id=ACQazS79kX
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_packages":[{"game":{"id":"5TIVvvcwtM","biz":"bh3_global"},"main":{"major":{"version":"8.6.0","game_pkgs":[{"url":"https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20251223145231_wv1IwCLCgMcdYwpM/BH3_v8.6.0_96dac6c2fcd9.7z","md5":"298a5ee10fedad0bac51018368511c91","size":"25385644191","decompressed_size":"50781774142"}],"audio_pkgs":[],"res_list_url":"https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20251223145231_wv1IwCLCgMcdYwpM/extract"},"patches":[],"required_client_version":""},"pre_download":{"major":null,"patches":[],"required_client_version":""}}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '618'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:25:19 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 3429d8ec9b126347c98544bda4e6d77c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - GXi9b0gKunrAiehavUMOAnDkDFvjjP9fYiBtyPq1tH_JAAHHF9EH2g==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 37766f5604d5094d:37766f5604d5094d:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

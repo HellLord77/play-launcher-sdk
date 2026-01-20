@@ -1,0 +1,16 @@
+{
+  "wpf_packages": [
+    {
+      "game": {
+        "id": "gopR6Cufr3",
+        "biz": "hk4e_global"
+      },
+      "wpf_package": {
+        "version": "6.3.0.41515171",
+        "url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20260108110251_IHYu3NSghCjLXtCX/BeyondAssets_OS_6.3.0.41515171.zip",
+        "md5": "e66d749b28fe6db5c38a7554df7a8b76",
+        "size": "364761528"
+      }
+    }
+  ]
+}

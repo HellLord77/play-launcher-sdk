@@ -1,0 +1,85 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=0hUu4SbmhI
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"FUoEmzPdP3","biz":"nap_global","display":{"language":"en-us","name":"Zenless
+        Zone Zero","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/db01dfe29c36a283b774d295b2322b54_8151375525791945073.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/107ec31f7c257bc451f37012d3abbff8_4940587300850802606.webp","link":"","login_state_in_link":false},"logo":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/fdf7a7f32b1b98b74b2c14066cc4b522_3355189533200148852.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/c29f67e99818cc3b11a86d2f95b01df6_5692496366356860909.jpg","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/6d1cf7d5575dfb9d0518ba9ecb42ad7c_3478985393225088813.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"6d1cf7d5575dfb9d0518ba9ecb42ad7c","size":116372},"wpf_icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0}},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1403'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:44:35 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 5319c0b4be6b1e62f56f0f16cb84fae2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - jWyNAAeLTk7Iz9Z94W4NPle1eA466SW6FG-8dFGuy7Njwro0CsoUmQ==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 33413ef9ceefa705:33413ef9ceefa705:0:1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=0hUu4SbmhI&game_id=FUoEmzPdP3
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"FUoEmzPdP3\",\"biz\":\"nap_global\"},\"language\":\"\",\"banners\":[{\"id\":\"ABDRCvW8Oe\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/01/4752c07130e89c5d16f30a3380f03cc4_7747653627290816918.jpg\",\"link\":\"https://www.hoyolab.com/article/43039871?utm_source=launcher\\u0026utm_medium=banner\\u0026utm_id=8\",\"login_state_in_link\":true},\"i18n_identifier\":\"\"},{\"id\":\"BKHwzOrDL3\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/01/a21b0b1ff97fea154bc95de72b111743_37261547404796665.png\",\"link\":\"https://www.hoyolab.com/article/43037944?utm_source=launcher\\u0026utm_medium=banner\\u0026utm_id=8\",\"login_state_in_link\":true},\"i18n_identifier\":\"\"},{\"id\":\"L7oF3SKzSs\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/30/21aa9ea448e69481dc2c2f015a01bb62_3904343670477951052.png\",\"link\":\"https://youtu.be/35fRoOYhE6Y\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"waX7qMmXO4\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/29/e4794c78af77a99d31cce4824b9497ed_3394086845815070877.png\",\"link\":\"https://youtu.be/D_MtaEZRy3E\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"hWjyOAOxZd\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/27/0347f718da6033ac34fe0335783e812c_1983728113757102056.png\",\"link\":\"https://youtu.be/9Lshum4Peqw\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"GuB1OSrjG0\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/26/22b5951b1ed5e48dc03fe685265b9be0_4551835091391350591.jpg\",\"link\":\"https://youtu.be/TU5Bt8MLPjk\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"3oojmMIH8U\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/24/5aef13859aaabdad4fc4c3a710b07664_3567196212523046617.jpg\",\"link\":\"https://youtu.be/z7da4QEKGR8\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"6sfzZUE34N\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Exklusive
+        Wiederholung \\u0026 W-Motor-Nachhall in Version 2.5\",\"link\":\"https://www.hoyolab.com/article/43362738?utm_source=launcher\\u0026utm_medium=notice\\u0026utm_id=8\",\"date\":\"01/19\",\"login_state_in_link\":true,\"i18n_identifier\":\"\"},{\"id\":\"nPnISdGlJM\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"\U0001F381
+        Versammlungsauftrag: R\xFCckkehr nach Ridu\",\"link\":\"https://hoyo.link/1fPR0OfFi\",\"date\":\"12/30\",\"login_state_in_link\":true,\"i18n_identifier\":\"\"},{\"id\":\"ZWZ5vQEn2E\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Figurenvorf\xFChrung
+        f\xFCr Ye Shunguang \u2013 \u201ELichtjahresph\xE4nomen\u201C | Zenless Zone
+        Zero\",\"link\":\"https://youtu.be/D_MtaEZRy3E\",\"date\":\"12/29\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"DR6Fofd7Dn\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Zeitlich
+        begrenzte Kan\xE4le der Version 2.5\",\"link\":\"https://www.hoyolab.com/article/42957231?utm_source=launcher\\u0026utm_medium=notice\\u0026utm_id=8\",\"date\":\"12/28\",\"login_state_in_link\":true,\"i18n_identifier\":\"\"},{\"id\":\"3rOKuqJT81\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Minialbum
+        f\xFCr Ye Shunguang \u2013 \u201EEintausend erste Begegnungen\u201C | Zenless
+        Zone Zero\",\"link\":\"https://youtu.be/9Lshum4Peqw\",\"date\":\"12/27\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"maxstjlyYy\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Minialbum
+        f\xFCr Zhao \u2013 \u201ETiny Giant\u201C | Zenless Zone Zero\",\"link\":\"https://youtu.be/TU5Bt8MLPjk\",\"date\":\"12/26\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"}],\"social_media_list\":[{\"id\":\"L2ARjPCO3D\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/ca9481b418f0cf5ea7acafffa9f82df9_102342076100525557.png\",\"hover_url\":\"\",\"link\":\"https://www.hoyolab.com/accountCenter/postList?id=219270333\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"26ZC4hsHeb\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/512e894ffd009e3b208bcbee87291bde_3350843850889106049.png\",\"hover_url\":\"\",\"link\":\"https://www.reddit.com/r/ZZZ_Official/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"22yUO6aQiS\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/879ab65b973fe41a1a6866f9bd25d1a2_2837035544134944295.png\",\"hover_url\":\"\",\"link\":\"https://twitter.com/ZZZ_DEU\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"CNJIkvcvoW\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/f5791d34a7ad83161c5a191729e8aa90_5234906531016716929.png\",\"hover_url\":\"\",\"link\":\"https://www.youtube.com/@ZZZ_Official\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"kvNO48B7zT\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/40264556b28596d0a341adad12de7e71_4514681563178441670.png\",\"hover_url\":\"\",\"link\":\"https://www.instagram.com/zzz.official.en/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"YO0I7H0d7D\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/b0e2cd0170f5a5650e257e5e6e9467a6_7232743367850143034.png\",\"hover_url\":\"\",\"link\":\"https://www.tiktok.com/@zenlesszonezero\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"TyBKNO62rO\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/eaad4d1297bfced1ba2d32a1458538d9_3624049376191351032.png\",\"hover_url\":\"\",\"link\":\"https://discord.gg/zenlesszonezero\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"}]}}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:44:35 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 fcafe8a9295a4695ea67a71083b37504.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - sssP4-UpqvH6RfU5KpfEV3tqbBPj4BHpFnsxEj2Ide_xNYSQj9cA9g==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 373eac0ddb629fdb:373eac0ddb629fdb:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,40 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=gGoJxKOusQ
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"4ziysqXOQ8","biz":"hkrpg_global","display":{"language":"en-us","name":"Honkai
+        Star Rail","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/22/4cc51f558225dba65cc875ecd642cfe2_7265423663688588850.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":null,"logo":null,"thumbnail":null,"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/01/17cf9eb7905c972059e648c9d1eddb84_4090972074732121243.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"17cf9eb7905c972059e648c9d1eddb84","size":340872},"wpf_icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0}},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '899'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:24:17 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 d5d581324f7c00665941b8e3d5683e78.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - F62Kq5Ev1qn5Op3Pq-346OSWh4Z-cd7gMu-hjaDZ6hAaLskOZrdCMw==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 276343b768eaafc0:276343b768eaafc0:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

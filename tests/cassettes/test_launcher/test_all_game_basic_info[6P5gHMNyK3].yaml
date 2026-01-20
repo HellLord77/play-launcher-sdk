@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=6P5gHMNyK3
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"EdtUqXfCHh","biz":"hkrpg_cn"},"backgrounds":[{"id":"xKlsq2jwgG","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2025/12/12/b286b9470e3aaf91b7440477bd2ecb05_457449656440005134.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2025/12/12/7e25cec11e52875e74fe90ad22ae2219_7966904118520293895.webm","size":0},"theme":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2025/12/12/e622576f201a21b172d7cda33f746632_2768452016331177253.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '770'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:28:25 GMT
+      EagleId:
+      - 2b6d27b017689193056172191e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=2b6d27b017689193056172191ec8f8705355c5ff2fd52122138fd8e791;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d27b017689193056172191ec8f8705355c5ff2fd52122138fd8e791;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1768919305|1768919305;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1768919305|1768919305;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache11.l2ea120-5[31,0], ens-cache17.l2ph1[125,0], ens-cache28.sg32[162,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 2fde5bb91a332d4c:2fde5bb91a332d4c:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,50 @@
+{
+  "notifications": [
+    {
+      "notification_id": "wOG1AvTE90",
+      "type": "NOTIFICATION_TYPE_MESSAGE",
+      "start_time": "1768363200",
+      "end_time": "1768968000",
+      "red_dot_info": null,
+      "message_info": {
+        "title": "Columbina is here!",
+        "content": "\"Song of the Welkin Moon: Postlude\": Log in during the version to get 20 pulls!",
+        "content_image": {
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2026/01/04/0533fbf0d692d269163e75382fd3ce72_4973498429772805497.png",
+          "link": "",
+          "login_state_in_link": false
+        },
+        "header_icon": {
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
+          "hover_url": "",
+          "link": "",
+          "login_state_in_link": false,
+          "md5": "",
+          "size": 0
+        },
+        "jump_type": "NOTIFICATION_JUMP_TYPE_GAME_DETAIL",
+        "game": {
+          "id": "gopR6Cufr3",
+          "biz": "hk4e_global"
+        },
+        "jump_url": "",
+        "msg_tmpl": "NOTIFICATION_MSG_TMPL_STRENGTHEN"
+      },
+      "status": "NOTIFICATION_STATUS_EFFECTIVE"
+    },
+    {
+      "notification_id": "qRyIm0GOQS",
+      "type": "NOTIFICATION_TYPE_RED_DOT",
+      "start_time": "1768363200",
+      "end_time": "1768968000",
+      "red_dot_info": {
+        "game": {
+          "id": "gopR6Cufr3",
+          "biz": "hk4e_global"
+        }
+      },
+      "message_info": null,
+      "status": "NOTIFICATION_STATUS_EFFECTIVE"
+    }
+  ]
+}

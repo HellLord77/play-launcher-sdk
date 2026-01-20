@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGames?launcher_id=6P5gHMNyK3
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"EdtUqXfCHh\",\"biz\":\"hkrpg_cn\",\"display\":{\"language\":\"zh-cn\",\"name\":\"\u5D29\u574F\uFF1A\u661F\u7A79\u94C1\u9053\",\"icon\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/09/22/e5c62a66bfbdcc75a22886609d99f455_633654188419085063.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":null,\"logo\":null,\"thumbnail\":null,\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/10/14/deb639906f4f2aec8bc40cb63918419c_5421088087272348273.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"deb639906f4f2aec8bc40cb63918419c\",\"size\":38078},\"wpf_icon\":{\"url\":\"\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0}},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[]}]}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '892'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:28:10 GMT
+      EagleId:
+      - a3b5529617689192902223740e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5529617689192902223740e4c58bc5037e739c128a2f58ccb9c09fe;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5529617689192902223740e4c58bc5037e739c128a2f58ccb9c09fe;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1768919290|1768919290;Path=/
+      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1768919290|1768919290;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache41.l2ea120-5[59,0], ens-cache9.l2ph1[162,0], ens-cache2.sg13[199,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 76d3784bd9bc526e:76d3784bd9bc526e:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

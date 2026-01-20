@@ -1,0 +1,40 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameConfigs?launcher_id=kkd8eq3Nnd
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"launch_configs\":[{\"game\":{\"id\":\"uxB4MC7nzC\",\"biz\":\"bh3_global\"},\"exe_file_name\":\"BH3.exe\",\"installation_dir\":\"Honkai
+        Impact 3rd kr game\",\"audio_pkg_scan_dir\":\"\",\"audio_pkg_res_dir\":\"\",\"audio_pkg_cache_dir\":\"\",\"game_cached_res_dir\":\"\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\uBD95\uAD343rd\",\"game_crash_file_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\uBD95\uAD343rd/Crashes\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":true,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"\",\"wpf_pkg_version_dir\":\"\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":false}]}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1065'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:26:28 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 9ee8b835a4cdf0b35993615e21a3b5f8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 0Zw6bQmq9XtKupOOwVYp5NGlm9tfq0kEE7WQSK8Q8Jb2a8hbUqPI3A==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 9c6e3ed13616e9c:9c6e3ed13616e9c:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

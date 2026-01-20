@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameScanInfo?launcher_id=VYTpXlbWo8
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"U5hbdsT9W7","game_exe_list":[{"version":"2.5.0","md5":"9147c0f7eba65e674e713aa9fadceaee"},{"version":"2.4.0","md5":"ecf39d6c3a2fb54d6b3a91d6d543607f"},{"version":"2.3.0","md5":"e47d20240104c70eb57c14c6a2106a44"},{"version":"2.2.0","md5":"72f89d42594e556ed9050980ec790da3"},{"version":"2.1.0","md5":"725dbe2242d83d799010ba3cbcbb8768"},{"version":"2.0.0","md5":"b4c6d3dc0604ed0c457e8e31d2afa35b"},{"version":"1.7.0","md5":"5909e4a596299cce9708c556325b0815"},{"version":"1.6.0","md5":"f62c6b281474cc411013ac75d89da791"}]},{"game_id":"4ziysqXOQ8","game_exe_list":[{"version":"3.8.0","md5":"55bbccc9714b0c1f4fe6d6ebffdf322c"},{"version":"3.7.0","md5":"3d08a1a7e30c18dec524f60557b913f2"},{"version":"3.6.0","md5":"eb4130bafd9b06975933a2a434c4c387"},{"version":"3.5.0","md5":"3684f0954db2c9e387e87435442f62d7"},{"version":"3.4.0","md5":"90557caa22aa087da34d8642364f81ae"},{"version":"3.3.0","md5":"83f9bedf4f10e268f2dbc261a3ea52d5"},{"version":"3.2.0","md5":"c2eb57cb2650ab5ddd13d3a9ee84eb84"},{"version":"2.0.0","md5":"9a6bc7e5775d1b54ed384a7e85c296f9"},{"version":"2.1.0","md5":"8fbe4ba1c7808dd6309b7c34a1f7d4fc"},{"version":"2.2.0","md5":"0fda6f84a391af3ce23ec7dc3ec7545c"},{"version":"2.3.0","md5":"6249184d715c8a14242558c6a8b507b6"},{"version":"2.4.0","md5":"35a503636bee652827da288086ef5ee0"},{"version":"2.5.0","md5":"264d9d87bbe4776e9d8e2ec874f03264"},{"version":"2.6.0","md5":"8dd425198f41cafe5b69846718a15fc7"},{"version":"2.7.0","md5":"abec0cf1d221be619920344e51389116"},{"version":"3.0.0","md5":"e84b8d1c2714d1b5307adea26944604a"},{"version":"3.1.0","md5":"d3b959a2e3668581fa49ae14b09f1999"}]},{"game_id":"gopR6Cufr3","game_exe_list":[{"version":"6.3.0","md5":"1e29d17b97d4c6ad0b6807212149eb18"},{"version":"6.2.0","md5":"f677718229ccbdfd37dffacd8b576222"},{"version":"6.1.0","md5":"7ca5e0abf6c1aa53089f611079c706b3"},{"version":"6.0.0","md5":"d392563bb045d3ac186e6e1dc7548f86"},{"version":"5.8.0","md5":"76b0eb7ad764c6cb538c0cdc3a1651e2"},{"version":"5.7.0","md5":"88b7161770e8989c8ee24356aec07dbd"},{"version":"5.6.0","md5":"9efea355d54ba65196cfc3f3fa8968ab"},{"version":"5.5.0","md5":"4b59019e97ce6b522de77fa3df7415fa"},{"version":"5.4.0","md5":"e9e70b3f156b18a692b1f2a15d54cdf8"},{"version":"5.3.0","md5":"04aa47738f5bd1a5e0ed8bf131397871"},{"version":"5.2.0","md5":"62c9ab91befb4ad809708346b4187a15"},{"version":"5.1.0","md5":"786e0d41e13a517761fdd9299bf91e3b"},{"version":"5.0.0","md5":"5a905a0db1e9e86143d7e06135b5b5ad"}]},{"game_id":"5TIVvvcwtM","game_exe_list":[{"version":"8.6.0","md5":"d7c398885ea49493590c495f13a1f7b1"},{"version":"8.5.0","md5":"ccf5362684875368a4de6bd4e7f051d6"},{"version":"8.4.0","md5":"469f076fb2a98a7cad1b7eacc309bfdc"},{"version":"8.3.0","md5":"69883cb112f47bf7adf6a49d416ff406"},{"version":"8.2.0","md5":"92c11ab54a82c6f662a1ce4b9cee2eef"}]},{"game_id":"g0mMIvshDb","game_exe_list":[{"version":"8.6.0","md5":"bfc6bb7811122e86e0d17668f59d41f3"},{"version":"8.5.0","md5":"e06de7044c67ca7cac20fa7e38108147"},{"version":"8.4.0","md5":"84409bc380dbcc3babf3146d1522cd59"},{"version":"8.3.0","md5":"c8ce713b8e113ad51b3b06fe710d3f42"},{"version":"8.2.0","md5":"6513fd892120da9d20192d927a2256e9"}]},{"game_id":"uxB4MC7nzC","game_exe_list":[{"version":"8.6.0","md5":"b1e174117039ff81752f4fe650e3204b"},{"version":"8.5.0","md5":"f81f2921a7fed8626aba1f0f193845d4"},{"version":"8.4.0","md5":"a3608f9cb79d398b279eb4fa4ab53bf3"},{"version":"8.3.0","md5":"46168db749df3b1caeb89b609ec000c9"},{"version":"8.2.0","md5":"ec5133a2629d372046cbc8175ff5b8c2"}]},{"game_id":"bxPTXSET5t","game_exe_list":[{"version":"8.6.0","md5":"dcc5dc69f214d646c3fa9d935919d5b2"},{"version":"8.5.0","md5":"5eac13ca6c4dbc6cd029190753e809f0"},{"version":"8.4.0","md5":"8155f4fa72889e5684b988e23746a5ef"},{"version":"8.3.0","md5":"59c8a40831cc8efcd1c53176fe316815"},{"version":"8.2.0","md5":"ae4ed28c4e6e5258f4ae3c7bf842d625"}]},{"game_id":"wkE5P5WsIf","game_exe_list":[{"version":"8.6.0","md5":"9239202c474c91da3f0d7c2552e53a74"},{"version":"8.5.0","md5":"a342c0780668c51bcb22e40d6d3652fe"},{"version":"8.4.0","md5":"f569c0014126e4eb41fd9d6a6c452ca0"},{"version":"8.3.0","md5":"0862483056235528c8b4a1327741e26f"},{"version":"8.2.0","md5":"33a9ca0da1ac48ed605639057d32fe4a"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:21:18 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 e5eaa631976c97edbab36eccc07ffe30.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - OOzupM1m-i_8xQPUYzDJrJ3RkvxIMUy1TnHcZkoRheHEgeNLQdQO0A==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 4c76059fa12a8683:4c76059fa12a8683:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

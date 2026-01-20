@@ -1,0 +1,78 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=6runUel2hp
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"g0mMIvshDb\",\"biz\":\"bh3_global\",\"display\":{\"language\":\"en-us\",\"name\":\"\u5D29\u58CA3rd\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/3526a039dddb4c8ca9d1083555f5781b_2032999389144021904.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/b12a523228491263cc03d2ffaa7c2667_5627866510829233079.webp\",\"link\":\"\",\"login_state_in_link\":false},\"logo\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/b0ab0ec4ad165771d804e374688bd27e_622932501477265387.png\",\"link\":\"\",\"login_state_in_link\":false},\"thumbnail\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/cc7803752504e6b23a9aded8b60596cf_8401216343754131521.png\",\"link\":\"\",\"login_state_in_link\":false},\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/12/23/b654cc6fb434b7054a3e3fefe1f4a9a0_5925130113476129370.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"b654cc6fb434b7054a3e3fefe1f4a9a0\",\"size\":398969},\"wpf_icon\":null},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[{\"i18n_name\":\"\u5D29\u58CA3rd\",\"i18n_description\":\"JP
+        Server\",\"package_name\":\"jp_official\",\"auto_scan_registry_key\":\"\u5D29\u58CA3rd\",\"package_detection_info\":\"jp_official\",\"game_id\":\"g0mMIvshDb\",\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\"}]}]}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1578'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:44:41 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 5319c0b4be6b1e62f56f0f16cb84fae2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - P2YR-xxG5n8IEjJQmmJ2gZoDH22dacSGOLELSN6O3qUORGQ9mIHp8Q==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 3cbcdfb029f30476:3cbcdfb029f30476:0:1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=6runUel2hp&game_id=g0mMIvshDb
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"g0mMIvshDb\",\"biz\":\"bh3_global\"},\"language\":\"\",\"banners\":[{\"id\":\"DAESbb26y5\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/31/b59da3026b8db4bb3bfe2936cd6d4312_4495353054308021520.jpg\",\"link\":\"https://youtu.be/CnFWLH_p-xM\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"luCCFAaKYB\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/26/af1997065a65b7902a875bed9f7bbff5_7043132901788649974.png\",\"link\":\"https://youtu.be/Kjy9mg7iuyI\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"wRYyJYNtDo\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Ver.8.6\u66F4\u65B0\u3068\u4FEE\u5FA9\u5185\u5BB9\u306B\u3064\u3044\u3066\",\"link\":\"https://hoyo.link/z6JwKwN3B\",\"date\":\"12/31\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"pCgM2WzRMt\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"\u65B0S\u7D1A\u30AD\u30E3\u30E9
+        \u30EA\u30BF\u300C\u30DF\u30B9\u30FB\u30DF\u30E9\u30FC\u30B8\u30E5\u300D\u767B\u5834\",\"link\":\"https://hoyo.link/2zece7guQ\",\"date\":\"12/30\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"}],\"social_media_list\":[{\"id\":\"b0oq7pyBWl\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/33a1c76536265a82344a200b29da408d_57569122830218797.png\",\"hover_url\":\"\",\"link\":\"http://www.houkai3rd.com/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"6xgpK4Y50S\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/879ab65b973fe41a1a6866f9bd25d1a2_8669603616109021680.png\",\"hover_url\":\"\",\"link\":\"https://twitter.com/houkai3rd\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"byVW5470vu\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/f5791d34a7ad83161c5a191729e8aa90_114223685413663643.png\",\"hover_url\":\"\",\"link\":\"https://www.youtube.com/channel/UCRmYt_U1lxTwMVQsDl_MFcA\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"kFNi09I72X\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/ca9481b418f0cf5ea7acafffa9f82df9_1711497972461244364.png\",\"hover_url\":\"\",\"link\":\"https://www.hoyolab.com/accountCenter/postList?id=138286772\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"OkcFk3KP1w\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/17/d38c58957c07609b40c5f0fcd31260ab_2329570890982588516.png\",\"hover_url\":\"\",\"link\":\"https://www.hoyolab.com/article/34311663\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"}]}}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:44:42 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 2772dc2f85c8ae7ee8f6b6a61b5aa782.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - SdT-h5sELAkk0qIIm8Mg_vhno5pSiwuX3nAUW59o7NH1sViQAn9Djg==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 634a4c9fac41090f:634a4c9fac41090f:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

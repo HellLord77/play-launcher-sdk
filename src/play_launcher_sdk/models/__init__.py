@@ -1,0 +1,12 @@
+from .all_game_basic_info import AllGameBasicInfo as AllGameBasicInfo
+from .game_branches import GameBranches as GameBranches
+from .game_channel_sdks import GameChannelSdks as GameChannelSdks
+from .game_configs import GameConfigs as GameConfigs
+from .game_content import GameContent as GameContent
+from .game_deprecated_file_configs import GameDeprecatedFileConfigs as GameDeprecatedFileConfigs
+from .game_packages import GamePackages as GamePackages
+from .game_plugins import GamePlugins as GamePlugins
+from .game_scan_info import GameScanInfo as GameScanInfo
+from .games import Games as Games
+from .notification import Notification as Notification
+from .wpf_packages import WpfPackages as WpfPackages

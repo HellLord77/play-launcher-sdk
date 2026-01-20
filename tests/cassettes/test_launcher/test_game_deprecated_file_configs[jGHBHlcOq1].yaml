@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameDeprecatedFileConfigs?launcher_id=jGHBHlcOq1
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"deprecated_file_configs":[{"game":{"id":"1Z8W5NHUQb","biz":"hk4e_cn"},"deprecated_files":[{"name":"YuanShen_Data/Plugins/XInputInterface64.dll"},{"name":"UnityPlayer.dll"},{"name":"YuanShen_Data/Plugins/d3dcompiler_43.dll"},{"name":"YuanShen_Data/Plugins/mihoyonet.dll"},{"name":"mhyprot3.Sys"},{"name":"YuanShen_Data/Plugins/xlua.dll"},{"name":"YuanShen_Data/Plugins/LumiFractureExport.dll"},{"name":"YuanShen_Data/Plugins/cri_vip_unity_pc.dll"},{"name":"YuanShen_Data/Native/UserAssembly.dll"},{"name":"YuanShen_Data/blueReporter.exe"},{"name":"YuanShen_Data/Plugins/InControlNative.dll"},{"name":"YuanShen_Data/Plugins/hdiffz.dll"},{"name":"YuanShen_Data/Plugins/metakeeper.dll"},{"name":"YuanShen_Data/Plugins/widevinecdmadapter.dll"},{"name":"mhyprot2.Sys"},{"name":"YuanShen_Data/Plugins/sqlite3.dll"},{"name":"YuanShen_Data/Plugins/APMLog.dll"},{"name":"YuanShen_Data/Plugins/PCGameSDK.dll"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '940'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:29:04 GMT
+      EagleId:
+      - a3b5a49d17689193448516748e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5a49d17689193448516748ee53a473a8d5a5c68bfb178a8d8d33832;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5a49d17689193448516748ee53a473a8d5a5c68bfb178a8d8d33832;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=c9c342ef1c80ac931953715f295a0621|1768919344|1768919344;Path=/
+      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1768919344|1768919344;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache37.l2ea120-5[51,0], ens-cache19.l2ph1[132,0], cache9.sg24[163,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 7651be46020047b9:7651be46020047b9:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

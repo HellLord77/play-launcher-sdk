@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getWPFPackages?launcher_id=VYTpXlbWo8
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"wpf_packages":[{"game":{"id":"gopR6Cufr3","biz":"hk4e_global"},"wpf_package":{"version":"6.3.0.41515171","url":"https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20260108110251_IHYu3NSghCjLXtCX/BeyondAssets_OS_6.3.0.41515171.zip","md5":"e66d749b28fe6db5c38a7554df7a8b76","size":"364761528"}}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '341'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:15:01 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 f3774474598dd2c32211295e787adf8e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - vh_FF5nr-UMsijWlCKMrt0X9HWgZWR5Q7Z6JlGMy-vonyaA-uIz3SQ==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 2651b30b37821304:2651b30b37821304:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

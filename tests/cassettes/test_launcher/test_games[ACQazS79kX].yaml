@@ -1,0 +1,42 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=ACQazS79kX
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"5TIVvvcwtM","biz":"bh3_global","display":{"language":"en-us","name":"Honkai
+        Impact 3rd","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/3526a039dddb4c8ca9d1083555f5781b_6841086697744260757.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/1aa568b2f1d93bf5e9ed30fefb4b7de7_8503220238812872813.webp","link":"","login_state_in_link":false},"logo":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/746d0f9bdea8bec75dcba30363ee4869_5042730857509214632.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/cc7803752504e6b23a9aded8b60596cf_8442822819633803061.png","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/12/23/b654cc6fb434b7054a3e3fefe1f4a9a0_5274544621224741390.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"b654cc6fb434b7054a3e3fefe1f4a9a0","size":398969},"wpf_icon":null},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[{"i18n_name":"Honkai
+        Impact 3rd","i18n_description":"Europe \u0026 Americas Servers","package_name":"glb_official","auto_scan_registry_key":"Honkai
+        Impact 3rd","package_detection_info":"glb_official","game_id":"5TIVvvcwtM","reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1626'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:25:20 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 d52d1c01e4ec71ae1ac4a7de9d75c37a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - a1mGMftll700AdNLJZqpyplc8fNexwm3VFf2muLC0zT2mc3wke0PHw==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 6bd2b3a15826ee5e:6bd2b3a15826ee5e:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

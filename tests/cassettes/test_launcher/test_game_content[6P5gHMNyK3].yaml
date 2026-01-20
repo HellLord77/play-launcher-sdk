@@ -1,0 +1,86 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGames?launcher_id=6P5gHMNyK3
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"EdtUqXfCHh\",\"biz\":\"hkrpg_cn\",\"display\":{\"language\":\"zh-cn\",\"name\":\"\u5D29\u574F\uFF1A\u661F\u7A79\u94C1\u9053\",\"icon\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/09/22/e5c62a66bfbdcc75a22886609d99f455_633654188419085063.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":null,\"logo\":null,\"thumbnail\":null,\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/10/14/deb639906f4f2aec8bc40cb63918419c_5421088087272348273.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"deb639906f4f2aec8bc40cb63918419c\",\"size\":38078},\"wpf_icon\":{\"url\":\"\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0}},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[]}]}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '892'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:45:01 GMT
+      EagleId:
+      - a3b52a9617689203016368055e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b52a9617689203016368055e09dfa05562ae674e7e3a528cfeb050c6;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b52a9617689203016368055e09dfa05562ae674e7e3a528cfeb050c6;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=7fa0eb59517e49e4c882c00d17f4aa3e|1768920301|1768920301;Path=/
+      - SERVERCORSID=7fa0eb59517e49e4c882c00d17f4aa3e|1768920301|1768920301;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache10.l2ea120-5[50,0], ens-cache15.l2ph1[130,0], ens-cache2.sg27[161,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 7662e94e5d308b3a:7662e94e5d308b3a:0:1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameContent?launcher_id=6P5gHMNyK3&game_id=EdtUqXfCHh
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"content":{"game":{"id":"EdtUqXfCHh","biz":"hkrpg_cn"},"language":"","banners":[],"posts":[],"social_media_list":[]}}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '154'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:45:05 GMT
+      EagleId:
+      - a3b5c79617689203049733040e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=a3b5c79617689203049733040e3e6fbb584d868f8069175ace834b8e77;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5c79617689203049733040e3e6fbb584d868f8069175ace834b8e77;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1768920305|1768920305;Path=/
+      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1768920305|1768920305;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache2.l2ea120-5[60,0], ens-cache2.l2ph1[133,0], ens-cache2.sg26[171,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 171e6722e69a6577:171e6722e69a6577:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGamePlugins?launcher_id=ACQazS79kX
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"plugin_releases":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '58'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:25:20 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 dce4a955467a02f31ec8f5f1eff22aec.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - VCWD7UUz87gGE7Ar4QCHBZ_cnPmzQEamZq-7c-5vULCjL96VuqzSUA==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - caad999ed82a206:caad999ed82a206:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameBranches?launcher_id=L83o6ar17w
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"wkE5P5WsIf","biz":"bh3_global"},"main":{"package_id":"elYjJvP1vP","branch":"main","password":"gmoUq0yjGD80","tag":"8.6.0","diff_tags":[],"categories":[{"category_id":"10173","matching_field":"game"},{"category_id":"10178","matching_field":"asb"}],"required_client_version":""},"pre_download":null}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '368'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:24:55 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 9b54024ea9e954a7b4ed1fb94b9efefe.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - cQx-9QLee0cbr5bFFPVX5QnUmsDgS4oPpDN5NdyQktr3Dn17U-Q7VA==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 125e5ceeb4fade97:125e5ceeb4fade97:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,46 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameConfigs?launcher_id=6P5gHMNyK3
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"launch_configs\":[{\"game\":{\"id\":\"EdtUqXfCHh\",\"biz\":\"hkrpg_cn\"},\"exe_file_name\":\"StarRail.exe\",\"installation_dir\":\"Star
+        Rail Game\",\"audio_pkg_scan_dir\":\"StarRail_Data/Persistent/AudioLaucherRecord.txt\",\"audio_pkg_res_dir\":\"StarRail_Data/Persistent/Audio/AudioPackage/Windows\",\"audio_pkg_cache_dir\":\"\",\"game_cached_res_dir\":\"StarRail_Data/Persistent\",\"game_screenshot_dir\":\"StarRail_Data/ScreenShots\",\"game_log_gen_dir\":\"\",\"game_crash_file_gen_dir\":\"%temp%/miHoYo/\u5D29\u574F\uFF1A\u661F\u7A79\u94C1\u9053/Crashes\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":false,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":true,\"game_log_export_config\":{\"file_size_filter\":\"10485760\",\"export_timeout\":\"120\",\"export_files\":[{\"file_type\":\"EXPORT_FILE_TYPE_FILE\",\"method\":\"EXPORT_METHOD_ALL_FILES\",\"path\":\"%USERPROFILE%\\\\AppData\\\\LocalLow\\\\miHoYo\\\\\u5D29\u574F\uFF1A\u661F\u7A79\u94C1\u9053\\\\Player.log\"},{\"file_type\":\"EXPORT_FILE_TYPE_FILE\",\"method\":\"EXPORT_METHOD_ALL_FILES\",\"path\":\"%USERPROFILE%\\\\AppData\\\\LocalLow\\\\miHoYo\\\\\u5D29\u574F\uFF1A\u661F\u7A79\u94C1\u9053\\\\output_log.txt\"},{\"file_type\":\"EXPORT_FILE_TYPE_FILE\",\"method\":\"EXPORT_METHOD_ALL_FILES\",\"path\":\"%USERPROFILE%\\\\AppData\\\\LocalLow\\\\miHoYo\\\\\u5D29\u574F\uFF1A\u661F\u7A79\u94C1\u9053\\\\output_log.txt.last\"},{\"file_type\":\"EXPORT_FILE_TYPE_DIR\",\"method\":\"EXPORT_METHOD_LATEST_FILE\",\"path\":\"%USERPROFILE%\\\\AppData\\\\Local\\\\Temp\\\\miHoYo\\\\\u5D29\u574F\uFF1A\u661F\u7A79\u94C1\u9053\\\\Crashes\"},{\"file_type\":\"EXPORT_FILE_TYPE_DIR\",\"method\":\"EXPORT_METHOD_LATEST_FILE\",\"path\":\"%SystemRoot%\\\\Minidump\"}]},\"blacklist_dir\":\"StarRail_Data\\\\Persistent\\\\DownloadBlacklist.json\",\"wpf_exe_dir\":\"\",\"wpf_pkg_version_dir\":\"\",\"enable_audio_pkg_mgmt\":true,\"audio_pkg_config_dir\":\"StarRail_Data\\\\Persistent\\\\Audio\\\\AudioPackage\\\\Windows\\\\AudioLangRedord.txt\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":true,\"enable_redundant_file_cleanup\":true,\"redundant_file_cleanup_paths\":[\"StarRail_Data\\\\StreamingAssets\\\\Asb\\\\Windows\"],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":true}]}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 20 Jan 2026 14:27:46 GMT
+      EagleId:
+      - 2b6d27ad17689192665052895e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=2b6d27ad17689192665052895e2439a69e5b5b1b4a437acd26cf510e3c;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d27ad17689192665052895e2439a69e5b5b1b4a437acd26cf510e3c;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1768919266|1768919266;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1768919266|1768919266;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      - Origin
+      - Accept-Encoding
+      Via:
+      - cache61.l2ea120-5[22,0], ens-cache8.l2ph1[92,0], ens-cache25.sg32[123,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 17f947914ed09a4f:17f947914ed09a4f:0:1
+    status:
+      code: 200
+      message: OK
+version: 1
