@@ -18,14 +18,14 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:44:31 GMT
+      - Tue, 03 Feb 2026 13:58:28 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 d52d1c01e4ec71ae1ac4a7de9d75c37a.cloudfront.net (CloudFront)
+      - 1.1 3429d8ec9b126347c98544bda4e6d77c.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - v7g9bgXMn1SGOvoNtiynxY25sWJC4fZg2r-7bXD0IBIAARZracRLMg==
+      - fbPUyTfmL1nqr71Ox8BY1MpaBJPSfcx0jo2GfqT80rS2h_s3qGJjow==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -33,7 +33,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 217f2faf04f41e05:217f2faf04f41e05:0:1
+      - 57b4204b067358e:57b4204b067358e:0:1
     status:
       code: 200
       message: OK
@@ -46,8 +46,10 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=gGoJxKOusQ&game_id=4ziysqXOQ8
   response:
     body:
-      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"4ziysqXOQ8\",\"biz\":\"hkrpg_global\"},\"language\":\"\",\"banners\":[{\"id\":\"1Jc81kAMEW\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/16/849cf591503536f7b15a3ce2b1b947c5_9030020689261469146.jpg\",\"link\":\"https://hoyo.link/weL63ypaK\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"N0cGZZSIub\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/06/cb92f3df471d4c9f95254e0a3b68b713_8029733677944208200.png\",\"link\":\"https://hoyo.link/C40Al790z\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"p2B6rwbWoZ\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/30/2e01bc1d7a7a2c45121e78c697eafadd_2988621531402015648.png\",\"link\":\"https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311\\u0026hyl_auth_required=true\\u0026hyl_presentation_style=fullscreen\\u0026utm_campaign=checkin\\u0026utm_id=6\\u0026utm_medium=notice\\u0026utm_source=ingame\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"jRlEDD219w\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2024/09/10/ff36819399bdf96665b3da154b94c8aa_762567157333143462.png\",\"link\":\"https://act.hoyolab.com/bbs/event/bbs-event-20230908mimo/index.html?from=hkrpg\\u0026hyl_auth_required=true\\u0026hyl_hide_status_bar=true\\u0026hyl_portrait=true\\u0026hyl_presentation_style=fullscreen\\u0026utm_id=6\\u0026utm_medium=banner\\u0026utm_source=launcher\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"RshTO0pxAe\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Aktionswarps
-        von Version 3.8 (Phase 2)\",\"link\":\"https://hoyo.link/C40Al790z\",\"date\":\"01/06\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"RsA27T033d\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Erl\xE4uterungen
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"4ziysqXOQ8\",\"biz\":\"hkrpg_global\"},\"language\":\"\",\"banners\":[{\"id\":\"E6v2mbFN6i\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/03/c0b8c3a29cad903472ea034d261b7dad_6488076750914088490.jpg\",\"link\":\"https://youtu.be/ZwnE5o7_gzA\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"X2Db1muhvd\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/01/56622fd7e9e965beb8f328dc3711b572_1190816459947679950.jpg\",\"link\":\"https://youtu.be/VsrABLcQQvc\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"3FNbwOL4Nn\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/30/2e01bc1d7a7a2c45121e78c697eafadd_2988621531402015648.png\",\"link\":\"https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311\\u0026hyl_auth_required=true\\u0026hyl_presentation_style=fullscreen\\u0026utm_campaign=checkin\\u0026utm_id=6\\u0026utm_medium=notice\\u0026utm_source=ingame\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"fAJn9VsaYd\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/27/5724b527ec0b225b999bf630d09dbf8b_2534659519316379658.png\",\"link\":\"https://hoyo.link/qWPgkksUj\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"jRlEDD219w\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2024/09/10/ff36819399bdf96665b3da154b94c8aa_762567157333143462.png\",\"link\":\"https://act.hoyolab.com/bbs/event/bbs-event-20230908mimo/index.html?from=hkrpg\\u0026hyl_auth_required=true\\u0026hyl_hide_status_bar=true\\u0026hyl_portrait=true\\u0026hyl_presentation_style=fullscreen\\u0026utm_id=6\\u0026utm_medium=banner\\u0026utm_source=launcher\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"oH3zXARPUg\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Aktionswarps
+        von Version 3.8 (Phase 3)\",\"link\":\"https://hoyo.link/qWPgkksUj\",\"date\":\"01/27\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"Pzo5RMLyM9\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"\u201EAuf
+        Schatzsuche\u201C: Verbrauche Trailblaze-Kraft, um Selbstformendes Harz, Stellare
+        Jade und weitere Belohnungen zu erhalten!\",\"link\":\"https://hoyo.link/4ZOrqKukY\",\"date\":\"01/27\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"RsA27T033d\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Erl\xE4uterungen
         zur Aktualisierung auf Version 3.8 \u201EErinnerungen sind der Prolog der
         Tr\xE4ume\u201C\",\"link\":\"https://hoyo.link/USx4QAR4d\",\"date\":\"12/17\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"2NA305Pg5K\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"Awuuh-Meisterschaft
         von Chrysos: K\xE4mpfe mit Chim\xE4ren und erhalte Belohnungen wie Selbstformendes
@@ -61,16 +63,16 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:44:34 GMT
+      - Tue, 03 Feb 2026 13:58:28 GMT
       Transfer-Encoding:
       - chunked
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 9bd5493f891e1fa14bf1ea842e28f016.cloudfront.net (CloudFront)
+      - 1.1 f3774474598dd2c32211295e787adf8e.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - bVVH3MT7aDZTzcrAM3mPXQRP2KR2grsBXBOQ99fnsO89XNZOH_a3FA==
+      - RLHVXE3XGWRMILWhFsrP8RQWfwgO4Asph3KHWEA4aZ825vYyAQ1-3Q==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -78,7 +80,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 5d715f347aad590b:5d715f347aad590b:0:1
+      - 374447d97b7af53a:374447d97b7af53a:0:1
     status:
       code: 200
       message: OK

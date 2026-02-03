@@ -8,23 +8,23 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameBranches?launcher_id=GTLARRVLB5
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"main":{"package_id":"shWAaVlXdV","branch":"main","password":"PLK4QHtxc7Ui","tag":"8.6.0","diff_tags":[],"categories":[{"category_id":"10176","matching_field":"game"},{"category_id":"10181","matching_field":"asb"}],"required_client_version":""},"pre_download":null}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"main":{"package_id":"shWAaVlXdV","branch":"main","password":"PLK4QHtxc7Ui","tag":"8.6.0","diff_tags":[],"categories":[{"category_id":"10176","matching_field":"game","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10181","matching_field":"asb","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '368'
+      - '504'
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:26:49 GMT
+      - Tue, 03 Feb 2026 13:58:39 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 9bd5493f891e1fa14bf1ea842e28f016.cloudfront.net (CloudFront)
+      - 1.1 a97c4d063b3939b8f365d6fd8602176a.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - bY10GntAq_cZn6uSR0rltPc295UDYdzaCoHzpquqdPy2tHOzQUwi7w==
+      - D7LLBTrd0kIOVKz7WEzloDmu-85BNNvDSjU_IOEukuKRMXLlu3w1Mw==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 6d3230198cf52f15:6d3230198cf52f15:0:1
+      - 6d472d86afd04cdd:6d472d86afd04cdd:0:1
     status:
       code: 200
       message: OK

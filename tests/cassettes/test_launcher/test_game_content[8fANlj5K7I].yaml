@@ -18,14 +18,14 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:44:29 GMT
+      - Tue, 03 Feb 2026 13:58:26 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 44dd3bb75c40a6b0e432843186941cfe.cloudfront.net (CloudFront)
+      - 1.1 f3774474598dd2c32211295e787adf8e.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - -j_blMe2E1ZcjnTeNd9pEuv6_Tptma6IPBNRN2wf7bskZoqnaFb9ZA==
+      - lC58rTq0aorBl9RK6p9JjCrpXvzbZhOzGNwbSAWk_KZBrRJeeOZmIw==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -33,7 +33,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 2b4e9eb52532ef0e:2b4e9eb52532ef0e:0:1
+      - 4c298c15d226650a:4c298c15d226650a:0:1
     status:
       code: 200
       message: OK
@@ -46,12 +46,13 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=8fANlj5K7I&game_id=gopR6Cufr3
   response:
     body:
-      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"gopR6Cufr3\",\"biz\":\"hk4e_global\"},\"language\":\"\",\"banners\":[{\"id\":\"CBeV7F4bVr\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/20/b74799aaf0246fb7059783486d3df123_7155052628162674694.jpg\",\"link\":\"https://hoyo.link/INmLLACI1\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"PMPRxVZhXf\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/16/5153dfd02241f7c2259bc673220c9e1a_127527642188079186.jpg\",\"link\":\"https://www.hoyolab.com/article_pre/18014398241024667\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"1wm4SMNYK2\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/13/776e6837c04e688a0ba7309229934bea_4408417551463792678.jpg\",\"link\":\"https://hoyo.link/yw49RNWP1\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"G18KSEB3eC\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/13/22f64ef23aa11f806439ab2c24188fe1_4285071352175776239.jpg\",\"link\":\"https://hoyo.link/6P0bH8s1d\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"iKWPEh2mdv\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/12/d40a78e54da94b403008ffd3db1293b8_3651980485973204693.jpg\",\"link\":\"https://hoyo.link/SCqD5TYo8\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"uj3OnjqtNq\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/12/2957079eda989d8a0089038a761ec758_3000659701928627029.jpg\",\"link\":\"https://hoyo.link/SCqD5TYo8\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"xqaj6QxarW\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/12/8876f180a69ac213ed071b39b968fbf8_7087496911288725526.jpg\",\"link\":\"https://hoyo.link/SCqD5TYo8\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"z4CtWpi9xN\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/02/23b988955682c8bc5b24bbf662b3fead_8562430834157455149.jpg\",\"link\":\"https://hoyo.link/VsSJh6Emv\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"fDjnyAolOy\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Erl\xE4uterungen
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"gopR6Cufr3\",\"biz\":\"hk4e_global\"},\"language\":\"\",\"banners\":[{\"id\":\"rvemTiZf0t\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/02/784e255a223187bc0eed059c46259b96_3502223035281018347.jpg\",\"link\":\"https://hoyo.link/rfCVstD0W\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"zzmSpIS15S\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/02/253f57265564e598b78628f988dbb0e9_4544961175884690273.jpg\",\"link\":\"https://hoyo.link/rfCVstD0W\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"IGG6ob9dyF\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/02/cf5f4c11121b67beb29c37e77e8ef8fc_2219626968487098249.jpg\",\"link\":\"https://hoyo.link/rfCVstD0W\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"g1CmaXm3zT\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/02/a5698e22eb098be140a42e0c96f2d812_4653342007908330276.jpg\",\"link\":\"https://youtu.be/6iE9Gwiuz3E\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"FI9pEaERee\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/30/85f3015fc2cfb8f50b9c48cabfff37e6_6870766660348290991.jpg\",\"link\":\"https://www.hoyolab.com/article_pre/21972?lang=de-de\\u0026utm_source=launcher\\u0026utm_medium=event\\u0026utm_id=2\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"jRpsUiWIQM\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/30/fe98171eabfd3005c3cca33da432e266_4432921770257837264.jpg\",\"link\":\"https://hoyo.link/lVDYW0Xrt\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"rMP421Z765\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/28/8caa9f88d0d9610d7a213bf981793765_2882611326152921718.jpg\",\"link\":\"https://hoyo.link/84jJXc6Tn\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"z4CtWpi9xN\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/02/23b988955682c8bc5b24bbf662b3fead_8562430834157455149.jpg\",\"link\":\"https://hoyo.link/VsSJh6Emv\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"MsjUPgYcuS\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Aktionsvorschau
+        f\xFCr Version Luna IV \u201EEin Reisender in einer Winternacht\u201C \u2013
+        Teil 2\",\"link\":\"https://hoyo.link/5fBQXD04n\",\"date\":\"01/30\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"fDjnyAolOy\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Erl\xE4uterungen
         zur Fehlerbehebung und Optimierung der Aktualisierung auf Version Luna IV\",\"link\":\"https://www.hoyolab.com/article_pre/21843?utm_source=launcher\\u0026utm_medium=notice\\u0026utm_id=2\",\"date\":\"01/14\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"ES6tv1WCj7\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Erl\xE4uterungen
         zur Aktualisierung auf Version Luna IV \u201E\u201ALied des leeren Mondes
         \u2013 Finale\u2018: Ein Reisender in einer Winternacht\u201C\",\"link\":\"https://hoyo.link/Wcp62bDeS\",\"date\":\"01/14\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"FAlaCU5nAV\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"Bonusplan
-        f\xFCr Autoren zu Version Luna IV\",\"link\":\"https://hoyo.link/CpznQatVb\",\"date\":\"01/14\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"qQXaDDYdmg\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Die
-        Webaktion \u201EWohin der Mond zur\xFCckkehrt\u201C ist verf\xFCgbar.\",\"link\":\"https://hoyo.link/1qcIZDS24\",\"date\":\"01/14\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"6FmxFpPMDZ\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"Strategien-Beitragsaktion
+        f\xFCr Autoren zu Version Luna IV\",\"link\":\"https://hoyo.link/CpznQatVb\",\"date\":\"01/14\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"6FmxFpPMDZ\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"Strategien-Beitragsaktion
         zu Version Luna IV \u201EEin Reisender in einer Winternacht\u201C\",\"link\":\"https://hoyo.link/0VV4Iezfk\",\"date\":\"01/14\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"S49QdKEwTS\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Aktionsvorschau
         f\xFCr Version Luna IV \u201EEin Reisender in einer Winternacht\u201C \u2013
         Teil 1\",\"link\":\"https://hoyo.link/DrGgszLwz\",\"date\":\"01/12\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"}],\"social_media_list\":[{\"id\":\"9EDA58xyXL\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/1eee1d4f237452da40a34616e6ec74c6_3749654937052559710.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/7QdfFBAL\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"j5R04xIdPE\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/a1b226ceebccd56768c5272f306f380e_7340107679485269553.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/dc794590ce0ce174f9627d74ac6cb38b_7629005227055132593.png\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[{\"title\":\"HoYoLAB-Community\",\"link\":\"https://www.hoyolab.com/home?lang=de-de\\u0026utm_source=launcher\\u0026utm_medium=game\\u0026from_id=2\\u0026utm_campaign=mimoicon\",\"login_state_in_link\":false}],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"KU6SdSSgn6\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/f6cc67d31fc009dc6d369cd2a619b1b4_2487020148175840905.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/e0v1BRAd\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"AYz7bYU56O\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/17106a7bbb7c1bcae00b7f3e1612fc3b_3807755404807989875.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/a2v1B9Ad\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"VmrBvWnzSp\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/de382e69cb1a7afc46486c95207db733_5000688535793081010.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/56v1BCAd\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"qeOLHGk8SD\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/77588fb467fe05eadedb181f8728d2e0_5143064211715990207.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/4bv1BaAd\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"IVo3Kvlcss\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/34442dca0236560a8ffd1d92590240ec_3565786263085043845.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/7bv1B2Ad\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"5ys3hcCtEa\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/4ddd0290b1c1829644167e2cbceb122a_7503764683219219295.png\",\"hover_url\":\"\",\"link\":\"https://genshin.hoyoverse.com/de\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"}]}}}"
@@ -61,16 +62,16 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:44:30 GMT
+      - Tue, 03 Feb 2026 13:58:26 GMT
       Transfer-Encoding:
       - chunked
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 9b54024ea9e954a7b4ed1fb94b9efefe.cloudfront.net (CloudFront)
+      - 1.1 1b87a6ee309264786666693d35ccced0.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - qeqEKMUw0ddFXEywaM4koM-bJQd-wtkBXfLC9IVTPciWiV-xrRWC2Q==
+      - _Lpm3yPDG5Fc4wXJeJuOjIpDPRUf_yNxrqLhyreEnZAfWP45TO76pw==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -78,7 +79,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 1f40a3f2ee223191:1f40a3f2ee223191:0:1
+      - 5e92bbf30d9583a:5e92bbf30d9583a:0:1
     status:
       code: 200
       message: OK

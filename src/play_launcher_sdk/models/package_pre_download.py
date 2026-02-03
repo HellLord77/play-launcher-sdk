@@ -5,7 +5,7 @@ from play_launcher_sdk.types import EmptyList
 from .base import Base
 
 
-class PreDownload(Base):
+class PackagePreDownload(Base):
     major: None
     patches: EmptyList
     required_client_version: Literal[""]

@@ -14,23 +14,23 @@ interactions:
         Rail\\Player.log"},{"file_type":"EXPORT_FILE_TYPE_FILE","method":"EXPORT_METHOD_ALL_FILES","path":"%USERPROFILE%\\AppData\\LocalLow\\COGNOSPHERE\\Star
         Rail\\output_log.txt"},{"file_type":"EXPORT_FILE_TYPE_FILE","method":"EXPORT_METHOD_ALL_FILES","path":"%USERPROFILE%\\AppData\\LocalLow\\COGNOSPHERE\\Star
         Rail\\output_log.txt.last"},{"file_type":"EXPORT_FILE_TYPE_DIR","method":"EXPORT_METHOD_LATEST_FILE","path":"%USERPROFILE%\\AppData\\Local\\Temp\\COGNOSPHERE\\Star
-        Rail\\Crashes"},{"file_type":"EXPORT_FILE_TYPE_DIR","method":"EXPORT_METHOD_LATEST_FILE","path":"%SystemRoot%\\Minidump"}]},"blacklist_dir":"StarRail_Data\\Persistent\\DownloadBlacklist.json","wpf_exe_dir":"","wpf_pkg_version_dir":"","enable_audio_pkg_mgmt":true,"audio_pkg_config_dir":"StarRail_Data\\Persistent\\Audio\\AudioPackage\\Windows\\AudioLangRedord.txt","enable_resource_deletion_adapter":false,"enable_resource_blacklist":true,"enable_redundant_file_cleanup":true,"redundant_file_cleanup_paths":["StarRail_Data\\StreamingAssets\\Asb\\Windows"],"enable_v2_game_detection":false,"related_processes":[""],"enable_ldiff":true}]}}'
+        Rail\\Crashes"},{"file_type":"EXPORT_FILE_TYPE_DIR","method":"EXPORT_METHOD_LATEST_FILE","path":"%SystemRoot%\\Minidump"}]},"blacklist_dir":"StarRail_Data\\Persistent\\DownloadBlacklist.json","wpf_exe_dir":"","wpf_pkg_version_dir":"","enable_audio_pkg_mgmt":true,"audio_pkg_config_dir":"StarRail_Data\\Persistent\\Audio\\AudioPackage\\Windows\\AudioLangRedord.txt","enable_resource_deletion_adapter":true,"enable_resource_blacklist":true,"enable_redundant_file_cleanup":true,"redundant_file_cleanup_paths":["StarRail_Data\\StreamingAssets\\Asb\\Windows"],"enable_v2_game_detection":false,"related_processes":[""],"enable_ldiff":true,"scenario_pkg_info":null,"local_scenario_config_path":"","enable_full_pkg_recommend":false,"enable_scenario_pkg":false,"enable_dx_switch":false}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:24:09 GMT
+      - Tue, 03 Feb 2026 13:58:27 GMT
       Transfer-Encoding:
       - chunked
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 7ab61ce3d7d648e0eaae5b45a81a89dc.cloudfront.net (CloudFront)
+      - 1.1 6351d3e8471da479fac82ee90436e69c.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - XdSP_zgtvpd78IX0e8Ev4SK-hIvBv5Tm9FUpR2hgyNI5Aa-W6_6gNQ==
+      - mS5jWtX0NgJ7Ejueiyt7HI0p6i23r5yoZWhXcqH0EeWDyU-RcC38sQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -38,7 +38,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 1c9273bc34a7945e:1c9273bc34a7945e:0:1
+      - 2ec6297b8d6bdeb4:2ec6297b8d6bdeb4:0:1
     status:
       code: 200
       message: OK

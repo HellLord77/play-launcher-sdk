@@ -44,3 +44,8 @@ class LaunchConfig(Base):
     enable_v2_game_detection: Literal[False]
     related_processes: list[str]
     enable_ldiff: bool
+    scenario_pkg_info: None
+    local_scenario_config_path: Literal[""]
+    enable_full_pkg_recommend: Literal[False]
+    enable_scenario_pkg: Literal[False]
+    enable_dx_switch: Literal[False]

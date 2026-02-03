@@ -8,36 +8,36 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameBranches?launcher_id=6P5gHMNyK3
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"EdtUqXfCHh","biz":"hkrpg_cn"},"main":{"package_id":"HMNH5r9cEH","branch":"main","password":"nQ2pokX2pFIG","tag":"3.8.0","diff_tags":["3.7.0"],"categories":[{"category_id":"10054","matching_field":"game"},{"category_id":"10055","matching_field":"zh-cn"},{"category_id":"10056","matching_field":"en-us"},{"category_id":"10057","matching_field":"ja-jp"},{"category_id":"10058","matching_field":"ko-kr"}],"required_client_version":""},"pre_download":null}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"EdtUqXfCHh","biz":"hkrpg_cn"},"main":{"package_id":"HMNH5r9cEH","branch":"main","password":"nQ2pokX2pFIG","tag":"3.8.0","diff_tags":["3.7.0"],"categories":[{"category_id":"10054","matching_field":"game","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10055","matching_field":"zh-cn","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10056","matching_field":"en-us","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10057","matching_field":"ja-jp","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10058","matching_field":"ko-kr","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '522'
+      - '808'
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:27:53 GMT
+      - Tue, 03 Feb 2026 13:58:52 GMT
       EagleId:
-      - 2b6d279917689192731328463e
+      - a3b5c7a717701271321638074e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d279917689192731328463ed669759002ce6f01fa20bba03ac80474;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d279917689192731328463ed669759002ce6f01fa20bba03ac80474;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=7fa0eb59517e49e4c882c00d17f4aa3e|1768919273|1768919273;Path=/
-      - SERVERCORSID=7fa0eb59517e49e4c882c00d17f4aa3e|1768919273|1768919273;Path=/;SameSite=None;Secure
+      - acw_tc=a3b5c7a717701271321638074edd6d3c6ddc2ecc2dc3ba03a2887cf4af;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5c7a717701271321638074edd6d3c6ddc2ecc2dc3ba03a2887cf4af;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=c9c342ef1c80ac931953715f295a0621|1770127132|1770127132;Path=/
+      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1770127132|1770127132;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache45.l2ea120-5[51,0], ens-cache22.l2ph1[133,0], ens-cache5.sg32[173,0]
+      - cache14.l2eu95-2[54,0], ens-cache20.l2ph1[163,0], ens-cache19.sg26[279,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 2182852f97786f6:2182852f97786f6:0:1
+      - 2489edc455844178:2489edc455844178:0:1
     status:
       code: 200
       message: OK

@@ -9,25 +9,25 @@ interactions:
   response:
     body:
       string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"launch_configs\":[{\"game\":{\"id\":\"T2S0Gz4Dr2\",\"biz\":\"hk4e_cn\"},\"exe_file_name\":\"YuanShen.exe\",\"installation_dir\":\"Genshin
-        Impact Game\",\"audio_pkg_scan_dir\":\"YuanShen_Data/Persistent/audio_lang_14\",\"audio_pkg_res_dir\":\"YuanShen_Data/StreamingAssets/AudioAssets\",\"audio_pkg_cache_dir\":\"YuanShen_Data/Persistent/AudioAssets\",\"game_cached_res_dir\":\"YuanShen_Data/Persistent\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%userprofile%/AppData/LocalLow/miHoYo/\u539F\u795E\",\"game_crash_file_gen_dir\":\"%userprofile%/AppData/Local/Temp\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":false,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"BeyondAssets/BeyondAssistEditor/BeyondEditor.exe\",\"wpf_pkg_version_dir\":\"beyond_pkg_version\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":true}]}}"
+        Impact Game\",\"audio_pkg_scan_dir\":\"YuanShen_Data/Persistent/audio_lang_14\",\"audio_pkg_res_dir\":\"YuanShen_Data/StreamingAssets/AudioAssets\",\"audio_pkg_cache_dir\":\"YuanShen_Data/Persistent/AudioAssets\",\"game_cached_res_dir\":\"YuanShen_Data/Persistent\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%userprofile%/AppData/LocalLow/miHoYo/\u539F\u795E\",\"game_crash_file_gen_dir\":\"%userprofile%/AppData/Local/Temp\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":false,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"BeyondAssets/BeyondAssistEditor/BeyondEditor.exe\",\"wpf_pkg_version_dir\":\"beyond_pkg_version\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":true,\"scenario_pkg_info\":null,\"local_scenario_config_path\":\"\",\"enable_full_pkg_recommend\":false,\"enable_scenario_pkg\":false,\"enable_dx_switch\":false}]}}"
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1206'
+      - '1350'
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:27:30 GMT
+      - Tue, 03 Feb 2026 13:58:44 GMT
       EagleId:
-      - 2b6d27a417689192505622018e
+      - a3b5c79d17701271243787699e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d27a417689192505622018e76f99e75ca2efd5debd23866820bde52;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d27a417689192505622018e76f99e75ca2efd5debd23866820bde52;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=7fa0eb59517e49e4c882c00d17f4aa3e|1768919250|1768919250;Path=/
-      - SERVERCORSID=7fa0eb59517e49e4c882c00d17f4aa3e|1768919250|1768919250;Path=/;SameSite=None;Secure
+      - acw_tc=a3b5c79d17701271243787699e35f542df86923ebbc83097d74f1b3628;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5c79d17701271243787699e35f542df86923ebbc83097d74f1b3628;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=c9c342ef1c80ac931953715f295a0621|1770127124|1770127124;Path=/
+      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1770127124|1770127124;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
@@ -35,11 +35,11 @@ interactions:
       - Origin
       - Accept-Encoding
       Via:
-      - cache37.l2ea120-5[47,0], ens-cache3.l2ph1[157,0], ens-cache16.sg32[189,0]
+      - cache47.l2eu95-2[59,0], ens-cache11.l2ph1[166,0], ens-cache9.sg26[201,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 24c737448ba150fa:24c737448ba150fa:0:1
+      - 21bb35b26b0d2ea9:21bb35b26b0d2ea9:0:1
     status:
       code: 200
       message: OK

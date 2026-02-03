@@ -8,25 +8,25 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=umfgRO5gh5
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"T2S0Gz4Dr2","biz":"hk4e_cn"},"backgrounds":[{"id":"E8mP0iFSol","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/14/bda7dd8e383b0da5a0dd41c11e79f264_814207331993236934.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/14/f3c44cd72c6214ed680afe5fe90b26fc_3664719866444062150.webm","size":0},"theme":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/14/906cd7e51b3289bb7a7cfc049efec3a0_7698065459774966488.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"},{"id":"4DQZtRpOuX","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/14/a1a429104bde67aca9164c60dc4a26f9_4279316736184928923.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"","size":0},"theme":{"url":"","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_UNSPECIFIED"},{"id":"OskVv45iEI","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2025/12/29/2019f4b59b399506314fcd046fa3f3ec_1422630935330393500.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"","size":0},"theme":{"url":"","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_UNSPECIFIED"}]}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"T2S0Gz4Dr2","biz":"hk4e_cn"},"backgrounds":[{"id":"AjCsyH4uSb","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/02/02/b75a78a64947fb946a6fde3372c7d5f3_5577153995434074734.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/02/02/19b952e45585cff3411caa03e352aff2_5427796781012127324.webm","size":0},"theme":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/02/02/910bd8f0d6901f2331c6cee0a26f0c76_4203426725627789379.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"},{"id":"4DQZtRpOuX","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/14/a1a429104bde67aca9164c60dc4a26f9_4279316736184928923.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"","size":0},"theme":{"url":"","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_UNSPECIFIED"},{"id":"OskVv45iEI","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2025/12/29/2019f4b59b399506314fcd046fa3f3ec_1422630935330393500.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"","size":0},"theme":{"url":"","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_UNSPECIFIED"}]}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1599'
+      - '1600'
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:27:45 GMT
+      - Tue, 03 Feb 2026 13:58:49 GMT
       EagleId:
-      - 2b6d27ac17689192652382467e
+      - a3b5c79d17701271295554954e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d27ac17689192652382467ebd16618abbf06cf77d1a0d0dca3fc803;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d27ac17689192652382467ebd16618abbf06cf77d1a0d0dca3fc803;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1768919265|1768919265;Path=/
-      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1768919265|1768919265;Path=/;SameSite=None;Secure
+      - acw_tc=a3b5c79d17701271295554954ec496f4a1d7005c06ca7641497aaf1b08;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=a3b5c79d17701271295554954ec496f4a1d7005c06ca7641497aaf1b08;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1770127129|1770127129;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1770127129|1770127129;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
@@ -34,11 +34,11 @@ interactions:
       - Origin
       - Accept-Encoding
       Via:
-      - cache69.l2ea120-5[16,0], ens-cache2.l2ph1[105,0], ens-cache24.sg32[147,0]
+      - cache31.l2eu95-2[40,0], ens-cache12.l2ph1[151,0], ens-cache9.sg26[268,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 3042d603d847c1d:3042d603d847c1d:0:1
+      - 7d04ce1b348c45f9:7d04ce1b348c45f9:0:1
     status:
       code: 200
       message: OK

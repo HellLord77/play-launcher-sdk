@@ -18,14 +18,14 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:44:43 GMT
+      - Tue, 03 Feb 2026 13:58:38 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 d5d581324f7c00665941b8e3d5683e78.cloudfront.net (CloudFront)
+      - 1.1 3429d8ec9b126347c98544bda4e6d77c.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - q2slexcdRx8iN8_qXSUMgn5R4VdlBnZGlGHXYu9aivAzDXDnSifr5g==
+      - ENydOahJ6wD8qQZAT3CvCQgy91DKqA6aNStNFIhZDI72qedvauxh7Q==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -33,7 +33,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 574a8ac482ec2b17:574a8ac482ec2b17:0:1
+      - 3825f034b3bcf0d1:3825f034b3bcf0d1:0:1
     status:
       code: 200
       message: OK
@@ -57,16 +57,16 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:44:43 GMT
+      - Tue, 03 Feb 2026 13:58:38 GMT
       Transfer-Encoding:
       - chunked
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 d52d1c01e4ec71ae1ac4a7de9d75c37a.cloudfront.net (CloudFront)
+      - 1.1 dce4a955467a02f31ec8f5f1eff22aec.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - dO7UeozYZuKtfwNg66lrOe7D2RqrpPBvsy-YljozuCZKR-3fQtz1WQ==
+      - v1-ml9puy2KG1PDTa4o8hqFs15PmwHKuKPmhmhd5XVylkDfjyF6qmQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -74,7 +74,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - f939c9c6f290bac:f939c9c6f290bac:0:1
+      - 68ddf9f91970f9cd:68ddf9f91970f9cd:0:1
     status:
       code: 200
       message: OK

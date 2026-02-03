@@ -9,23 +9,23 @@ interactions:
   response:
     body:
       string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"launch_configs\":[{\"game\":{\"id\":\"g0mMIvshDb\",\"biz\":\"bh3_global\"},\"exe_file_name\":\"BH3.exe\",\"installation_dir\":\"Houkai3rd
-        game\",\"audio_pkg_scan_dir\":\"\",\"audio_pkg_res_dir\":\"\",\"audio_pkg_cache_dir\":\"\",\"game_cached_res_dir\":\"\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\u5D29\u58CA3rd\",\"game_crash_file_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\u5D29\u58CA3rd/Crashes\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":true,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"\",\"wpf_pkg_version_dir\":\"\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":false}]}}"
+        game\",\"audio_pkg_scan_dir\":\"\",\"audio_pkg_res_dir\":\"\",\"audio_pkg_cache_dir\":\"\",\"game_cached_res_dir\":\"\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\u5D29\u58CA3rd\",\"game_crash_file_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\u5D29\u58CA3rd/Crashes\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":true,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"\",\"wpf_pkg_version_dir\":\"\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":false,\"scenario_pkg_info\":null,\"local_scenario_config_path\":\"\",\"enable_full_pkg_recommend\":false,\"enable_scenario_pkg\":false,\"enable_dx_switch\":false}]}}"
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1054'
+      - '1198'
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:25:47 GMT
+      - Tue, 03 Feb 2026 13:58:35 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 42711b32043ef413dd139e4e07296056.cloudfront.net (CloudFront)
+      - 1.1 22d8712791101fb14b1c4a35f6f38d58.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - vGCDwb15CZNZ_hqdv6h7svCfk-hT5_PLW1gWT1K1ui5rA0YwBN5T8A==
+      - MQ8X60DYo52b8wDVHV0D1Ycuq6-1eB5fRrrQlUhMDrtk1zCGyFXhTQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -33,7 +33,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 64818e9b01f7152a:64818e9b01f7152a:0:1
+      - 2be0e9dba2a95d76:2be0e9dba2a95d76:0:1
     status:
       code: 200
       message: OK

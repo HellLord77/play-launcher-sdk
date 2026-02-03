@@ -8,23 +8,23 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameBranches?launcher_id=gGoJxKOusQ
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"4ziysqXOQ8","biz":"hkrpg_global"},"main":{"package_id":"PePf9OoV54","branch":"main","password":"E6RCs6eKqXNC","tag":"3.8.0","diff_tags":["3.7.0"],"categories":[{"category_id":"10049","matching_field":"game"},{"category_id":"10050","matching_field":"zh-cn"},{"category_id":"10051","matching_field":"en-us"},{"category_id":"10052","matching_field":"ja-jp"},{"category_id":"10053","matching_field":"ko-kr"}],"required_client_version":""},"pre_download":null}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"4ziysqXOQ8","biz":"hkrpg_global"},"main":{"package_id":"PePf9OoV54","branch":"main","password":"E6RCs6eKqXNC","tag":"3.8.0","diff_tags":["3.7.0"],"categories":[{"category_id":"10049","matching_field":"game","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10050","matching_field":"zh-cn","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10051","matching_field":"en-us","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10052","matching_field":"ja-jp","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10053","matching_field":"ko-kr","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '526'
+      - '812'
       Content-Type:
       - application/json
       Date:
-      - Tue, 20 Jan 2026 14:24:13 GMT
+      - Tue, 03 Feb 2026 13:58:27 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 6e2546ea32838b55b78a977d2eb9b06c.cloudfront.net (CloudFront)
+      - 1.1 713d8841aa458295c2d4e2f2b5f22ae8.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - BCNnFen8HkyZvmr8Qrv6zholYLC86zDUuA6usgGzO4kzPzEtr_XOFQ==
+      - WLApl8Qck33Xobbu692CkuVW5wIvPlnhTIE1oAqOCFpfXnDF4PNwyQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 7d3efb13e5f71906:7d3efb13e5f71906:0:1
+      - 514d60dca4bb3156:514d60dca4bb3156:0:1
     status:
       code: 200
       message: OK
