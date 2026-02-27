@@ -8,36 +8,36 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameBranches?launcher_id=umfgRO5gh5
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"T2S0Gz4Dr2","biz":"hk4e_cn"},"main":{"package_id":"ShYmPEuLMY","branch":"main","password":"4Rj5ER1XxjQh","tag":"6.3.0","diff_tags":["6.2.0","6.1.0"],"categories":[{"category_id":"10017","matching_field":"game","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10018","matching_field":"zh-cn","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10019","matching_field":"en-us","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10021","matching_field":"ja-jp","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10020","matching_field":"ko-kr","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"T2S0Gz4Dr2","biz":"hk4e_cn"},"main":{"package_id":"ShYmPEuLMY","branch":"main","password":"4Rj5ER1XxjQh","tag":"6.4.0","diff_tags":["6.3.0","6.2.0"],"categories":[{"category_id":"10017","matching_field":"game","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10018","matching_field":"zh-cn","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10019","matching_field":"en-us","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10021","matching_field":"ja-jp","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10020","matching_field":"ko-kr","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '815'
+      - '908'
       Content-Type:
       - application/json
       Date:
-      - Tue, 03 Feb 2026 13:58:46 GMT
+      - Fri, 27 Feb 2026 17:36:08 GMT
       EagleId:
-      - a3b5c7a217701271258683970e
+      - 2b6d269617722137687138255e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=a3b5c7a217701271258683970e1a97d19b0779e8f4ac84e9e7cfa18472;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=a3b5c7a217701271258683970e1a97d19b0779e8f4ac84e9e7cfa18472;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1770127126|1770127126;Path=/
-      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1770127126|1770127126;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d269617722137687138255e076f66ef25855b0755223f621a1832df;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d269617722137687138255e076f66ef25855b0755223f621a1832df;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=53010d26c506be13c63a08e3531f584d|1772213768|1772213768;Path=/
+      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1772213768|1772213768;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache37.l2eu95-2[29,0], ens-cache20.l2ph1[135,0], ens-cache14.sg26[264,0]
+      - cache19.l2nu20-3[74,0], ens-cache3.l2ph1[144,0], ens-cache2.sg31[178,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 59cc30fe9e189e23:59cc30fe9e189e23:0:1
+      - 71d38e6b3e98e7db:71d38e6b3e98e7db:0:1
     status:
       code: 200
       message: OK

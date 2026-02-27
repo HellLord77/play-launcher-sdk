@@ -8,7 +8,7 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getWPFPackages?launcher_id=VYTpXlbWo8
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"wpf_packages":[{"game":{"id":"gopR6Cufr3","biz":"hk4e_global"},"wpf_package":{"version":"6.3.0.41515171","url":"https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20260108110251_IHYu3NSghCjLXtCX/BeyondAssets_OS_6.3.0.41515171.zip","md5":"e66d749b28fe6db5c38a7554df7a8b76","size":"364761528"}}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"wpf_packages":[{"game":{"id":"gopR6Cufr3","biz":"hk4e_global"},"wpf_package":{"version":"6.4.0.42314721","url":"https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20260209152404_K5PnTJeVHhV00Gtw/BeyondAssets_OS_6.4.0.42314721.zip","md5":"1672a1fd779e80cd6a417cc841f94ca0","size":"360171918"}}]}}'
     headers:
       Connection:
       - keep-alive
@@ -17,14 +17,14 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 03 Feb 2026 13:58:42 GMT
+      - Fri, 27 Feb 2026 17:36:05 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 d52d1c01e4ec71ae1ac4a7de9d75c37a.cloudfront.net (CloudFront)
+      - 1.1 713d8841aa458295c2d4e2f2b5f22ae8.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - JuzLwFBtucWcGWKM7wIc6n9eA_RvDsfMk8Gykix9Rr3yUseAiF9tDQ==
+      - ke-WYNo3SImB9Wsa1iCn20EKmTOU5pyIfH8ecozom16cAXvVI-qGKA==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 6960142a279d8a25:6960142a279d8a25:0:1
+      - 6df686f524b8df52:6df686f524b8df52:0:1
     status:
       code: 200
       message: OK

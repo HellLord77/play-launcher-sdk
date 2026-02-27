@@ -8,23 +8,23 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameBranches?launcher_id=ACQazS79kX
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"5TIVvvcwtM","biz":"bh3_global"},"main":{"package_id":"19XDCbNucU","branch":"main","password":"ag43v1QVxlUH","tag":"8.6.0","diff_tags":[],"categories":[{"category_id":"10177","matching_field":"game","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10182","matching_field":"asb","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"5TIVvvcwtM","biz":"bh3_global"},"main":{"package_id":"19XDCbNucU","branch":"main","password":"ag43v1QVxlUH","tag":"8.6.0","diff_tags":[],"categories":[{"category_id":"10177","matching_field":"game","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10182","matching_field":"asb","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '504'
+      - '546'
       Content-Type:
       - application/json
       Date:
-      - Tue, 03 Feb 2026 13:58:33 GMT
+      - Fri, 27 Feb 2026 17:35:56 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 18b24b9d82f8c92dd1fa9bebaf56af42.cloudfront.net (CloudFront)
+      - 1.1 56edf389b493b074fc07c069f9012562.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - hM9kmKPHzTXebvxn4ZS1Yvi5izGVU5bEUK8i1IajEscb6YMuAXZ22Q==
+      - mwXFebaw9YRy5BIABneUF2N2qwJ8YdinVw3GLIDWJ5Bb2DvslKHHWQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 194a34ad3d1d86c2:194a34ad3d1d86c2:0:1
+      - 2b8c3baef622090d:2b8c3baef622090d:0:1
     status:
       code: 200
       message: OK

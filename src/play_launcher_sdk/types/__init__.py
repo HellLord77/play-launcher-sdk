@@ -5,6 +5,7 @@ from pathlib import PureWindowsPath
 from re import fullmatch
 from shlex import split
 from typing import Annotated  # noqa: TID251
+from typing import Literal
 
 from annotated_types import Not
 from annotated_types import Predicate
@@ -18,6 +19,7 @@ from pydantic_extra_types.semantic_version import SemanticVersion
 from .hex_encoder import HexEncoder
 
 EmptyList = Annotated[list, Field(max_length=0)]
+ScenarioList = Annotated[list[Literal["CATEGORY_SCENARIO_FULL"]], Field(max_length=1)]
 
 Command = Annotated[list[str], ValidateAs(str, split)]
 Date = Annotated[date, ValidateAs(str, lambda date_: datetime.strptime(date_, "%m/%d").date())]  # noqa: DTZ007

@@ -1,0 +1,7 @@
+from enum import StrEnum
+
+
+class CategoryType(StrEnum):
+    AUDIO = "CATEGORY_TYPE_AUDIO"
+    RESOURCE = "CATEGORY_TYPE_RESOURCE"
+    UNSPECIFIED = "CATEGORY_TYPE_UNSPECIFIED"

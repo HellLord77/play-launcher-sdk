@@ -18,14 +18,14 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 03 Feb 2026 13:58:35 GMT
+      - Fri, 27 Feb 2026 17:35:57 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 22d8712791101fb14b1c4a35f6f38d58.cloudfront.net (CloudFront)
+      - 1.1 f881b3dd31ab6286675d899fd085a370.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - MQ8X60DYo52b8wDVHV0D1Ycuq6-1eB5fRrrQlUhMDrtk1zCGyFXhTQ==
+      - RDerQuwkc9Z2_u7vx4jDrXVW_CTuEqjFbRyzZW6tY8bor_Pj8anwpg==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -33,7 +33,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 2be0e9dba2a95d76:2be0e9dba2a95d76:0:1
+      - 294b244033b74c3a:294b244033b74c3a:0:1
     status:
       code: 200
       message: OK

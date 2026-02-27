@@ -8,23 +8,23 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameBranches?launcher_id=kkd8eq3Nnd
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"uxB4MC7nzC","biz":"bh3_global"},"main":{"package_id":"z2VwrBdMdt","branch":"main","password":"TnIToyd4kkTm","tag":"8.6.0","diff_tags":[],"categories":[{"category_id":"10175","matching_field":"game","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]},{"category_id":"10180","matching_field":"asb","type":"CATEGORY_TYPE_UNSPECIFIED","scenarios":[]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"uxB4MC7nzC","biz":"bh3_global"},"main":{"package_id":"z2VwrBdMdt","branch":"main","password":"TnIToyd4kkTm","tag":"8.6.0","diff_tags":[],"categories":[{"category_id":"10175","matching_field":"game","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10180","matching_field":"asb","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '504'
+      - '546'
       Content-Type:
       - application/json
       Date:
-      - Tue, 03 Feb 2026 13:58:37 GMT
+      - Fri, 27 Feb 2026 17:36:00 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 d3de0e63ef4080c592301d7d3624b984.cloudfront.net (CloudFront)
+      - 1.1 44dd3bb75c40a6b0e432843186941cfe.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - 1DbHB9cwJKNEqXN1-DerMCDvSCgLOXtc6NfjkLkXoHoQ0Qoh8bHVEg==
+      - ak3zgkig4pOk9Dx1k2emcviP03ZfQWbXxGRRw5r-FEpOIu5vqN8ouw==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 49e6d630666169b1:49e6d630666169b1:0:1
+      - 4219896545be5aa6:4219896545be5aa6:0:1
     status:
       code: 200
       message: OK

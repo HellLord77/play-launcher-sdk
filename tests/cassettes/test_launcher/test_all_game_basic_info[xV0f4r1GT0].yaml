@@ -8,7 +8,7 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=xV0f4r1GT0
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"HXAFlmYa17","biz":"nap_cn"},"backgrounds":[{"id":"RjXINhbeQY","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/19/bea9b94160cd36b44cdd9ac5c99a5603_5469531197276739425.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/19/a1b387b4bdafde39c28131c03a5ed077_4019315856610441865.webm","size":0},"theme":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/19/84733fa28a55345e2b33c1dc8b0976d4_8856784475888990043.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"}]}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"HXAFlmYa17","biz":"nap_cn"},"backgrounds":[{"id":"qtd26lI0bT","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/28/ad1a62f5d542bc8c82d19082032b0247_3238117600041523340.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/02/06/8d882c8579b027cec7f2d21aa90f1ffd_8728987487003852833.webm","size":0},"theme":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/01/28/a9b692a16bb54fa3f9ba788f578ade75_4547551574381697283.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"}]}]}}'
     headers:
       Connection:
       - keep-alive
@@ -17,27 +17,27 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 03 Feb 2026 13:59:01 GMT
+      - Fri, 27 Feb 2026 17:36:23 GMT
       EagleId:
-      - a3b5c79c17701271414757463e
+      - 2b6d26ae17722137831977685e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=a3b5c79c17701271414757463e126d8252f66ddf4baeccc746e86b9d64;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=a3b5c79c17701271414757463e126d8252f66ddf4baeccc746e86b9d64;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1770127141|1770127141;Path=/
-      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1770127141|1770127141;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d26ae17722137831977685e7dd6468fa1f4e5f5aadd4e7867b5bcf1;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d26ae17722137831977685e7dd6468fa1f4e5f5aadd4e7867b5bcf1;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1772213783|1772213783;Path=/
+      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1772213783|1772213783;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache31.l2eu95-2[37,0], ens-cache15.l2ph1[150,0], ens-cache8.sg26[259,0]
+      - cache34.l2nu20-3[92,0], ens-cache12.l2ph1[162,0], ens-cache26.sg31[197,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 5b163467fe4f3233:5b163467fe4f3233:0:1
+      - 1f934661bac7bc62:1f934661bac7bc62:0:1
     status:
       code: 200
       message: OK

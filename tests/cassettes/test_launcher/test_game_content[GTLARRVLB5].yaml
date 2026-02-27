@@ -20,14 +20,14 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 03 Feb 2026 13:58:40 GMT
+      - Fri, 27 Feb 2026 17:36:03 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 9ee8b835a4cdf0b35993615e21a3b5f8.cloudfront.net (CloudFront)
+      - 1.1 1b87a6ee309264786666693d35ccced0.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - pEEhBrODGC-0gX9eZI8-rJVBLWlCRwiLaEDNMRNQh9-CQVwVN-ckkg==
+      - QP05cHf480yCWw_AR6ps0eVHPOyKRZ_kuzyYAQO7zxMbEE5ZTwSyuA==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -35,7 +35,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 16b42cf5c2141102:16b42cf5c2141102:0:1
+      - 74c9840fd1b8e56:74c9840fd1b8e56:0:1
     status:
       code: 200
       message: OK
@@ -48,8 +48,8 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=GTLARRVLB5&game_id=bxPTXSET5t
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"content":{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"language":"","banners":[{"id":"PPA2IXEb6P","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/31/51f017babf25c499db6094e8bfe00e14_6740365179956241391.jpg","link":"https://youtu.be/pDVKpiSs-xI","login_state_in_link":false},"i18n_identifier":""},{"id":"LkW2nBZPSu","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/26/3d5483dc8ef3717cf10e9e6647a14741_753423606569149451.png","link":"https://youtu.be/X54wCKVzNNg","login_state_in_link":false},"i18n_identifier":""}],"posts":[{"id":"wZSy5UNGpd","type":"POST_TYPE_ANNOUNCE","title":"v8.6
-        \"The Banquet Operative\" Update Announcement","link":"https://hoyo.link/IO83s5QKK","date":"12/31","login_state_in_link":false,"i18n_identifier":""},{"id":"4dfVefdx5T","type":"POST_TYPE_ANNOUNCE","title":"Rita''s
+      string: '{"retcode":0,"message":"OK","data":{"content":{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"language":"","banners":[{"id":"P1HoUxzQ9b","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/24/5e1fdd5268f4ce2c791638b103ccce2f_7476569258215209341.png","link":"https://hoyo.link/lNw0w5eqG","login_state_in_link":false},"i18n_identifier":""},{"id":"yFz0m3kbik","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/14/a310c1ed043cfc92e1c35b7dbc09558c_2774447422949616072.png","link":"https://hoyo.link/kt50s23v6","login_state_in_link":false},"i18n_identifier":""},{"id":"agAh2bIno7","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/13/7d16377f7ad8ed4b3e1eac812f97dea2_1000183732220932124.png","link":"https://hoyo.link/ow7kEUT21","login_state_in_link":false},"i18n_identifier":""}],"posts":[{"id":"0pDkvkHdmx","type":"POST_TYPE_ANNOUNCE","title":"v8.7
+        Maintenance Announcement and New Events Preview","link":"https://www.hoyolab.com/article/43943955","date":"02/26","login_state_in_link":false,"i18n_identifier":""},{"id":"4dfVefdx5T","type":"POST_TYPE_ANNOUNCE","title":"Rita''s
         New S-rank Battlesuit \"Miss Espionage\" Debuts","link":"https://hoyo.link/bQD7kROei","date":"12/30","login_state_in_link":false,"i18n_identifier":""}],"social_media_list":[{"id":"wrYikJmecb","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/33a1c76536265a82344a200b29da408d_4348248340134718046.png","hover_url":"","link":"https://honkaiimpact3.mihoyo.com/asia/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"S8SUFCGy3O","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/4f88c988da20e30a9a0e13eafe4b102c_3115423271616927153.png","hover_url":"","link":"https://www.facebook.com/HonkaiImpact3rd/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"lnJ3GbDdnT","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/879ab65b973fe41a1a6866f9bd25d1a2_2354015201453461194.png","hover_url":"","link":"https://twitter.com/HonkaiImpact3rd","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"WIViiwPD9R","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/40264556b28596d0a341adad12de7e71_8451408668060010298.png","hover_url":"","link":"https://www.instagram.com/honkaiimpact3rd/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"iTackHFEX4","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/f5791d34a7ad83161c5a191729e8aa90_9141804452127153833.png","hover_url":"","link":"https://www.youtube.com/channel/UCko6H6LokKM__B03i5_vBQQ","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"OErAsEsQT7","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/ca9481b418f0cf5ea7acafffa9f82df9_8212955308913393058.png","hover_url":"","link":"https://www.hoyolab.com/accountCenter/postList?id=147839994","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"000k0FURMl","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/17/d38c58957c07609b40c5f0fcd31260ab_4411508097210423987.png","hover_url":"","link":"https://www.hoyolab.com/article_pre/18014398241029629","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""}]}}}'
     headers:
       Connection:
@@ -57,16 +57,16 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 03 Feb 2026 13:58:40 GMT
+      - Fri, 27 Feb 2026 17:36:03 GMT
       Transfer-Encoding:
       - chunked
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 0d4e829f0c2c1b0ccf35e3151245e6b6.cloudfront.net (CloudFront)
+      - 1.1 9bd5493f891e1fa14bf1ea842e28f016.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - S8qy7nuz4porh5drn3wJzrw6Xk1rjr_sw8q7xmnkmkyhLELadteJ0g==
+      - KGqAs59ddF7o6PwfsenyM92TkFXbXnF54wF7_qcYzdPe2sgGQ_t8PQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -74,7 +74,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 1537bc166f07a92a:1537bc166f07a92a:0:1
+      - aa91fb6e17da5a6:aa91fb6e17da5a6:0:1
     status:
       code: 200
       message: OK
