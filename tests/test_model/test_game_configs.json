@@ -2,8 +2,8 @@
   "launch_configs": [
     {
       "game": {
-        "id": "FUoEmzPdP3",
-        "biz": "nap_global"
+        "id": "HXAFlmYa17",
+        "biz": "nap_cn"
       },
       "exe_file_name": "ZenlessZoneZero.exe",
       "installation_dir": "ZenlessZoneZero Game",
@@ -12,10 +12,10 @@
       "audio_pkg_cache_dir": "ZenlessZoneZero_Data/Persistent/Audio",
       "game_cached_res_dir": "ZenlessZoneZero_Data/Persistent",
       "game_screenshot_dir": "ScreenShot",
-      "game_log_gen_dir": "%userprofile%/AppData/LocalLow/miHoYo/ZenlessZoneZero",
-      "game_crash_file_gen_dir": "%userprofile%\\AppData\\Local\\Temp\\miHoYo\\ZenlessZoneZero\\Crashes",
+      "game_log_gen_dir": "%userprofile%/AppData/LocalLow/miHoYo/绝区零",
+      "game_crash_file_gen_dir": "%userprofile%\\AppData\\Local\\Temp\\miHoYo\\绝区零\\Crashes",
       "default_download_mode": "DOWNLOAD_MODE_CHUNK",
-      "enable_customer_service": true,
+      "enable_customer_service": false,
       "local_res_dir": "ZenlessZoneZero_Data/StreamingAssets",
       "local_res_cache_dir": "ZenlessZoneZero_Data/Persistent",
       "res_category_dir": "ZenlessZoneZero_Data/Persistent/res_category_launcher",
@@ -34,11 +34,18 @@
       "enable_v2_game_detection": false,
       "related_processes": [],
       "enable_ldiff": false,
-      "scenario_pkg_info": null,
-      "local_scenario_config_path": "",
-      "enable_full_pkg_recommend": false,
-      "enable_scenario_pkg": false,
-      "enable_dx_switch": false
+      "scenario_pkg_info": {
+        "full_pkg_name": "完整资源下载说明",
+        "full_pkg_desc": "选择完整资源后，会下载游戏的全部内容以获得最佳体验。\n完整资源包括：全部游戏主线，主题活动的任务资源（视频，音频，场景资源等）。绳匠后续也可以在设置界面的[更多]-[资源管理]中手动删除已体验完成的部分。",
+        "base_pkg_name": "基础资源下载说明",
+        "base_pkg_desc": "选择基础资源后，仅会下载游戏主体运行所必须的基础资源。\n游戏主体基础资源包含：游戏主线序章（生意X诡异X道义）至第二章（在空洞的中心呼唤…?）的任务资源以及当前版本最新可跃迁的任务资源。"
+      },
+      "local_scenario_config_path": "ZenlessZoneZero_Data\\Persistent\\KBasePackage",
+      "enable_full_pkg_recommend": true,
+      "enable_scenario_pkg": true,
+      "enable_dx_switch": false,
+      "enable_write_verify_result": false,
+      "write_verify_result_path": ""
     }
   ]
 }

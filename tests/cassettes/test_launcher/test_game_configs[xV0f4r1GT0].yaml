@@ -9,37 +9,38 @@ interactions:
   response:
     body:
       string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"launch_configs\":[{\"game\":{\"id\":\"HXAFlmYa17\",\"biz\":\"nap_cn\"},\"exe_file_name\":\"ZenlessZoneZero.exe\",\"installation_dir\":\"ZenlessZoneZero
-        Game\",\"audio_pkg_scan_dir\":\"ZenlessZoneZero_Data/Persistent/audio_lang_launcher\",\"audio_pkg_res_dir\":\"ZenlessZoneZero_Data/StreamingAssets/Audio\",\"audio_pkg_cache_dir\":\"ZenlessZoneZero_Data/Persistent/Audio\",\"game_cached_res_dir\":\"ZenlessZoneZero_Data/Persistent\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%userprofile%/AppData/LocalLow/miHoYo/\u7EDD\u533A\u96F6\",\"game_crash_file_gen_dir\":\"%userprofile%\\\\AppData\\\\Local\\\\Temp\\\\miHoYo\\\\\u7EDD\u533A\u96F6\\\\Crashes\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":false,\"local_res_dir\":\"ZenlessZoneZero_Data/StreamingAssets\",\"local_res_cache_dir\":\"ZenlessZoneZero_Data/Persistent\",\"res_category_dir\":\"ZenlessZoneZero_Data/Persistent/res_category_launcher\",\"game_res_cut_dir\":\"file_category_launcher\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"\",\"wpf_pkg_version_dir\":\"\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":true,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[],\"enable_ldiff\":false,\"scenario_pkg_info\":null,\"local_scenario_config_path\":\"\",\"enable_full_pkg_recommend\":false,\"enable_scenario_pkg\":false,\"enable_dx_switch\":false}]}}"
+        Game\",\"audio_pkg_scan_dir\":\"ZenlessZoneZero_Data/Persistent/audio_lang_launcher\",\"audio_pkg_res_dir\":\"ZenlessZoneZero_Data/StreamingAssets/Audio\",\"audio_pkg_cache_dir\":\"ZenlessZoneZero_Data/Persistent/Audio\",\"game_cached_res_dir\":\"ZenlessZoneZero_Data/Persistent\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%userprofile%/AppData/LocalLow/miHoYo/\u7EDD\u533A\u96F6\",\"game_crash_file_gen_dir\":\"%userprofile%\\\\AppData\\\\Local\\\\Temp\\\\miHoYo\\\\\u7EDD\u533A\u96F6\\\\Crashes\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":false,\"local_res_dir\":\"ZenlessZoneZero_Data/StreamingAssets\",\"local_res_cache_dir\":\"ZenlessZoneZero_Data/Persistent\",\"res_category_dir\":\"ZenlessZoneZero_Data/Persistent/res_category_launcher\",\"game_res_cut_dir\":\"file_category_launcher\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"\",\"wpf_pkg_version_dir\":\"\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":true,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[],\"enable_ldiff\":false,\"scenario_pkg_info\":{\"full_pkg_name\":\"\u5B8C\u6574\u8D44\u6E90\u4E0B\u8F7D\u8BF4\u660E\",\"full_pkg_desc\":\"\u9009\u62E9\u5B8C\u6574\u8D44\u6E90\u540E\uFF0C\u4F1A\u4E0B\u8F7D\u6E38\u620F\u7684\u5168\u90E8\u5185\u5BB9\u4EE5\u83B7\u5F97\u6700\u4F73\u4F53\u9A8C\u3002\\n\u5B8C\u6574\u8D44\u6E90\u5305\u62EC\uFF1A\u5168\u90E8\u6E38\u620F\u4E3B\u7EBF\uFF0C\u4E3B\u9898\u6D3B\u52A8\u7684\u4EFB\u52A1\u8D44\u6E90\uFF08\u89C6\u9891\uFF0C\u97F3\u9891\uFF0C\u573A\u666F\u8D44\u6E90\u7B49\uFF09\u3002\u7EF3\u5320\u540E\u7EED\u4E5F\u53EF\u4EE5\u5728\u8BBE\u7F6E\u754C\u9762\u7684[\u66F4\u591A]-[\u8D44\u6E90\u7BA1\u7406]\u4E2D\u624B\u52A8\u5220\u9664\u5DF2\u4F53\u9A8C\u5B8C\u6210\u7684\u90E8\u5206\u3002\",\"base_pkg_name\":\"\u57FA\u7840\u8D44\u6E90\u4E0B\u8F7D\u8BF4\u660E\",\"base_pkg_desc\":\"\u9009\u62E9\u57FA\u7840\u8D44\u6E90\u540E\uFF0C\u4EC5\u4F1A\u4E0B\u8F7D\u6E38\u620F\u4E3B\u4F53\u8FD0\u884C\u6240\u5FC5\u987B\u7684\u57FA\u7840\u8D44\u6E90\u3002\\n\u6E38\u620F\u4E3B\u4F53\u57FA\u7840\u8D44\u6E90\u5305\u542B\uFF1A\u6E38\u620F\u4E3B\u7EBF\u5E8F\u7AE0\uFF08\u751F\u610FX\u8BE1\u5F02X\u9053\u4E49\uFF09\u81F3\u7B2C\u4E8C\u7AE0\uFF08\u5728\u7A7A\u6D1E\u7684\u4E2D\u5FC3\u547C\u5524\u2026?\uFF09\u7684\u4EFB\u52A1\u8D44\u6E90\u4EE5\u53CA\u5F53\u524D\u7248\u672C\u6700\u65B0\u53EF\u8DC3\u8FC1\u7684\u4EFB\u52A1\u8D44\u6E90\u3002\"},\"local_scenario_config_path\":\"ZenlessZoneZero_Data\\\\Persistent\\\\KBasePackage\",\"enable_full_pkg_recommend\":true,\"enable_scenario_pkg\":true,\"enable_dx_switch\":false,\"enable_write_verify_result\":false,\"write_verify_result_path\":\"\"}]}}"
     headers:
       Connection:
       - keep-alive
-      Content-Length:
-      - '1487'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:18 GMT
+      - Wed, 29 Apr 2026 15:11:07 GMT
       EagleId:
-      - 2b6d269c17722137786846790e
+      - 2b6d3d9c17774754675434406e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d269c17722137786846790e59f5ae91501f99a2a9885a5ebb17df2a;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d269c17722137786846790e59f5ae91501f99a2a9885a5ebb17df2a;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=53010d26c506be13c63a08e3531f584d|1772213778|1772213778;Path=/
-      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1772213778|1772213778;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9c17774754675434406ee630feea9a0097bfffb6885498a53f31;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9c17774754675434406ee630feea9a0097bfffb6885498a53f31;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=53010d26c506be13c63a08e3531f584d|1777475467|1777475467;Path=/
+      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1777475467|1777475467;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
+      Transfer-Encoding:
+      - chunked
       Vary:
       - Accept-Encoding
       - Origin
       - Accept-Encoding
       Via:
-      - cache27.l2nu20-3[61,0], ens-cache17.l2ph1[127,0], ens-cache8.sg31[170,0]
+      - ens-cache23.l2eu95-10[54,0], ens-cache26.l2my2[153,0], cache29.l2sg4[163,0],
+        ens-cache8.bd8[211,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 1338d315a57ee2fa:1338d315a57ee2fa:0:1
+      - 6d0c3fa11c236818:6d0c3fa11c236818:0:1
     status:
       code: 200
       message: OK

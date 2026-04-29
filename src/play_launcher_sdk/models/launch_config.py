@@ -11,6 +11,7 @@ from play_launcher_sdk.types import RelativeTxtPath
 from .base import Base
 from .game import Game
 from .game_log_export_config import GameLogExportConfig
+from .scenario_pkg_info import ScenarioPkgInfo
 
 
 class LaunchConfig(Base):
@@ -44,8 +45,10 @@ class LaunchConfig(Base):
     enable_v2_game_detection: Literal[False]
     related_processes: list[str]
     enable_ldiff: bool
-    scenario_pkg_info: None
-    local_scenario_config_path: Literal[""]
-    enable_full_pkg_recommend: Literal[False]
-    enable_scenario_pkg: Literal[False]
+    scenario_pkg_info: ScenarioPkgInfo | None
+    local_scenario_config_path: RelativePath
+    enable_full_pkg_recommend: bool
+    enable_scenario_pkg: bool
     enable_dx_switch: Literal[False]
+    enable_write_verify_result: Literal[False]
+    write_verify_result_path: Literal[""]

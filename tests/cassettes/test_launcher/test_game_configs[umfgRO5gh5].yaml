@@ -9,25 +9,25 @@ interactions:
   response:
     body:
       string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"launch_configs\":[{\"game\":{\"id\":\"T2S0Gz4Dr2\",\"biz\":\"hk4e_cn\"},\"exe_file_name\":\"YuanShen.exe\",\"installation_dir\":\"Genshin
-        Impact Game\",\"audio_pkg_scan_dir\":\"YuanShen_Data/Persistent/audio_lang_14\",\"audio_pkg_res_dir\":\"YuanShen_Data/StreamingAssets/AudioAssets\",\"audio_pkg_cache_dir\":\"YuanShen_Data/Persistent/AudioAssets\",\"game_cached_res_dir\":\"YuanShen_Data/Persistent\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%userprofile%/AppData/LocalLow/miHoYo/\u539F\u795E\",\"game_crash_file_gen_dir\":\"%userprofile%/AppData/Local/Temp\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":false,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"BeyondAssets/BeyondAssistEditor/BeyondEditor.exe\",\"wpf_pkg_version_dir\":\"beyond_pkg_version\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":true,\"scenario_pkg_info\":null,\"local_scenario_config_path\":\"\",\"enable_full_pkg_recommend\":false,\"enable_scenario_pkg\":false,\"enable_dx_switch\":false}]}}"
+        Impact Game\",\"audio_pkg_scan_dir\":\"YuanShen_Data/Persistent/audio_lang_14\",\"audio_pkg_res_dir\":\"YuanShen_Data/StreamingAssets/AudioAssets\",\"audio_pkg_cache_dir\":\"YuanShen_Data/Persistent/AudioAssets\",\"game_cached_res_dir\":\"YuanShen_Data/Persistent\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%userprofile%/AppData/LocalLow/miHoYo/\u539F\u795E\",\"game_crash_file_gen_dir\":\"%userprofile%/AppData/Local/Temp\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":false,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"BeyondAssets/BeyondAssistEditor/BeyondEditor.exe\",\"wpf_pkg_version_dir\":\"beyond_pkg_version\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":true,\"scenario_pkg_info\":null,\"local_scenario_config_path\":\"\",\"enable_full_pkg_recommend\":false,\"enable_scenario_pkg\":false,\"enable_dx_switch\":false,\"enable_write_verify_result\":false,\"write_verify_result_path\":\"\"}]}}"
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1350'
+      - '1415'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:07 GMT
+      - Wed, 29 Apr 2026 15:11:00 GMT
       EagleId:
-      - 2b6d26a917722137675521765e
+      - 2b6d3d9917774754603837619e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d26a917722137675521765ef1142b5007278989ad456e3e8cb93f87;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d26a917722137675521765ef1142b5007278989ad456e3e8cb93f87;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1772213767|1772213767;Path=/
-      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1772213767|1772213767;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9917774754603837619e4e183d88946918e6b87a0e59a1e64cd9;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9917774754603837619e4e183d88946918e6b87a0e59a1e64cd9;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=53010d26c506be13c63a08e3531f584d|1777475460|1777475460;Path=/
+      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1777475460|1777475460;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
@@ -35,11 +35,11 @@ interactions:
       - Origin
       - Accept-Encoding
       Via:
-      - cache23.l2nu20-3[75,0], ens-cache2.l2ph1[144,0], ens-cache21.sg31[187,0]
+      - cache13.l2eu95-4[52,0], ens-cache15.l2sg7[141,0], ens-cache5.bd8[191,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - a8b3623529bc55f:a8b3623529bc55f:0:1
+      - 252cdbd58c7f7937:252cdbd58c7f7937:0:1
     status:
       code: 200
       message: OK

@@ -9,23 +9,23 @@ interactions:
   response:
     body:
       string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"launch_configs\":[{\"game\":{\"id\":\"uxB4MC7nzC\",\"biz\":\"bh3_global\"},\"exe_file_name\":\"BH3.exe\",\"installation_dir\":\"Honkai
-        Impact 3rd kr game\",\"audio_pkg_scan_dir\":\"\",\"audio_pkg_res_dir\":\"\",\"audio_pkg_cache_dir\":\"\",\"game_cached_res_dir\":\"\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\uBD95\uAD343rd\",\"game_crash_file_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\uBD95\uAD343rd/Crashes\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":true,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"\",\"wpf_pkg_version_dir\":\"\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":false,\"scenario_pkg_info\":null,\"local_scenario_config_path\":\"\",\"enable_full_pkg_recommend\":false,\"enable_scenario_pkg\":false,\"enable_dx_switch\":false}]}}"
+        Impact 3rd kr game\",\"audio_pkg_scan_dir\":\"\",\"audio_pkg_res_dir\":\"\",\"audio_pkg_cache_dir\":\"\",\"game_cached_res_dir\":\"\",\"game_screenshot_dir\":\"ScreenShot\",\"game_log_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\uBD95\uAD343rd\",\"game_crash_file_gen_dir\":\"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/\uBD95\uAD343rd/Crashes\",\"default_download_mode\":\"DOWNLOAD_MODE_CHUNK\",\"enable_customer_service\":true,\"local_res_dir\":\"\",\"local_res_cache_dir\":\"\",\"res_category_dir\":\"\",\"game_res_cut_dir\":\"\",\"enable_game_log_export\":false,\"game_log_export_config\":null,\"blacklist_dir\":\"\",\"wpf_exe_dir\":\"\",\"wpf_pkg_version_dir\":\"\",\"enable_audio_pkg_mgmt\":false,\"audio_pkg_config_dir\":\"\",\"enable_resource_deletion_adapter\":false,\"enable_resource_blacklist\":false,\"enable_redundant_file_cleanup\":false,\"redundant_file_cleanup_paths\":[],\"enable_v2_game_detection\":false,\"related_processes\":[\"\"],\"enable_ldiff\":false,\"scenario_pkg_info\":null,\"local_scenario_config_path\":\"\",\"enable_full_pkg_recommend\":false,\"enable_scenario_pkg\":false,\"enable_dx_switch\":false,\"enable_write_verify_result\":false,\"write_verify_result_path\":\"\"}]}}"
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1209'
+      - '1274'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:00 GMT
+      - Wed, 29 Apr 2026 15:10:53 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 7ab61ce3d7d648e0eaae5b45a81a89dc.cloudfront.net (CloudFront)
+      - 1.1 56edf389b493b074fc07c069f9012562.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - lfh8wZHM2AJGg8eKVA9BwylMq3gqI4iJcW3dZP_e0UUlC0kNw24bVw==
+      - ciTXHXnQoKg38_s9rVGQFp7V6Z0gielqKjVODpS9fBQ8gi_T3LN_Gg==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -33,7 +33,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 1e6f3a1cb1d1350a:1e6f3a1cb1d1350a:0:1
+      - e84cb4740fe482a:e84cb4740fe482a:0:1
     status:
       code: 200
       message: OK

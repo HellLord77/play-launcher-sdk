@@ -8,7 +8,7 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameDeprecatedFileConfigs?launcher_id=jGHBHlcOq1
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"deprecated_file_configs":[{"game":{"id":"1Z8W5NHUQb","biz":"hk4e_cn"},"deprecated_files":[{"name":"YuanShen_Data/Plugins/mihoyonet.dll"},{"name":"YuanShen_Data/Plugins/APMLog.dll"},{"name":"YuanShen_Data/Plugins/cri_vip_unity_pc.dll"},{"name":"YuanShen_Data/blueReporter.exe"},{"name":"YuanShen_Data/Plugins/d3dcompiler_43.dll"},{"name":"YuanShen_Data/Native/UserAssembly.dll"},{"name":"YuanShen_Data/Plugins/metakeeper.dll"},{"name":"YuanShen_Data/Plugins/widevinecdmadapter.dll"},{"name":"YuanShen_Data/Plugins/sqlite3.dll"},{"name":"YuanShen_Data/Plugins/LumiFractureExport.dll"},{"name":"YuanShen_Data/Plugins/XInputInterface64.dll"},{"name":"YuanShen_Data/Plugins/InControlNative.dll"},{"name":"YuanShen_Data/Plugins/xlua.dll"},{"name":"mhyprot2.Sys"},{"name":"YuanShen_Data/Plugins/hdiffz.dll"},{"name":"UnityPlayer.dll"},{"name":"mhyprot3.Sys"},{"name":"YuanShen_Data/Plugins/PCGameSDK.dll"}]}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"deprecated_file_configs":[{"game":{"id":"1Z8W5NHUQb","biz":"hk4e_cn"},"deprecated_files":[{"name":"YuanShen_Data/Plugins/LumiFractureExport.dll"},{"name":"YuanShen_Data/Plugins/xlua.dll"},{"name":"YuanShen_Data/Native/UserAssembly.dll"},{"name":"UnityPlayer.dll"},{"name":"YuanShen_Data/Plugins/hdiffz.dll"},{"name":"YuanShen_Data/Plugins/InControlNative.dll"},{"name":"YuanShen_Data/Plugins/metakeeper.dll"},{"name":"mhyprot3.Sys"},{"name":"YuanShen_Data/Plugins/d3dcompiler_43.dll"},{"name":"mhyprot2.Sys"},{"name":"YuanShen_Data/Plugins/APMLog.dll"},{"name":"YuanShen_Data/Plugins/cri_vip_unity_pc.dll"},{"name":"YuanShen_Data/blueReporter.exe"},{"name":"YuanShen_Data/Plugins/mihoyonet.dll"},{"name":"YuanShen_Data/Plugins/sqlite3.dll"},{"name":"YuanShen_Data/Plugins/widevinecdmadapter.dll"},{"name":"YuanShen_Data/Plugins/XInputInterface64.dll"},{"name":"YuanShen_Data/Plugins/PCGameSDK.dll"}]}]}}'
     headers:
       Connection:
       - keep-alive
@@ -17,27 +17,28 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:25 GMT
+      - Wed, 29 Apr 2026 15:11:12 GMT
       EagleId:
-      - 2b6d26a717722137850877937e
+      - 2b6d3d9517774754719428821e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d26a717722137850877937e33c894fd6b6077526332ea047d86f708;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d26a717722137850877937e33c894fd6b6077526332ea047d86f708;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1772213785|1772213785;Path=/
-      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1772213785|1772213785;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9517774754719428821e7dc4b3e5643c16a7ff8174321a0b62ba;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9517774754719428821e7dc4b3e5643c16a7ff8174321a0b62ba;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1777475472|1777475472;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1777475472|1777475472;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache24.l2nu20-1[90,0], ens-cache18.l2ph1[166,0], ens-cache19.sg31[266,0]
+      - ens-cache27.l2eu95-10[50,0], ens-cache13.l2my2[148,0], cache4.l2sg4[165,0],
+        ens-cache1.bd8[319,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 462db66307b69680:462db66307b69680:0:1
+      - 894c9810a529317:894c9810a529317:0:1
     status:
       code: 200
       message: OK
