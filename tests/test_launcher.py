@@ -73,6 +73,7 @@ def test_game_scan_info(launcher):
     assert isinstance(game_scan_info, GameScanInfo)
 
 
+# @pytest.mark.vcr(record_mode="new_episodes")
 def test_game_content(launcher):
     from play_launcher_sdk.models import GameContent
 

@@ -17,16 +17,16 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:11:03 GMT
+      - Wed, 29 Apr 2026 15:55:53 GMT
       EagleId:
-      - 2b6d3d9617774754630472118e
+      - 2b6d3d9a17774781536325806e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d3d9617774754630472118ea3868cfd78c1a87860974fdb87a73afb;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d3d9617774754630472118ea3868cfd78c1a87860974fdb87a73afb;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1777475463|1777475463;Path=/
-      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1777475463|1777475463;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9a17774781536325806ea818ebb7156b02128f25cc07ca8f435a;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9a17774781536325806ea818ebb7156b02128f25cc07ca8f435a;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1777478153|1777478153;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1777478153|1777478153;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
@@ -34,12 +34,53 @@ interactions:
       - Origin
       - Accept-Encoding
       Via:
-      - ens-cache43.l2eu95-10[49,0], ens-cache21.l2my2[161,0], cache20.l2sg4[171,0],
-        ens-cache2.bd8[221,0]
+      - cache36.l2eu95-4[51,0], ens-cache12.l2sg7[142,0], ens-cache6.bd8[190,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 5d2d5a484fa7b50e:5d2d5a484fa7b50e:0:1
+      - 760bc5848143cea5:760bc5848143cea5:0:1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Host:
+      - hyp-api.mihoyo.com
+    method: GET
+    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameContent?launcher_id=umfgRO5gh5&game_id=T2S0Gz4Dr2
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"content":{"game":{"id":"T2S0Gz4Dr2","biz":"hk4e_cn"},"language":"","banners":[],"posts":[],"social_media_list":[]}}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '153'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 29 Apr 2026 15:55:53 GMT
+      EagleId:
+      - 2b6d3d9c17774781538623085e
+      Server:
+      - Tengine
+      Set-Cookie:
+      - acw_tc=2b6d3d9c17774781538623085efdcf842d119a45af7c1e3fe774e1bbd2;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9c17774781538623085efdcf842d119a45af7c1e3fe774e1bbd2;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=c9c342ef1c80ac931953715f295a0621|1777478153|1777478153;Path=/
+      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1777478153|1777478153;Path=/;SameSite=None;Secure
+      Timing-Allow-Origin:
+      - '*'
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - ens-cache68.l2eu95-10[64,0], ens-cache1.l2sg7[151,0], ens-cache8.bd8[198,0]
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 6fb58143e49ddc85:6fb58143e49ddc85:0:1
     status:
       code: 200
       message: OK

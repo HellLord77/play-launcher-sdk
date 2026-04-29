@@ -18,22 +18,70 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:10:45 GMT
+      - Wed, 29 Apr 2026 15:55:46 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 18b24b9d82f8c92dd1fa9bebaf56af42.cloudfront.net (CloudFront)
+      - 1.1 e1acdf78be4f900c171f369da51345c4.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - 3mdxlfh9alG7H74HPFDNJRhwXtAFzi9F1jdZeqEAdFJMEGU-042V-Q==
+      - 3Je9ToB0gyEAiDEkyfqgyW1t2Bi283fmQXI0mYLs4uQAy09munbT5g==
       X-Amz-Cf-Pop:
-      - CCU50-P4
+      - MAA51-P3
       X-Cache:
       - Miss from cloudfront
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 4e15fadb2ed2fab8:4e15fadb2ed2fab8:0:1
+      - 1e6835b8a334a030:1e6835b8a334a030:0:1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=gGoJxKOusQ&game_id=4ziysqXOQ8
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"4ziysqXOQ8\",\"biz\":\"hkrpg_global\"},\"language\":\"\",\"banners\":[{\"id\":\"8VwkQMLwfE\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/26/08a6682061d3db1a5e523090c5222fff_7471970821605099205.jpg\",\"link\":\"https://youtu.be/6HbgWHWjpEs\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"aLXAN70Fml\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/26/588780e09bd65d2feb834f9fa754f809_8582728467320647759.png\",\"link\":\"https://hoyo.link/6q6KEJgxE\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"2Ru1BmHY9j\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/24/fee6e8762d89fe7fdeb609a5c28ceea3_4185254534675427556.jpg\",\"link\":\"https://hsr.hoyoverse.com/guide?tab=submission\\u0026utm_source=hoyolab\\u0026utm_medium=post\\u0026tab=submission\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"kvRgqlDoY2\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/23/37aadfb865a9071e3aa7e583ec5f9ce9_6987034983255754537.png\",\"link\":\"https://hoyo.link/hzaTIG05P\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"yOJbqiniWq\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2024/09/10/ff36819399bdf96665b3da154b94c8aa_762567157333143462.png\",\"link\":\"https://act.hoyolab.com/bbs/event/bbs-event-20230908mimo/index.html?from=hkrpg\\u0026hyl_auth_required=true\\u0026hyl_hide_status_bar=true\\u0026hyl_portrait=true\\u0026hyl_presentation_style=fullscreen\\u0026utm_id=6\\u0026utm_medium=banner\\u0026utm_source=launcher\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"MAuQSSwjTp\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/21/ddf154175d83dddbe65e538ad9d13620_5917241262817809455.png\",\"link\":\"https://hoyo.link/nCGwt8ufA\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"Xi2D0uT2kQ\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/21/a843812c30e4480870ef5ddabf00f087_6884433759952321115.png\",\"link\":\"https://youtu.be/GMY_N6ca3Ig\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"LSQMecuQIq\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/19/15c2095e9df18188d4ba4676c5167ccb_1408456591733564686.png\",\"link\":\"https://youtu.be/va-4BypzDQo\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"JY3qd5jD12\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/17/58a7b553f529ce1a6a908cba09e13bca_5704911584523409529.png\",\"link\":\"https://youtu.be/paFelc1vM1k\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"gdMRdZye19\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/15/2095090b25b46868846d96bc74f21af0_1602002763284359699.png\",\"link\":\"https://youtu.be/FArOcK-HzXo\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"P8GUrN445y\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/15/e1f6b6686794656660c6028f7b116bf5_5522717766154409326.jpg\",\"link\":\"https://hoyo.link/9lwx9iIYj\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"9zZxO9l0A6\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/30/2e01bc1d7a7a2c45121e78c697eafadd_2988621531402015648.png\",\"link\":\"https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311\\u0026hyl_auth_required=true\\u0026hyl_presentation_style=fullscreen\\u0026utm_campaign=checkin\\u0026utm_id=6\\u0026utm_medium=notice\\u0026utm_source=ingame\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"M3Z0NatG8s\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Aktualisierung
+        der HoYoLAB-Werkzeuge in Version 4.2\",\"link\":\"https://hoyo.link/zUM2kTSJZ\",\"date\":\"04/22\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"WxZ36XJ31s\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"[Stellare
+        Jade gewinnen] Nimm an der Diskussion \xFCber das Deb\xFCt von Silberwolf
+        St. 999 teil und gewinne Stellare Jade\",\"link\":\"https://www.hoyolab.com/article_pre/18014398241023702\",\"date\":\"04/22\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"2jYXS44khj\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Erl\xE4uterungen
+        zur Aktualisierung auf Version 4.2 \u201ESo lachten die Massen unaufh\xF6rlich\u201C\",\"link\":\"https://hoyo.link/4Jqof5qkb\",\"date\":\"04/22\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"MnEPnhAUAp\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Aktionswarps
+        von Version 4.2 (Phase 1)\",\"link\":\"https://hoyo.link/nCGwt8ufA\",\"date\":\"04/21\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"baRFoHlN9U\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Trailer
+        zu Silberwolf St. 999: \u201ESolo-Leveling zum Maximum\u201C | Honkai: Star
+        Rail\",\"link\":\"https://youtu.be/va-4BypzDQo\",\"date\":\"04/19\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"pzQ6l0dFLW\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"\u201EKosmisches
+        Datenroaming\u201C: Cyber-Trailblaze beginnt mit einem Livestream\",\"link\":\"https://hoyo.link/awNglTFJ3\",\"date\":\"04/18\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"OflZbf4qSF\",\"type\":\"POST_TYPE_ACTIVITY\",\"title\":\"\xDCbersicht
+        zu Version 4.2 \u201ESo lachten die Massen unaufh\xF6rlich\u201C\",\"link\":\"https://hoyo.link/i2VEZkcaw\",\"date\":\"04/16\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"GhOrKjiEY9\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Trailer
+        zu Version 4.2: \u201ESo lachten die Massen unaufh\xF6rlich\u201C | Honkai:
+        Star Rail\",\"link\":\"https://youtu.be/NyM_seY0XKg\",\"date\":\"04/10\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"}],\"social_media_list\":[{\"id\":\"02Q1XiHoGs\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/b0881a2b8bf096f3c62f04409d05e0fd_8168509000021527307.png\",\"hover_url\":\"\",\"link\":\"https://hsr.hoyoverse.com/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"Mg424fykvz\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/21/4845cf1bc6ae3bec33f6dfcf51f83798_5828492236020829448.png\",\"hover_url\":\"\",\"link\":\"https://x.com/honkaisrdeu\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"3XMFfLyiMh\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/225a1377c8770eda8f2046825cae2e4b_8077814310853310857.png\",\"hover_url\":\"\",\"link\":\"https://www.youtube.com/channel/UC2PeMPA8PAOp-bynLoCeMLA?sub_confirmation=1\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"IcQHkRM62G\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/c73bd42a335fbcd608e4082d268ed565_4184113527758602835.png\",\"hover_url\":\"\",\"link\":\"https://www.instagram.com/honkaistarrail/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"IL4Xo9megP\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/ef5d7b7519c3efb7066a665f6cd6e0cc_2386361577197399153.png\",\"hover_url\":\"\",\"link\":\"https://www.facebook.com/HonkaiStarRail.DE/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"MIFQ1HaZPf\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/58c4c54ac476a3b288fc99314a22cc85_4013353179466145032.png\",\"hover_url\":\"\",\"link\":\"https://www.tiktok.com/@honkaistarrail_official\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"EYLDfZOoe9\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/f42bb38323597283ace4408fcb5c21d4_1306075388448378466.png\",\"hover_url\":\"\",\"link\":\"https://discord.gg/honkaistarrail\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"3A9mDUz2k1\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/29/912e3a9dda4c0cd0db3472a16ab4b1ed_2058623815846926479.png\",\"hover_url\":\"\",\"link\":\"https://www.hoyolab.com/accountCenter/postList?id=172534910\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"}]}}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 29 Apr 2026 15:55:46 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 310f78097a148c20abaa7b74a711dbaa.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - U6n0nZrttiXoba1av3TVC_5pjBu-mwMLl1VJjG_6QO03o_1PQxckig==
+      X-Amz-Cf-Pop:
+      - MAA51-P3
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 42704f2ce17facc4:42704f2ce17facc4:0:1
     status:
       code: 200
       message: OK

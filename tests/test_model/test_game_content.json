@@ -4,67 +4,67 @@
       "id": "U5hbdsT9W7",
       "biz": "nap_global"
     },
-    "language": "en-us",
+    "language": "",
     "banners": [
       {
-        "id": "cWEXQaJ2cm",
+        "id": "2dcZ4vyRTc",
         "image": {
-          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/01/18562dc9a7c7c1fe860d100249301851_8661716988897366117.jpg",
-          "link": "https://www.hoyolab.com/article/43039871?utm_source=launcher\u0026utm_medium=banner\u0026utm_id=8",
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/29/a2c15b1246e0eb04349c6dce6b508e5e_2655504519824490059.png",
+          "link": "https://www.hoyolab.com/article/44852924?utm_source=launcher&utm_medium=banner&utm_id=8",
           "login_state_in_link": true
         },
         "i18n_identifier": ""
       },
       {
-        "id": "FJ1K8cp3J3",
+        "id": "ZTdGQLt2e3",
         "image": {
-          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/01/01/13d27a21a9d53032b168aa91bb7f8959_135827453945374223.png",
-          "link": "https://www.hoyolab.com/article/43037944?utm_source=launcher\u0026utm_medium=banner\u0026utm_id=8",
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/29/a25f48b6ed857bcb3ae584060016a71c_1822249904926519653.jpg",
+          "link": "https://www.hoyolab.com/article/44852574?utm_source=launcher&utm_medium=banner&utm_id=8",
           "login_state_in_link": true
         },
         "i18n_identifier": ""
       },
       {
-        "id": "eCRnYeeKES",
+        "id": "JgubriXUEA",
         "image": {
-          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/30/2b29028e7c11836860f4f6b677fcad85_4920412153782548136.png",
-          "link": "https://youtu.be/35fRoOYhE6Y",
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/28/5170dd77851712465f4acd4d9c3dd770_8604795000834995155.jpg",
+          "link": "https://www.hoyolab.com/article/44836786?utm_source=launcher&utm_medium=banner&utm_id=8",
+          "login_state_in_link": true
+        },
+        "i18n_identifier": ""
+      },
+      {
+        "id": "gcYCrtLzeX",
+        "image": {
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/28/0129ae8fb13fdad3e1d9bf752a7ed43b_7212918952561923765.png",
+          "link": "http://hoyolab.com/article/44840567?utm_source=launcher&utm_medium=banner&utm_id=8",
+          "login_state_in_link": true
+        },
+        "i18n_identifier": ""
+      },
+      {
+        "id": "KNGZt1guP7",
+        "image": {
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/24/b9a8627c2ccd73cf877b269a94d50995_2253752058336740728.jpg",
+          "link": "https://youtu.be/UaqNm1F6-rI",
           "login_state_in_link": false
         },
         "i18n_identifier": ""
       },
       {
-        "id": "xRz39x1npG",
+        "id": "QT7yt9nkdO",
         "image": {
-          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/29/f258858fa4cd48afdec6908ed4dff7ef_3428600696238007294.png",
-          "link": "https://youtu.be/D_MtaEZRy3E",
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/13/2cf328e98a0af628c6f279554f20de29_3249973705639379247.jpg",
+          "link": "https://youtu.be/tN0ibny9Ans",
           "login_state_in_link": false
         },
         "i18n_identifier": ""
       },
       {
-        "id": "9Tfp1rKnaa",
+        "id": "NTJLOFBYSe",
         "image": {
-          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/27/1ac12e3e975dc6bf79e65ebbbcb459f7_8681280048390815548.png",
-          "link": "https://youtu.be/9Lshum4Peqw",
-          "login_state_in_link": false
-        },
-        "i18n_identifier": ""
-      },
-      {
-        "id": "Rf74hugCYE",
-        "image": {
-          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/26/0804dd3a91a5c708773f86034710413e_535363998677621747.jpg",
-          "link": "https://youtu.be/TU5Bt8MLPjk",
-          "login_state_in_link": false
-        },
-        "i18n_identifier": ""
-      },
-      {
-        "id": "U9Po29bBFA",
-        "image": {
-          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/12/24/345bbff2b506e132d9e1971371f567cc_7978570068459249846.jpg",
-          "link": "https://youtu.be/z7da4QEKGR8",
+          "url": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/10/5771678ca20a031338309c3388c0f601_3246964519688791677.jpg",
+          "link": "https://youtu.be/7FbKuJv0e1I",
           "login_state_in_link": false
         },
         "i18n_identifier": ""
@@ -72,56 +72,56 @@
     ],
     "posts": [
       {
-        "id": "pphPSVqSWl",
-        "type": "POST_TYPE_ACTIVITY",
-        "title": "🎁 Assembly Commission: Return to Ridu",
-        "link": "https://hoyo.link/1fPR0OfFi",
-        "date": "12/30",
-        "login_state_in_link": true,
-        "i18n_identifier": ""
-      },
-      {
-        "id": "v1mem3UYNl",
+        "id": "tYzKUr9dmA",
         "type": "POST_TYPE_INFO",
-        "title": "Ye Shunguang Character Demo - \"Light-Year Phenomenon\" | Zenless Zone Zero",
-        "link": "https://youtu.be/D_MtaEZRy3E",
-        "date": "12/29",
+        "title": "Vorschauvideo zu Version 2.8 „Sonnenuntergang von New Eridu“ | Zenless Zone Zero",
+        "link": "https://youtu.be/FBRhpWTTPu4",
+        "date": "04/24",
         "login_state_in_link": false,
         "i18n_identifier": ""
       },
       {
-        "id": "W3Up38fXCN",
+        "id": "D0pqXOEBFG",
         "type": "POST_TYPE_ANNOUNCE",
-        "title": "V2.5 Limited-Time Channels",
-        "link": "https://www.hoyolab.com/article/42957231?utm_source=launcher\u0026utm_medium=notice\u0026utm_id=8",
-        "date": "12/28",
+        "title": "Aktionsbeschreibung zu „Standbild der Abenteueraufnahmen“",
+        "link": "https://www.hoyolab.com/article/44721338?utm_source=launcher&utm_medium=notice&utm_id=8",
+        "date": "04/20",
         "login_state_in_link": true,
         "i18n_identifier": ""
       },
       {
-        "id": "E60Kjjjaef",
+        "id": "lCamIyoisk",
+        "type": "POST_TYPE_ANNOUNCE",
+        "title": "Zeitlich begrenzte Kanäle der Version 2.7 (Phase 2)",
+        "link": "https://www.hoyolab.com/article/44628155?utm_source=launcher&utm_medium=notice&utm_id=8",
+        "date": "04/13",
+        "login_state_in_link": true,
+        "i18n_identifier": ""
+      },
+      {
+        "id": "E9I2M7WlSw",
         "type": "POST_TYPE_INFO",
-        "title": "Ye Shunguang EP - \"A Thousand First Meetings\" | Zenless Zone Zero",
-        "link": "https://youtu.be/9Lshum4Peqw",
-        "date": "12/27",
+        "title": "Figurenvorschau für Cissia – „Gespaltene Zunge“ | Zenless Zone Zero",
+        "link": "https://youtu.be/tN0ibny9Ans",
+        "date": "04/13",
         "login_state_in_link": false,
         "i18n_identifier": ""
       },
       {
-        "id": "sUGJRzweVB",
+        "id": "zIWFjHM40r",
         "type": "POST_TYPE_INFO",
-        "title": "Zhao EP - \"Tiny Giant\" | Zenless Zone Zero",
-        "link": "https://youtu.be/TU5Bt8MLPjk",
-        "date": "12/26",
+        "title": "Figurenvorführung für Cissia – „Die Verwahrlosung der Verdächtigen X“ | Zenless Zone Zero",
+        "link": "https://youtu.be/7FbKuJv0e1I",
+        "date": "04/10",
         "login_state_in_link": false,
         "i18n_identifier": ""
       }
     ],
     "social_media_list": [
       {
-        "id": "dcZFfbCQSR",
+        "id": "RGNi0hBt1K",
         "icon": {
-          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/ca9481b418f0cf5ea7acafffa9f82df9_166069549969992712.png",
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/ca9481b418f0cf5ea7acafffa9f82df9_2461729194712753371.png",
           "hover_url": "",
           "link": "https://www.hoyolab.com/accountCenter/postList?id=219270333",
           "login_state_in_link": false,
@@ -139,9 +139,9 @@
         "red_dot_content": ""
       },
       {
-        "id": "pDk8s4efeI",
+        "id": "5L8vITtRYd",
         "icon": {
-          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/512e894ffd009e3b208bcbee87291bde_6270645717262400499.png",
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/512e894ffd009e3b208bcbee87291bde_174804553663942576.png",
           "hover_url": "",
           "link": "https://www.reddit.com/r/ZZZ_Official/",
           "login_state_in_link": false,
@@ -159,11 +159,11 @@
         "red_dot_content": ""
       },
       {
-        "id": "aZ2sWvroVS",
+        "id": "K3DtUCB8ll",
         "icon": {
-          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/4f88c988da20e30a9a0e13eafe4b102c_8823509825149356945.png",
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/879ab65b973fe41a1a6866f9bd25d1a2_845420609723354085.png",
           "hover_url": "",
-          "link": "https://www.facebook.com/ZZZ.Official.EN",
+          "link": "https://twitter.com/ZZZ_DEU",
           "login_state_in_link": false,
           "md5": "",
           "size": 0
@@ -179,29 +179,9 @@
         "red_dot_content": ""
       },
       {
-        "id": "IIfFVWK3BR",
+        "id": "P4rg6Lw1vl",
         "icon": {
-          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/879ab65b973fe41a1a6866f9bd25d1a2_192852594777487274.png",
-          "hover_url": "",
-          "link": "https://twitter.com/ZZZ_EN",
-          "login_state_in_link": false,
-          "md5": "",
-          "size": 0
-        },
-        "qr_image": {
-          "url": "",
-          "link": "",
-          "login_state_in_link": false
-        },
-        "qr_desc": "",
-        "links": [],
-        "enable_red_dot": false,
-        "red_dot_content": ""
-      },
-      {
-        "id": "c6q5eVIVKo",
-        "icon": {
-          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/f5791d34a7ad83161c5a191729e8aa90_3827726524606441496.png",
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/f5791d34a7ad83161c5a191729e8aa90_7401415201357357893.png",
           "hover_url": "",
           "link": "https://www.youtube.com/@ZZZ_Official",
           "login_state_in_link": false,
@@ -219,9 +199,9 @@
         "red_dot_content": ""
       },
       {
-        "id": "RC1nLj5XRg",
+        "id": "i16SsMgI41",
         "icon": {
-          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/40264556b28596d0a341adad12de7e71_470355792144683559.png",
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/40264556b28596d0a341adad12de7e71_6603723754440936352.png",
           "hover_url": "",
           "link": "https://www.instagram.com/zzz.official.en/",
           "login_state_in_link": false,
@@ -239,9 +219,9 @@
         "red_dot_content": ""
       },
       {
-        "id": "OxMttP1lGE",
+        "id": "yGjTCMyM2P",
         "icon": {
-          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/b0e2cd0170f5a5650e257e5e6e9467a6_3238662526293822369.png",
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/b0e2cd0170f5a5650e257e5e6e9467a6_2456137354590759050.png",
           "hover_url": "",
           "link": "https://www.tiktok.com/@zenlesszonezero",
           "login_state_in_link": false,
@@ -259,9 +239,9 @@
         "red_dot_content": ""
       },
       {
-        "id": "nQiJ7Wsz9v",
+        "id": "PjdioOYYUW",
         "icon": {
-          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/eaad4d1297bfced1ba2d32a1458538d9_357641243710803583.png",
+          "url": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/06/eaad4d1297bfced1ba2d32a1458538d9_1903816487012446607.png",
           "hover_url": "",
           "link": "https://discord.gg/zenlesszonezero",
           "login_state_in_link": false,

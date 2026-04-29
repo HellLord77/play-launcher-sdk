@@ -18,22 +18,65 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:10:47 GMT
+      - Wed, 29 Apr 2026 15:55:47 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 6e2546ea32838b55b78a977d2eb9b06c.cloudfront.net (CloudFront)
+      - 1.1 5c22f10a32e5d064bbf36cb39af79a98.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - aZ4uLNOfRx1IUgHthVYIByG01lUmCg6Z3iBvHYZkGx0M2LcjyOqroQ==
+      - KPnJY8tnNXt37Zge6FtbJx707nO4LUr5441aS5oyAXZ-f152lxTEuA==
       X-Amz-Cf-Pop:
-      - CCU50-P4
+      - MAA51-P3
       X-Cache:
       - Miss from cloudfront
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - a5ad205636d4699:a5ad205636d4699:0:1
+      - 35f67e59a0337df2:35f67e59a0337df2:0:1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=0hUu4SbmhI&game_id=FUoEmzPdP3
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"FUoEmzPdP3\",\"biz\":\"nap_global\"},\"language\":\"\",\"banners\":[{\"id\":\"c5dgvboqmB\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/29/a2c15b1246e0eb04349c6dce6b508e5e_2655504519824490059.png\",\"link\":\"https://www.hoyolab.com/article/44852924?utm_source=launcher\\u0026utm_medium=banner\\u0026utm_id=8\",\"login_state_in_link\":true},\"i18n_identifier\":\"\"},{\"id\":\"irJICBw0ox\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/29/a25f48b6ed857bcb3ae584060016a71c_1822249904926519653.jpg\",\"link\":\"https://www.hoyolab.com/article/44852574?utm_source=launcher\\u0026utm_medium=banner\\u0026utm_id=8\",\"login_state_in_link\":true},\"i18n_identifier\":\"\"},{\"id\":\"cdzK30oOz0\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/28/5170dd77851712465f4acd4d9c3dd770_8604795000834995155.jpg\",\"link\":\"https://www.hoyolab.com/article/44836786?utm_source=launcher\\u0026utm_medium=banner\\u0026utm_id=8\",\"login_state_in_link\":true},\"i18n_identifier\":\"\"},{\"id\":\"rpsOmPtRbX\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/28/0129ae8fb13fdad3e1d9bf752a7ed43b_7212918952561923765.png\",\"link\":\"http://hoyolab.com/article/44840567?utm_source=launcher\\u0026utm_medium=banner\\u0026utm_id=8\",\"login_state_in_link\":true},\"i18n_identifier\":\"\"},{\"id\":\"afw4tUyhza\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/24/b9a8627c2ccd73cf877b269a94d50995_2253752058336740728.jpg\",\"link\":\"https://youtu.be/UaqNm1F6-rI\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"VqeKyd3icz\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/13/2cf328e98a0af628c6f279554f20de29_3249973705639379247.jpg\",\"link\":\"https://youtu.be/tN0ibny9Ans\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"ObT8lwgOFH\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/10/5771678ca20a031338309c3388c0f601_3246964519688791677.jpg\",\"link\":\"https://youtu.be/7FbKuJv0e1I\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"QBkFUgrmBJ\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Vorschauvideo
+        zu Version 2.8 \u201ESonnenuntergang von New Eridu\u201C | Zenless Zone Zero\",\"link\":\"https://youtu.be/FBRhpWTTPu4\",\"date\":\"04/24\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"DqgEVKsfAg\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Aktionsbeschreibung
+        zu \u201EStandbild der Abenteueraufnahmen\u201C\",\"link\":\"https://www.hoyolab.com/article/44721338?utm_source=launcher\\u0026utm_medium=notice\\u0026utm_id=8\",\"date\":\"04/20\",\"login_state_in_link\":true,\"i18n_identifier\":\"\"},{\"id\":\"KB7AhIpLoB\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Zeitlich
+        begrenzte Kan\xE4le der Version 2.7 (Phase 2)\",\"link\":\"https://www.hoyolab.com/article/44628155?utm_source=launcher\\u0026utm_medium=notice\\u0026utm_id=8\",\"date\":\"04/13\",\"login_state_in_link\":true,\"i18n_identifier\":\"\"},{\"id\":\"ztoKXZCcXC\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Figurenvorschau
+        f\xFCr Cissia \u2013 \u201EGespaltene Zunge\u201C | Zenless Zone Zero\",\"link\":\"https://youtu.be/tN0ibny9Ans\",\"date\":\"04/13\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"JfDAfY838K\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Figurenvorf\xFChrung
+        f\xFCr Cissia \u2013 \u201EDie Verwahrlosung der Verd\xE4chtigen X\u201C |
+        Zenless Zone Zero\",\"link\":\"https://youtu.be/7FbKuJv0e1I\",\"date\":\"04/10\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"}],\"social_media_list\":[{\"id\":\"L2ARjPCO3D\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/ca9481b418f0cf5ea7acafffa9f82df9_102342076100525557.png\",\"hover_url\":\"\",\"link\":\"https://www.hoyolab.com/accountCenter/postList?id=219270333\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"26ZC4hsHeb\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/512e894ffd009e3b208bcbee87291bde_3350843850889106049.png\",\"hover_url\":\"\",\"link\":\"https://www.reddit.com/r/ZZZ_Official/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"22yUO6aQiS\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/879ab65b973fe41a1a6866f9bd25d1a2_2837035544134944295.png\",\"hover_url\":\"\",\"link\":\"https://twitter.com/ZZZ_DEU\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"CNJIkvcvoW\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/f5791d34a7ad83161c5a191729e8aa90_5234906531016716929.png\",\"hover_url\":\"\",\"link\":\"https://www.youtube.com/@ZZZ_Official\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"kvNO48B7zT\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/40264556b28596d0a341adad12de7e71_4514681563178441670.png\",\"hover_url\":\"\",\"link\":\"https://www.instagram.com/zzz.official.en/\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"YO0I7H0d7D\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/b0e2cd0170f5a5650e257e5e6e9467a6_7232743367850143034.png\",\"hover_url\":\"\",\"link\":\"https://www.tiktok.com/@zenlesszonezero\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"TyBKNO62rO\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/25/eaad4d1297bfced1ba2d32a1458538d9_3624049376191351032.png\",\"hover_url\":\"\",\"link\":\"https://discord.gg/zenlesszonezero\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"}]}}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 29 Apr 2026 15:55:47 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 a29f9f1ff42721dbcda7f3bae04962a0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - PhkEsbuOyPgoSw6aSB528hLQaYkMw-N3zhEHHRDdD_3L3wiAZzRdyA==
+      X-Amz-Cf-Pop:
+      - MAA51-P3
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 4e21f74ab989ce81:4e21f74ab989ce81:0:1
     status:
       code: 200
       message: OK

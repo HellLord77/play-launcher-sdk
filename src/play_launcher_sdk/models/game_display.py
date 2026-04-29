@@ -16,4 +16,6 @@ class GameDisplay(Base):
     thumbnail: Image | None
     korea_rating: None
     shortcut: Icon
-    wpf_icon: Icon | None = None
+    wpf_icon: Icon | None
+    top_left_logo: Image | None
+    introduction: str
