@@ -9,23 +9,23 @@ interactions:
   response:
     body:
       string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"FUoEmzPdP3","biz":"nap_global","display":{"language":"en-us","name":"Zenless
-        Zone Zero","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/db01dfe29c36a283b774d295b2322b54_8151375525791945073.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/107ec31f7c257bc451f37012d3abbff8_4940587300850802606.webp","link":"","login_state_in_link":false},"logo":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/fdf7a7f32b1b98b74b2c14066cc4b522_3355189533200148852.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/c29f67e99818cc3b11a86d2f95b01df6_5692496366356860909.jpg","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/6d1cf7d5575dfb9d0518ba9ecb42ad7c_3478985393225088813.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"6d1cf7d5575dfb9d0518ba9ecb42ad7c","size":116372},"wpf_icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0}},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[]}]}}'
+        Zone Zero","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/db01dfe29c36a283b774d295b2322b54_8151375525791945073.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/107ec31f7c257bc451f37012d3abbff8_4940587300850802606.webp","link":"","login_state_in_link":false},"logo":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/fdf7a7f32b1b98b74b2c14066cc4b522_3355189533200148852.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/06/19/c29f67e99818cc3b11a86d2f95b01df6_5692496366356860909.jpg","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/18/6d1cf7d5575dfb9d0518ba9ecb42ad7c_3478985393225088813.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"6d1cf7d5575dfb9d0518ba9ecb42ad7c","size":116372},"wpf_icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"top_left_logo":null,"introduction":""},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[]}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1403'
+      - '1442'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:35:52 GMT
+      - Wed, 29 Apr 2026 15:10:46 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 56edf389b493b074fc07c069f9012562.cloudfront.net (CloudFront)
+      - 1.1 dce4a955467a02f31ec8f5f1eff22aec.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - 4YWD9Lo9facR5vpcA0GnQK7lJHo9bmKd5MwSzROs7Z86hPOo1xXyjw==
+      - 28Zw7i2CmiEcWxXRAMJ0efaloEH__qVMf_fu9C_SfAm-aG9lmlfw1w==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -33,7 +33,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 3ae92b773f8afbb5:3ae92b773f8afbb5:0:1
+      - 4f6cc3a1157be2e3:4f6cc3a1157be2e3:0:1
     status:
       code: 200
       message: OK

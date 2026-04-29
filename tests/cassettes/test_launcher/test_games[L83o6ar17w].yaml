@@ -8,24 +8,24 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=L83o6ar17w
   response:
     body:
-      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"wkE5P5WsIf\",\"biz\":\"bh3_global\",\"display\":{\"language\":\"en-us\",\"name\":\"\u5D29\u58DE3rd\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/3526a039dddb4c8ca9d1083555f5781b_4561228993487886361.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/d181190a18375eb77fa923b582160378_7079386488352318022.webp\",\"link\":\"\",\"login_state_in_link\":false},\"logo\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/11/b0ab0ec4ad165771d804e374688bd27e_653685432563040028.png\",\"link\":\"\",\"login_state_in_link\":false},\"thumbnail\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/cc7803752504e6b23a9aded8b60596cf_7147944388992174426.png\",\"link\":\"\",\"login_state_in_link\":false},\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/12/23/b654cc6fb434b7054a3e3fefe1f4a9a0_7131181854140008204.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"b654cc6fb434b7054a3e3fefe1f4a9a0\",\"size\":398969},\"wpf_icon\":null},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[{\"i18n_name\":\"\u5D29\u58DE3rd\",\"i18n_description\":\"Traditional
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"wkE5P5WsIf\",\"biz\":\"bh3_global\",\"display\":{\"language\":\"en-us\",\"name\":\"\u5D29\u58DE3rd\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/3526a039dddb4c8ca9d1083555f5781b_4561228993487886361.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/d181190a18375eb77fa923b582160378_7079386488352318022.webp\",\"link\":\"\",\"login_state_in_link\":false},\"logo\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/11/b0ab0ec4ad165771d804e374688bd27e_653685432563040028.png\",\"link\":\"\",\"login_state_in_link\":false},\"thumbnail\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/cc7803752504e6b23a9aded8b60596cf_7147944388992174426.png\",\"link\":\"\",\"login_state_in_link\":false},\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/12/23/b654cc6fb434b7054a3e3fefe1f4a9a0_7131181854140008204.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"b654cc6fb434b7054a3e3fefe1f4a9a0\",\"size\":398969},\"wpf_icon\":null,\"top_left_logo\":null,\"introduction\":\"\"},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[{\"i18n_name\":\"\u5D29\u58DE3rd\",\"i18n_description\":\"Traditional
         Chinese Server\",\"package_name\":\"asia_official\",\"auto_scan_registry_key\":\"\u5D29\u58DE3rd\",\"package_detection_info\":\"asia_official\",\"game_id\":\"wkE5P5WsIf\",\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\"}]}]}}"
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1599'
+      - '1638'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:35:54 GMT
+      - Wed, 29 Apr 2026 15:10:48 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 fb01e6c024b96d582d90bf120bcc597c.cloudfront.net (CloudFront)
+      - 1.1 e5eaa631976c97edbab36eccc07ffe30.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - rxKItPY7zaeqK7-VlSQjGaQ3flbV9v7GbFwvIgjjKQyiCHb71ay-FA==
+      - Yq_aKdFERfjqncL05f6LzmQsoivMkSAl_DRPMtBYgvvEsvKGQ2D8BQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -33,7 +33,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 6d6f6153c8c0749e:6d6f6153c8c0749e:0:1
+      - 36a2976e1c226db3:36a2976e1c226db3:0:1
     status:
       code: 200
       message: OK

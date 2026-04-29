@@ -8,7 +8,7 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getWPFPackages?launcher_id=umfgRO5gh5
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"wpf_packages":[{"game":{"id":"T2S0Gz4Dr2","biz":"hk4e_cn"},"wpf_package":{"version":"6.4.0.42314721","url":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20260209152221_ExaY2knFXx2bDL4P/BeyondAssets_CN_6.4.0.42314721.zip","md5":"528fd99d48583df52975e547c3b5f244","size":"360165198"}}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"wpf_packages":[{"game":{"id":"T2S0Gz4Dr2","biz":"hk4e_cn"},"wpf_package":{"version":"6.5.0.43489938","url":"https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20260330155309_EzsfDoxwBfnMyPAt/BeyondAssets_CN_6.5.0.43489938.zip","md5":"ce6e5c674b31c1efbc97c97c7d30a14b","size":"432597703"}}]}}'
     headers:
       Connection:
       - keep-alive
@@ -17,27 +17,28 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:09 GMT
+      - Wed, 29 Apr 2026 15:11:02 GMT
       EagleId:
-      - 2b6d26a817722137694397488e
+      - 2b6d3d9717774754620014510e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d26a817722137694397488e151acba12aa7b4397a265f60e6ef96d3;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d26a817722137694397488e151acba12aa7b4397a265f60e6ef96d3;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=53010d26c506be13c63a08e3531f584d|1772213769|1772213769;Path=/
-      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1772213769|1772213769;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9717774754620014510e95b313f98c11c62ad6ec5027f5e63968;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9717774754620014510e95b313f98c11c62ad6ec5027f5e63968;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1777475462|1777475462;Path=/
+      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1777475462|1777475462;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache5.l2nu20-3[72,0], ens-cache19.l2ph1[143,0], ens-cache20.sg31[178,0]
+      - ens-cache36.l2eu95-10[58,0], ens-cache21.l2my2[150,0], cache12.l2sg4[159,0],
+        ens-cache3.bd8[207,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 435fb5c872fd4594:435fb5c872fd4594:0:1
+      - 4820611e9142d958:4820611e9142d958:0:1
     status:
       code: 200
       message: OK

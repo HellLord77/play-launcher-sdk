@@ -8,7 +8,7 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=6P5gHMNyK3
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"EdtUqXfCHh","biz":"hkrpg_cn"},"backgrounds":[{"id":"EoLFSKqCJP","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/02/06/29612dc6494963f3c15a8730368a2c86_2358105112239626169.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/02/06/eaad215c5049a76971e572ff60579923_7834429059470968703.webm","size":0},"theme":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/02/06/ec73bb2a3e49b2e3b4bf62ee636b53b7_6439456862110419345.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"},{"id":"E2VdIyVECG","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/02/06/f528ea4ae0661bf7189ad2ad630ffcb7_4463162219859545869.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"","size":0},"theme":{"url":"","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_UNSPECIFIED"}]}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"EdtUqXfCHh","biz":"hkrpg_cn"},"backgrounds":[{"id":"ldi1VuutBX","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/04/15/0672611a32e2c4ede865f19f14245389_4922328922163933024.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/04/15/bd329019a99f57eedd89a27c138679dc_5529044073962412737.webm","size":0},"theme":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/04/15/a6bfa337926a5f2c7c22f3e1d0132b6f_8643371329703141534.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"},{"id":"0OHbNuvhE7","background":{"url":"https://launcher-webstatic.mihoyo.com/launcher-public/2026/04/15/5b283e4e7583e5ba5eaef3f6c80a8a51_6758494859114320673.webp","link":"","login_state_in_link":false},"icon":{"url":"","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"video":{"url":"","size":0},"theme":{"url":"","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_UNSPECIFIED"}]}]}}'
     headers:
       Connection:
       - keep-alive
@@ -17,16 +17,16 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:17 GMT
+      - Wed, 29 Apr 2026 15:11:06 GMT
       EagleId:
-      - 2b6d26a017722137776182048e
+      - 2b6d3d9817774754667406151e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d26a017722137776182048ed99642e36d0e68cd195e15789978f1ac;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d26a017722137776182048ed99642e36d0e68cd195e15789978f1ac;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=c9c342ef1c80ac931953715f295a0621|1772213777|1772213777;Path=/
-      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1772213777|1772213777;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9817774754667406151eec8936a98a1736fa6ce23e8d97d8dba8;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9817774754667406151eec8936a98a1736fa6ce23e8d97d8dba8;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1777475466|1777475466;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1777475466|1777475466;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
@@ -34,11 +34,12 @@ interactions:
       - Origin
       - Accept-Encoding
       Via:
-      - cache16.l2nu20-3[93,0], ens-cache7.l2ph1[167,0], ens-cache12.sg31[265,0]
+      - ens-cache19.l2eu95-10[35,0], ens-cache37.l2my2[132,0], cache29.l2sg4[141,0],
+        ens-cache4.bd8[189,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 288302a0b576e08a:288302a0b576e08a:0:1
+      - 14a080053ec4994a:14a080053ec4994a:0:1
     status:
       code: 200
       message: OK

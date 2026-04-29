@@ -8,25 +8,25 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGames?launcher_id=xV0f4r1GT0
   response:
     body:
-      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"HXAFlmYa17\",\"biz\":\"nap_cn\",\"display\":{\"language\":\"zh-cn\",\"name\":\"\u7EDD\u533A\u96F6\",\"icon\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/06/18/5bc8aa4cd3c8cfbe80aeb99fb690d952_1674668749329312782.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2024/06/18/107ec31f7c257bc451f37012d3abbff8_3892272341829750752.webp\",\"link\":\"\",\"login_state_in_link\":false},\"logo\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2024/06/18/4ac0a7c98cf8077d3f23171dff80b78c_5714443885730106993.png\",\"link\":\"\",\"login_state_in_link\":false},\"thumbnail\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2024/06/18/c29f67e99818cc3b11a86d2f95b01df6_661498822935423610.jpg\",\"link\":\"\",\"login_state_in_link\":false},\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/06/18/9dc562e367d07e6b763d93ae69722b70_1342162947552587632.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"9dc562e367d07e6b763d93ae69722b70\",\"size\":120953},\"wpf_icon\":{\"url\":\"\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0}},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[]}]}}"
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"HXAFlmYa17\",\"biz\":\"nap_cn\",\"display\":{\"language\":\"zh-cn\",\"name\":\"\u7EDD\u533A\u96F6\",\"icon\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/06/18/5bc8aa4cd3c8cfbe80aeb99fb690d952_1674668749329312782.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2024/06/18/107ec31f7c257bc451f37012d3abbff8_3892272341829750752.webp\",\"link\":\"\",\"login_state_in_link\":false},\"logo\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2024/06/18/4ac0a7c98cf8077d3f23171dff80b78c_5714443885730106993.png\",\"link\":\"\",\"login_state_in_link\":false},\"thumbnail\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2024/06/18/c29f67e99818cc3b11a86d2f95b01df6_661498822935423610.jpg\",\"link\":\"\",\"login_state_in_link\":false},\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/06/18/9dc562e367d07e6b763d93ae69722b70_1342162947552587632.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"9dc562e367d07e6b763d93ae69722b70\",\"size\":120953},\"wpf_icon\":{\"url\":\"\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"top_left_logo\":null,\"introduction\":\"\"},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[]}]}}"
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1375'
+      - '1414'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:22 GMT
+      - Wed, 29 Apr 2026 15:11:10 GMT
       EagleId:
-      - 2b6d269717722137823147084e
+      - 2b6d3d9717774754702331225e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d269717722137823147084e577e62145e1ba7a3dbf108311513c2bc;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d269717722137823147084e577e62145e1ba7a3dbf108311513c2bc;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=c9c342ef1c80ac931953715f295a0621|1772213782|1772213782;Path=/
-      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1772213782|1772213782;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9717774754702331225e7c42c77067b65545bc07dfbd270b6681;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9717774754702331225e7c42c77067b65545bc07dfbd270b6681;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=c9c342ef1c80ac931953715f295a0621|1777475470|1777475470;Path=/
+      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1777475470|1777475470;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
@@ -34,53 +34,12 @@ interactions:
       - Origin
       - Accept-Encoding
       Via:
-      - cache10.l2nu20-3[122,0], ens-cache18.l2ph1[192,0], ens-cache3.sg31[305,0]
+      - ens-cache6.l2eu95-10[67,0], ens-cache31.l2my2[190,0], cache8.l2sg4[199,0],
+        ens-cache3.bd8[250,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 1bbc5f004f90e3f8:1bbc5f004f90e3f8:0:1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: ''
-    headers:
-      Host:
-      - hyp-api.mihoyo.com
-    method: GET
-    uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameContent?launcher_id=xV0f4r1GT0&game_id=HXAFlmYa17
-  response:
-    body:
-      string: '{"retcode":0,"message":"OK","data":{"content":{"game":{"id":"HXAFlmYa17","biz":"nap_cn"},"language":"","banners":[],"posts":[],"social_media_list":[]}}}'
-    headers:
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '152'
-      Content-Type:
-      - application/json
-      Date:
-      - Fri, 27 Feb 2026 17:36:22 GMT
-      EagleId:
-      - 2b6d26a217722137828305489e
-      Server:
-      - Tengine
-      Set-Cookie:
-      - acw_tc=2b6d26a217722137828305489e99593e4f07ca33c10148ae208216980d;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d26a217722137828305489e99593e4f07ca33c10148ae208216980d;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=7fa0eb59517e49e4c882c00d17f4aa3e|1772213782|1772213782;Path=/
-      - SERVERCORSID=7fa0eb59517e49e4c882c00d17f4aa3e|1772213782|1772213782;Path=/;SameSite=None;Secure
-      Timing-Allow-Origin:
-      - '*'
-      Vary:
-      - Origin
-      - Accept-Encoding
-      Via:
-      - cache22.l2nu20-3[85,0], ens-cache17.l2ph1[155,0], ens-cache14.sg31[184,0]
-      X-Powered-By:
-      - takumi
-      X-Trace-Id:
-      - 721ee0673fa33879:721ee0673fa33879:0:1
+      - 404f478e446feb85:404f478e446feb85:0:1
     status:
       code: 200
       message: OK

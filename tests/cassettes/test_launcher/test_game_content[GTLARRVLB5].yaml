@@ -9,25 +9,25 @@ interactions:
   response:
     body:
       string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"bxPTXSET5t","biz":"bh3_global","display":{"language":"en-us","name":"Honkai
-        Impact 3","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/3526a039dddb4c8ca9d1083555f5781b_2417552316266118075.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/1aa568b2f1d93bf5e9ed30fefb4b7de7_567901866687109011.webp","link":"","login_state_in_link":false},"logo":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/746d0f9bdea8bec75dcba30363ee4869_4131496400111994159.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/cc7803752504e6b23a9aded8b60596cf_7951153934035004879.png","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/12/23/b654cc6fb434b7054a3e3fefe1f4a9a0_5095621444125804255.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"b654cc6fb434b7054a3e3fefe1f4a9a0","size":398969},"wpf_icon":null},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[{"i18n_name":"Honkai
+        Impact 3","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/3526a039dddb4c8ca9d1083555f5781b_2417552316266118075.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/1aa568b2f1d93bf5e9ed30fefb4b7de7_567901866687109011.webp","link":"","login_state_in_link":false},"logo":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/746d0f9bdea8bec75dcba30363ee4869_4131496400111994159.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/25/cc7803752504e6b23a9aded8b60596cf_7951153934035004879.png","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/12/23/b654cc6fb434b7054a3e3fefe1f4a9a0_5095621444125804255.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"b654cc6fb434b7054a3e3fefe1f4a9a0","size":398969},"wpf_icon":null,"top_left_logo":null,"introduction":""},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[{"i18n_name":"Honkai
         Impact 3","i18n_description":"SEA Server","package_name":"overseas_official","auto_scan_registry_key":"Honkai
         Impact 3","package_detection_info":"overseas_official","game_id":"bxPTXSET5t","reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE"}]}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1609'
+      - '1648'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:03 GMT
+      - Wed, 29 Apr 2026 15:10:57 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 1b87a6ee309264786666693d35ccced0.cloudfront.net (CloudFront)
+      - 1.1 fb01e6c024b96d582d90bf120bcc597c.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - QP05cHf480yCWw_AR6ps0eVHPOyKRZ_kuzyYAQO7zxMbEE5ZTwSyuA==
+      - kfWXr4A86gJHKXWiFR8zDt22hcrCFPx3xi9GEkHduOh2XwAKGvF12g==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -35,46 +35,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 74c9840fd1b8e56:74c9840fd1b8e56:0:1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: ''
-    headers:
-      Host:
-      - sg-hyp-api.hoyoverse.com
-    method: GET
-    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=GTLARRVLB5&game_id=bxPTXSET5t
-  response:
-    body:
-      string: '{"retcode":0,"message":"OK","data":{"content":{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"language":"","banners":[{"id":"P1HoUxzQ9b","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/24/5e1fdd5268f4ce2c791638b103ccce2f_7476569258215209341.png","link":"https://hoyo.link/lNw0w5eqG","login_state_in_link":false},"i18n_identifier":""},{"id":"yFz0m3kbik","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/14/a310c1ed043cfc92e1c35b7dbc09558c_2774447422949616072.png","link":"https://hoyo.link/kt50s23v6","login_state_in_link":false},"i18n_identifier":""},{"id":"agAh2bIno7","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/13/7d16377f7ad8ed4b3e1eac812f97dea2_1000183732220932124.png","link":"https://hoyo.link/ow7kEUT21","login_state_in_link":false},"i18n_identifier":""}],"posts":[{"id":"0pDkvkHdmx","type":"POST_TYPE_ANNOUNCE","title":"v8.7
-        Maintenance Announcement and New Events Preview","link":"https://www.hoyolab.com/article/43943955","date":"02/26","login_state_in_link":false,"i18n_identifier":""},{"id":"4dfVefdx5T","type":"POST_TYPE_ANNOUNCE","title":"Rita''s
-        New S-rank Battlesuit \"Miss Espionage\" Debuts","link":"https://hoyo.link/bQD7kROei","date":"12/30","login_state_in_link":false,"i18n_identifier":""}],"social_media_list":[{"id":"wrYikJmecb","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/33a1c76536265a82344a200b29da408d_4348248340134718046.png","hover_url":"","link":"https://honkaiimpact3.mihoyo.com/asia/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"S8SUFCGy3O","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/4f88c988da20e30a9a0e13eafe4b102c_3115423271616927153.png","hover_url":"","link":"https://www.facebook.com/HonkaiImpact3rd/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"lnJ3GbDdnT","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/879ab65b973fe41a1a6866f9bd25d1a2_2354015201453461194.png","hover_url":"","link":"https://twitter.com/HonkaiImpact3rd","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"WIViiwPD9R","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/40264556b28596d0a341adad12de7e71_8451408668060010298.png","hover_url":"","link":"https://www.instagram.com/honkaiimpact3rd/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"iTackHFEX4","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/f5791d34a7ad83161c5a191729e8aa90_9141804452127153833.png","hover_url":"","link":"https://www.youtube.com/channel/UCko6H6LokKM__B03i5_vBQQ","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"OErAsEsQT7","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/ca9481b418f0cf5ea7acafffa9f82df9_8212955308913393058.png","hover_url":"","link":"https://www.hoyolab.com/accountCenter/postList?id=147839994","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"000k0FURMl","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/17/d38c58957c07609b40c5f0fcd31260ab_4411508097210423987.png","hover_url":"","link":"https://www.hoyolab.com/article_pre/18014398241029629","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""}]}}}'
-    headers:
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Fri, 27 Feb 2026 17:36:03 GMT
-      Transfer-Encoding:
-      - chunked
-      Vary:
-      - Origin
-      - Accept-Encoding
-      Via:
-      - 1.1 9bd5493f891e1fa14bf1ea842e28f016.cloudfront.net (CloudFront)
-      X-Amz-Cf-Id:
-      - KGqAs59ddF7o6PwfsenyM92TkFXbXnF54wF7_qcYzdPe2sgGQ_t8PQ==
-      X-Amz-Cf-Pop:
-      - CCU50-P4
-      X-Cache:
-      - Miss from cloudfront
-      X-Powered-By:
-      - takumi
-      X-Trace-Id:
-      - aa91fb6e17da5a6:aa91fb6e17da5a6:0:1
+      - 459f4a62aac04cd0:459f4a62aac04cd0:0:1
     status:
       code: 200
       message: OK

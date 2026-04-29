@@ -8,23 +8,23 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameScanInfo?launcher_id=L83o6ar17w
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"wkE5P5WsIf","game_exe_list":[{"version":"8.6.0","md5":"9239202c474c91da3f0d7c2552e53a74"},{"version":"8.5.0","md5":"a342c0780668c51bcb22e40d6d3652fe"},{"version":"8.4.0","md5":"f569c0014126e4eb41fd9d6a6c452ca0"},{"version":"8.3.0","md5":"0862483056235528c8b4a1327741e26f"},{"version":"8.2.0","md5":"33a9ca0da1ac48ed605639057d32fe4a"}]}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"wkE5P5WsIf","game_exe_list":[{"version":"8.8.0","md5":"71e3839c14ce00386e21adb72545edb8"},{"version":"8.7.0","md5":"b8d2978c53cda356011938e41720c896"},{"version":"8.6.0","md5":"9239202c474c91da3f0d7c2552e53a74"},{"version":"8.5.0","md5":"a342c0780668c51bcb22e40d6d3652fe"},{"version":"8.4.0","md5":"f569c0014126e4eb41fd9d6a6c452ca0"},{"version":"8.3.0","md5":"0862483056235528c8b4a1327741e26f"},{"version":"8.2.0","md5":"33a9ca0da1ac48ed605639057d32fe4a"}]}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '404'
+      - '526'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:35:54 GMT
+      - Wed, 29 Apr 2026 15:10:49 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 d3de0e63ef4080c592301d7d3624b984.cloudfront.net (CloudFront)
+      - 1.1 7ab61ce3d7d648e0eaae5b45a81a89dc.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - rj0gXEBdkYoRv6RKEx264jB4kIXcWatCdoBiP7ZbWSi8R18hZ39nzA==
+      - imLL303qNEBlpb9L27rllYW4LDLlcSku4u3AmVksOqo-cYC5U63vCg==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 6dec5c401fe99ccf:6dec5c401fe99ccf:0:1
+      - 1b55b577256e4e5e:1b55b577256e4e5e:0:1
     status:
       code: 200
       message: OK

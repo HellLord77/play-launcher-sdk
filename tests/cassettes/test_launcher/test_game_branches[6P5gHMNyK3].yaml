@@ -8,7 +8,7 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameBranches?launcher_id=6P5gHMNyK3
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"EdtUqXfCHh","biz":"hkrpg_cn"},"main":{"package_id":"HMNH5r9cEH","branch":"main","password":"nQ2pokX2pFIG","tag":"4.0.0","diff_tags":["3.8.0"],"categories":[{"category_id":"10054","matching_field":"game","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10055","matching_field":"zh-cn","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10056","matching_field":"en-us","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10057","matching_field":"ja-jp","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10058","matching_field":"ko-kr","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"EdtUqXfCHh","biz":"hkrpg_cn"},"main":{"package_id":"HMNH5r9cEH","branch":"main","password":"nQ2pokX2pFIG","tag":"4.2.0","diff_tags":["4.1.0"],"categories":[{"category_id":"10054","matching_field":"game","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10055","matching_field":"zh-cn","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10056","matching_field":"en-us","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10057","matching_field":"ja-jp","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10058","matching_field":"ko-kr","type":"CATEGORY_TYPE_AUDIO","scenarios":["CATEGORY_SCENARIO_FULL"]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
     headers:
       Connection:
       - keep-alive
@@ -17,27 +17,27 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:14 GMT
+      - Wed, 29 Apr 2026 15:11:04 GMT
       EagleId:
-      - 2b6d26a917722137741764320e
+      - 2b6d3d9917774754649321663e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d26a917722137741764320e9168dfb8248050e6f268f15f35833ed1;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d26a917722137741764320e9168dfb8248050e6f268f15f35833ed1;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=53010d26c506be13c63a08e3531f584d|1772213774|1772213774;Path=/
-      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1772213774|1772213774;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9917774754649321663ed9cb4f6acbb645c25a49a86a603c6f74;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9917774754649321663ed9cb4f6acbb645c25a49a86a603c6f74;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1777475464|1777475464;Path=/
+      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1777475464|1777475464;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache33.l2nu20-3[114,0], ens-cache11.l2ph1[188,0], ens-cache21.sg31[228,0]
+      - cache32.l2eu95-4[54,0], ens-cache16.l2sg7[144,0], ens-cache5.bd8[192,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - f50e0cd3afefb89:f50e0cd3afefb89:0:1
+      - 62652be700180689:62652be700180689:0:1
     status:
       code: 200
       message: OK

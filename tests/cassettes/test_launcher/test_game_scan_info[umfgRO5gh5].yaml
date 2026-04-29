@@ -8,36 +8,37 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGameScanInfo?launcher_id=umfgRO5gh5
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"T2S0Gz4Dr2","game_exe_list":[{"version":"6.4.0","md5":"7a559cc506f11a7962b1921cd49892c6"},{"version":"6.3.0","md5":"673ef7f2b935c1888e41e5e37004ee70"},{"version":"6.2.0","md5":"ad1d68a3275259f44b984a5940e5936c"},{"version":"6.1.0","md5":"00f198033f9128a3f4247b21bf069be5"},{"version":"6.0.0","md5":"fe877bccc3f34ee0c892010a2a15175c"},{"version":"5.8.0","md5":"7bcd828767067ffb1a964b9b728323ce"},{"version":"5.7.0","md5":"185577735e1f96dc2fd37cbadaaa40bb"},{"version":"5.6.0","md5":"5b53653dc81d796517ff070899b47639"},{"version":"5.5.0","md5":"75a76be547545544b57228f4296a8b1f"},{"version":"5.4.0","md5":"5a57b3c787190ad012ab53f1fb79d65d"},{"version":"5.3.0","md5":"eee020bb5847f3ffc4dc464577567f3b"},{"version":"5.2.0","md5":"98ce2d5a9d409074fb59b4ed8479f0b9"},{"version":"5.1.0","md5":"ca90146f95560b20dc0e5d2ef2b20949"},{"version":"5.0.0","md5":"f2126fd8c29e261438f6998694211278"}]}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"T2S0Gz4Dr2","game_exe_list":[{"version":"6.5.0","md5":"54c9de48713c629f6c23f410e8db88d9"},{"version":"6.4.0","md5":"7a559cc506f11a7962b1921cd49892c6"},{"version":"6.3.0","md5":"673ef7f2b935c1888e41e5e37004ee70"},{"version":"6.2.0","md5":"ad1d68a3275259f44b984a5940e5936c"},{"version":"6.1.0","md5":"00f198033f9128a3f4247b21bf069be5"},{"version":"6.0.0","md5":"fe877bccc3f34ee0c892010a2a15175c"},{"version":"5.8.0","md5":"7bcd828767067ffb1a964b9b728323ce"},{"version":"5.7.0","md5":"185577735e1f96dc2fd37cbadaaa40bb"},{"version":"5.6.0","md5":"5b53653dc81d796517ff070899b47639"},{"version":"5.5.0","md5":"75a76be547545544b57228f4296a8b1f"},{"version":"5.4.0","md5":"5a57b3c787190ad012ab53f1fb79d65d"},{"version":"5.3.0","md5":"eee020bb5847f3ffc4dc464577567f3b"},{"version":"5.2.0","md5":"98ce2d5a9d409074fb59b4ed8479f0b9"},{"version":"5.1.0","md5":"ca90146f95560b20dc0e5d2ef2b20949"},{"version":"5.0.0","md5":"f2126fd8c29e261438f6998694211278"}]}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '953'
+      - '1014'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:10 GMT
+      - Wed, 29 Apr 2026 15:11:02 GMT
       EagleId:
-      - 2b6d269917722137704611375e
+      - 2b6d3d9717774754628001293e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d269917722137704611375e573487eb26ca490bf5e83c06145e6176;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d269917722137704611375e573487eb26ca490bf5e83c06145e6176;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=c9c342ef1c80ac931953715f295a0621|1772213770|1772213770;Path=/
-      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1772213770|1772213770;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9717774754628001293ea5872afa66560f32eb3f86cd5db68995;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9717774754628001293ea5872afa66560f32eb3f86cd5db68995;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=7fa0eb59517e49e4c882c00d17f4aa3e|1777475462|1777475462;Path=/
+      - SERVERCORSID=7fa0eb59517e49e4c882c00d17f4aa3e|1777475462|1777475462;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache29.l2nu20-1[91,0], ens-cache24.l2ph1[160,0], ens-cache5.sg31[198,0]
+      - ens-cache16.l2eu95-10[34,0], ens-cache32.l2my2[132,0], cache11.l2sg4[140,0],
+        ens-cache3.bd8[189,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 39b52ab5ad13aaa3:39b52ab5ad13aaa3:0:1
+      - 97dabb8023d4ab7:97dabb8023d4ab7:0:1
     status:
       code: 200
       message: OK

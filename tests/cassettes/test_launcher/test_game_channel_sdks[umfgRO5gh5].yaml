@@ -17,27 +17,27 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:08 GMT
+      - Wed, 29 Apr 2026 15:11:00 GMT
       EagleId:
-      - 2b6d26af17722137679024882e
+      - 2b6d3d9917774754606501292e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d26af17722137679024882edc7f87a2f8c6f66531de4d4bbeb47dae;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d26af17722137679024882edc7f87a2f8c6f66531de4d4bbeb47dae;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1772213768|1772213768;Path=/
-      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1772213768|1772213768;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9917774754606501292e39cc6d4b6d1405324a130fa2b24c241d;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9917774754606501292e39cc6d4b6d1405324a130fa2b24c241d;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=c9c342ef1c80ac931953715f295a0621|1777475460|1777475460;Path=/
+      - SERVERCORSID=c9c342ef1c80ac931953715f295a0621|1777475460|1777475460;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache5.l2nu20-1[97,0], ens-cache6.l2ph1[164,0], ens-cache27.sg31[196,0]
+      - cache20.l2eu95-4[58,0], ens-cache21.l2sg7[147,0], ens-cache5.bd8[195,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 613ab9a6928fb61:613ab9a6928fb61:0:1
+      - 656dfd868f9a194a:656dfd868f9a194a:0:1
     status:
       code: 200
       message: OK

@@ -9,23 +9,23 @@ interactions:
   response:
     body:
       string: '{"retcode":0,"message":"OK","data":{"games":[{"id":"gopR6Cufr3","biz":"hk4e_global","display":{"language":"en-us","name":"Genshin
-        Impact","icon":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/a5555e5aa4f4da3d1efc3b86ef65e456_7792457472547838550.webp","link":"","login_state_in_link":false},"logo":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/7f777384d29cac1ea0d34b4e16d4487b_2092553358310716519.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/68e8178e137f6b0259e4da49b5a9be8e_8412451782424407383.png","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/11/329c587494692a8e3724d10deb406844_5995617087587994357.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"329c587494692a8e3724d10deb406844","size":228875},"wpf_icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/10/11/7ca67838ed44d0cfdb3d31bd8f2ad51f_1736444674914902843.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0}},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[]}]}}'
+        Impact","icon":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"title":"","subtitle":"","background":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/a5555e5aa4f4da3d1efc3b86ef65e456_7792457472547838550.webp","link":"","login_state_in_link":false},"logo":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/7f777384d29cac1ea0d34b4e16d4487b_2092553358310716519.png","link":"","login_state_in_link":false},"thumbnail":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/68e8178e137f6b0259e4da49b5a9be8e_8412451782424407383.png","link":"","login_state_in_link":false},"korea_rating":null,"shortcut":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/11/329c587494692a8e3724d10deb406844_5995617087587994357.ico","hover_url":"","link":"","login_state_in_link":false,"md5":"329c587494692a8e3724d10deb406844","size":228875},"wpf_icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/10/11/7ca67838ed44d0cfdb3d31bd8f2ad51f_1736444674914902843.png","hover_url":"","link":"","login_state_in_link":false,"md5":"","size":0},"top_left_logo":null,"introduction":""},"reservation":null,"display_status":"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE","game_server_configs":[]}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '1484'
+      - '1523'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:35:48 GMT
+      - Wed, 29 Apr 2026 15:10:42 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 5319c0b4be6b1e62f56f0f16cb84fae2.cloudfront.net (CloudFront)
+      - 1.1 fcafe8a9295a4695ea67a71083b37504.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - 77-aXM-DT4kggJBoY8uMJ4sxmdipCRiZFSAPsxTidnL1G6km5-yRmw==
+      - 5N_CXtO1XdL5OXVdchfSVVjc_IzErjNprSfiQ8qHezk08z4FTZWHQQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -33,48 +33,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 71616e256abec115:71616e256abec115:0:1
-    status:
-      code: 200
-      message: OK
-- request:
-    body: ''
-    headers:
-      Host:
-      - sg-hyp-api.hoyoverse.com
-    method: GET
-    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=8fANlj5K7I&game_id=gopR6Cufr3
-  response:
-    body:
-      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"gopR6Cufr3\",\"biz\":\"hk4e_global\"},\"language\":\"\",\"banners\":[{\"id\":\"yOLvh49KE8\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/27/6bedee91c2031458487c77082b023c10_5409947054831943046.jpg\",\"link\":\"https://www.facebook.com/genshinimpact.de/posts/pfbid02LLYfkjyuYmTVgZ4xp22KLjKzZ6FPLhGnC1MRSrF3n761TuNJnk35xfMiCXjVwQtsl\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"Og1gLRniIf\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/25/abc0c05773fd216182c46674cb462588_4759938366279544896.jpg\",\"link\":\"https://www.hoyolab.com/article_pre/22243?lang=de-de\\u0026utm_source=launcher\\u0026utm_medium=event\\u0026utm_id=2\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"NP2uVq9HIs\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/25/67dd70f94b06a72d48cbc240aea369c9_7761034735326697737.jpg\",\"link\":\"https://www.facebook.com/genshinimpact.de/posts/pfbid0qD4ktzxDzbV8JNAuZub6ge4JSg5SwzYU7Rc7oTBjmtzmYsvkVaZNWZf8ZXuAV58dl\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"1uxFIXLZqu\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/24/5a8defaa06a57b9059ea6e9abf9d18f1_3184345547892274758.jpg\",\"link\":\"https://youtu.be/_Q-i5CA0ogM\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"J3iKOyq6Hy\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/17/76983856c89af143ca73a53779ba1552_7211920828904323213.jpg\",\"link\":\"https://hoyo.link/Wm5et7idI\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"mb8HAznV2S\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/17/b1043a4791b06c20049fadbaf10763dc_945891484183348055.jpg\",\"link\":\"https://hoyo.link/Wm5et7idI\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"oozrDwxeZe\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/14/dca2a68cd1ff6bff0be39e226805b6d6_1921836699803616827.jpg\",\"link\":\"https://hoyo.link/Wm5et7idI\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"k5QEuolGXU\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/14/cabb32ff9b7e34058594f3e7e540a0e2_8443454645258025329.jpg\",\"link\":\"https://hoyo.link/Wm5et7idI\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"eUQctBt2ym\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/02/13/c46efaf49332a5b7605213e43d03c259_3377037366940329791.jpg\",\"link\":\"https://hoyo.link/cJVfeEUck\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"k0h5HIhWgu\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Erl\xE4uterungen
-        zur Fehlerbehebung und Optimierung der Aktualisierung auf Version Luna V\",\"link\":\"https://www.hoyolab.com/article_pre/22275?utm_source=launcher\\u0026utm_medium=notice\\u0026utm_id=2\",\"date\":\"02/27\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"DbC1D1JdML\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Aktionsvorschau
-        f\xFCr Version Luna V \u201EEin zur\xFCckkehrender Besucher, der den Wind
-        fing\u201C \u2013 Teil 1\",\"link\":\"https://hoyo.link/wPNz26aQy\",\"date\":\"02/23\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"Dl6Zs7ypts\",\"type\":\"POST_TYPE_INFO\",\"title\":\"[Genshin
-        Impact] Sieh dir schnell die Inhalte von Version \u201ELuna V\u201C an\",\"link\":\"https://hoyo.link/UetV024Rt\",\"date\":\"02/20\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"}],\"social_media_list\":[{\"id\":\"9EDA58xyXL\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/1eee1d4f237452da40a34616e6ec74c6_3749654937052559710.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/7QdfFBAL\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"j5R04xIdPE\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/a1b226ceebccd56768c5272f306f380e_7340107679485269553.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/dc794590ce0ce174f9627d74ac6cb38b_7629005227055132593.png\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[{\"title\":\"HoYoLAB-Community\",\"link\":\"https://www.hoyolab.com/home?lang=de-de\\u0026utm_source=launcher\\u0026utm_medium=game\\u0026from_id=2\\u0026utm_campaign=mimoicon\",\"login_state_in_link\":false}],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"KU6SdSSgn6\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/f6cc67d31fc009dc6d369cd2a619b1b4_2487020148175840905.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/e0v1BRAd\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"AYz7bYU56O\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/17106a7bbb7c1bcae00b7f3e1612fc3b_3807755404807989875.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/a2v1B9Ad\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"VmrBvWnzSp\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/de382e69cb1a7afc46486c95207db733_5000688535793081010.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/56v1BCAd\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"qeOLHGk8SD\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/77588fb467fe05eadedb181f8728d2e0_5143064211715990207.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/4bv1BaAd\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"IVo3Kvlcss\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/34442dca0236560a8ffd1d92590240ec_3565786263085043845.png\",\"hover_url\":\"\",\"link\":\"https://hoyo.link/7bv1B2Ad\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"},{\"id\":\"5ys3hcCtEa\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/05/15/4ddd0290b1c1829644167e2cbceb122a_7503764683219219295.png\",\"hover_url\":\"\",\"link\":\"https://genshin.hoyoverse.com/de\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"qr_image\":{\"url\":\"\",\"link\":\"\",\"login_state_in_link\":false},\"qr_desc\":\"\",\"links\":[],\"enable_red_dot\":false,\"red_dot_content\":\"\"}]}}}"
-    headers:
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json
-      Date:
-      - Fri, 27 Feb 2026 17:35:48 GMT
-      Transfer-Encoding:
-      - chunked
-      Vary:
-      - Origin
-      - Accept-Encoding
-      Via:
-      - 1.1 1b87a6ee309264786666693d35ccced0.cloudfront.net (CloudFront)
-      X-Amz-Cf-Id:
-      - kRbsAZ5U2OVWxJCWUmbXYPvusle05aFyPL86Np_KpRVzcND5A9qxRQ==
-      X-Amz-Cf-Pop:
-      - CCU50-P4
-      X-Cache:
-      - Miss from cloudfront
-      X-Powered-By:
-      - takumi
-      X-Trace-Id:
-      - 1557a1340171c3b6:1557a1340171c3b6:0:1
+      - 446e0a5bb338711e:446e0a5bb338711e:0:1
     status:
       code: 200
       message: OK

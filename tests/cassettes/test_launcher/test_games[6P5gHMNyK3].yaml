@@ -8,36 +8,37 @@ interactions:
     uri: https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGames?launcher_id=6P5gHMNyK3
   response:
     body:
-      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"EdtUqXfCHh\",\"biz\":\"hkrpg_cn\",\"display\":{\"language\":\"zh-cn\",\"name\":\"\u5D29\u574F\uFF1A\u661F\u7A79\u94C1\u9053\",\"icon\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/09/22/e5c62a66bfbdcc75a22886609d99f455_633654188419085063.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":null,\"logo\":null,\"thumbnail\":null,\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2025/10/14/deb639906f4f2aec8bc40cb63918419c_5421088087272348273.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"deb639906f4f2aec8bc40cb63918419c\",\"size\":38078},\"wpf_icon\":{\"url\":\"\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0}},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[]}]}}"
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"EdtUqXfCHh\",\"biz\":\"hkrpg_cn\",\"display\":{\"language\":\"zh-cn\",\"name\":\"\u5D29\u574F\uFF1A\u661F\u7A79\u94C1\u9053\",\"icon\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2026/04/15/9951fe722fbda11c061818762cb52650_2585542124455732557.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":null,\"logo\":null,\"thumbnail\":null,\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.mihoyo.com/launcher-public/2026/04/15/6858e83f8dfc368dc305e9b5531a3bce_2109533977661878604.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"6858e83f8dfc368dc305e9b5531a3bce\",\"size\":498385},\"wpf_icon\":{\"url\":\"\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"top_left_logo\":null,\"introduction\":\"\"},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[]}]}}"
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '892'
+      - '933'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:36:16 GMT
+      - Wed, 29 Apr 2026 15:11:06 GMT
       EagleId:
-      - 2b6d26ae17722137759604214e
+      - 2b6d3d9717774754659212339e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d26ae17722137759604214e78441e27cbe27e116dc79b59de571ab8;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d26ae17722137759604214e78441e27cbe27e116dc79b59de571ab8;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=ddaa71843483ba6b8fb601a2b8faa296|1772213776|1772213776;Path=/
-      - SERVERCORSID=ddaa71843483ba6b8fb601a2b8faa296|1772213776|1772213776;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9717774754659212339e9524394c9b7fda770a791896e024f526;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9717774754659212339e9524394c9b7fda770a791896e024f526;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1777475466|1777475466;Path=/
+      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1777475466|1777475466;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache2.l2nu20-3[51,0], ens-cache6.l2ph1[121,0], ens-cache26.sg31[221,0]
+      - ens-cache3.l2eu95-10[72,0], ens-cache36.l2my2[186,0], cache6.l2sg4[196,0],
+        ens-cache3.bd8[244,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 470dbe1f6acdc08f:470dbe1f6acdc08f:0:1
+      - 5904554fd506a5bc:5904554fd506a5bc:0:1
     status:
       code: 200
       message: OK
