@@ -8,23 +8,23 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGamePackages?launcher_id=L83o6ar17w
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_packages":[{"game":{"id":"wkE5P5WsIf","biz":"bh3_global"},"main":{"major":{"version":"8.6.0","game_pkgs":[{"url":"https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20251223145940_7eJqh9iB7WHUalfa/BH3_v8.6.0_96dac6c2fcd9.7z","md5":"e288e34a06d7bff934b4be57c1ed0535","size":"24827430154","decompressed_size":"49665346068"}],"audio_pkgs":[],"res_list_url":"https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20251223145940_7eJqh9iB7WHUalfa/extract"},"patches":[],"required_client_version":""},"pre_download":{"major":null,"patches":[],"required_client_version":""}}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_packages":[{"game":{"id":"wkE5P5WsIf","biz":"bh3_global"},"main":{"major":{"version":"8.7.0","game_pkgs":[{"url":"https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20260225190420_ZLttniwfw2GusDsb/BH3_v8.7.0_3cd541758856.7z","md5":"17eec0f6a606bc0b406e38a0a18ae27d","size":"25219120870","decompressed_size":"50448727500"}],"audio_pkgs":[],"res_list_url":"https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20260225190420_ZLttniwfw2GusDsb/extract"},"patches":[],"required_client_version":""},"pre_download":{"major":{"version":"8.8.0","game_pkgs":[{"url":"https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20260421112917_VhXIQT5ZXmwVqRu2/BH3_v8.8.0_cec468aad479.7z","md5":"4d80904b4470d4693762d1e3ffb60832","size":"25558557994","decompressed_size":"51127601748"}],"audio_pkgs":[],"res_list_url":"https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20260421112917_VhXIQT5ZXmwVqRu2/extract"},"patches":[],"required_client_version":""}}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '618'
+      - '997'
       Content-Type:
       - application/json
       Date:
-      - Fri, 27 Feb 2026 17:35:54 GMT
+      - Wed, 29 Apr 2026 15:10:48 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 ad4d8134b7edbfc8b2d709b8e2f72270.cloudfront.net (CloudFront)
+      - 1.1 7ab61ce3d7d648e0eaae5b45a81a89dc.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - rvf6jUTWkc9ibp2m8nUzHaSZbaPzt8Ql-MoCwf1mxCTY-h3cvR-7_Q==
+      - USwo734AGS7ClCGp3r_peJjyRr6bIDDQi6tquw6JTEt9Xhra4N6Gww==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 221047c90979ba33:221047c90979ba33:0:1
+      - 24c3920d5855542c:24c3920d5855542c:0:1
     status:
       code: 200
       message: OK
