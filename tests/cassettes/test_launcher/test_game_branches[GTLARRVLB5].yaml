@@ -8,23 +8,23 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameBranches?launcher_id=GTLARRVLB5
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"main":{"package_id":"shWAaVlXdV","branch":"main","password":"PLK4QHtxc7Ui","tag":"8.7.0","diff_tags":[],"categories":[{"category_id":"10176","matching_field":"game","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10181","matching_field":"asb","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]}],"required_client_version":""},"pre_download":{"package_id":"shWAaVlXdV","branch":"predownload","password":"BjrEfEnathfi","tag":"8.8.0","diff_tags":[],"categories":[{"category_id":"10176","matching_field":"game","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10181","matching_field":"asb","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]}],"required_client_version":""},"enable_base_pkg_predownload":false}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_branches":[{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"main":{"package_id":"shWAaVlXdV","branch":"main","password":"PLK4QHtxc7Ui","tag":"8.8.0","diff_tags":[],"categories":[{"category_id":"10176","matching_field":"game","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10181","matching_field":"asb","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '928'
+      - '546'
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:10:56 GMT
+      - Tue, 05 May 2026 15:22:02 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 37c0dcd7dae200869d05b85e72ac6b66.cloudfront.net (CloudFront)
+      - 1.1 44dd3bb75c40a6b0e432843186941cfe.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - -T53qElaPP-3rV1sPFLvQcPYXZKhncSwmTXJEggtxBu14aJlXhLE7A==
+      - dHZUBlBwPHC4gNLQ1Ln69R2B4R4Wr6BEUomnTzkCnrhWwkjNxLeylQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 38e32d2ccc3409b6:38e32d2ccc3409b6:0:1
+      - ca354ff04cbbc22:ca354ff04cbbc22:0:1
     status:
       code: 200
       message: OK

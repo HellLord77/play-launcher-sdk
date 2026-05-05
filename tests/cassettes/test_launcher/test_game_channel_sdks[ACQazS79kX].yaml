@@ -8,7 +8,7 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameChannelSDKs?launcher_id=ACQazS79kX&channel=1&sub_channel=3
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_channel_sdks":[{"game":{"id":"5TIVvvcwtM","biz":"bh3_global"},"version":"2.42.1","channel_sdk_pkg":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/08/12/86f287a0901198f287050affff1c3250_6144699226544720254.zip","md5":"86f287a0901198f287050affff1c3250","size":"9706172","decompressed_size":"19412344"},"pkg_version_file_name":"sdk_pkg_version"}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_channel_sdks":[{"game":{"id":"5TIVvvcwtM","biz":"bh3_global"},"version":"2.45.1","channel_sdk_pkg":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2026/04/08/104062b5f6511c942104839b4894f7ae_6028887012417676083.zip","md5":"104062b5f6511c942104839b4894f7ae","size":"8187139","decompressed_size":"16374278"},"pkg_version_file_name":"sdk_pkg_version"}]}}'
     headers:
       Connection:
       - keep-alive
@@ -17,14 +17,14 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:10:50 GMT
+      - Tue, 05 May 2026 15:21:55 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 5795cfb7762205b7d50d5ba7ce4d8746.cloudfront.net (CloudFront)
+      - 1.1 ad4d8134b7edbfc8b2d709b8e2f72270.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - Gh_lawbaYE1I_x3ltdNISIjc5X45cAyHIqYegSso0ob9Q3bStZuV4A==
+      - _GqdKRWoGFLuRrWfeDeYauFYQp4nxsT7EzaTjNUFXxcGrTvLxs9AKQ==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 3d0bfcecb7a10c71:3d0bfcecb7a10c71:0:1
+      - 651db1eb2666d548:651db1eb2666d548:0:1
     status:
       code: 200
       message: OK

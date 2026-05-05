@@ -4,7 +4,7 @@ from pydantic import ValidationError
 
 
 def test_command():
-    from play_launcher_sdk.types import Command
+    from play_launcher_sdk.types_ import Command
 
     command_adapter = TypeAdapter(Command)
 
@@ -15,7 +15,7 @@ def test_command():
 
 
 def test_date():
-    from play_launcher_sdk.types import Date
+    from play_launcher_sdk.types_ import Date
 
     date_adapter = TypeAdapter(Date)
 
@@ -26,7 +26,7 @@ def test_date():
 
 
 def test_absolute_path():
-    from play_launcher_sdk.types import AbsolutePath
+    from play_launcher_sdk.types_ import AbsolutePath
 
     absolute_path_adapter = TypeAdapter(AbsolutePath)
 
@@ -40,7 +40,7 @@ def test_absolute_path():
 
 
 def test_relative_path():
-    from play_launcher_sdk.types import RelativePath
+    from play_launcher_sdk.types_ import RelativePath
 
     relative_path_adapter = TypeAdapter(RelativePath)
 
@@ -54,7 +54,7 @@ def test_relative_path():
 
 
 def test_expandable_path():
-    from play_launcher_sdk.types import ExpandablePath
+    from play_launcher_sdk.types_ import ExpandablePath
 
     expandable_path_adapter = TypeAdapter(ExpandablePath)
 
@@ -70,7 +70,7 @@ def test_expandable_path():
 
 
 def test_relative_exe_path():
-    from play_launcher_sdk.types import RelativeExePath
+    from play_launcher_sdk.types_ import RelativeExePath
 
     relative_exe_path_adapter = TypeAdapter(RelativeExePath)
 
@@ -88,7 +88,7 @@ def test_relative_exe_path():
 
 
 def test_relative_json_path():
-    from play_launcher_sdk.types import RelativeJsonPath
+    from play_launcher_sdk.types_ import RelativeJsonPath
 
     relative_json_path_adapter = TypeAdapter(RelativeJsonPath)
 
@@ -106,7 +106,7 @@ def test_relative_json_path():
 
 
 def test_relative_txt_path():
-    from play_launcher_sdk.types import RelativeTxtPath
+    from play_launcher_sdk.types_ import RelativeTxtPath
 
     relative_txt_path_adapter = TypeAdapter(RelativeTxtPath)
 
@@ -124,7 +124,7 @@ def test_relative_txt_path():
 
 
 def test_file_name():
-    from play_launcher_sdk.types import FileName
+    from play_launcher_sdk.types_ import FileName
 
     file_name_adapter = TypeAdapter(FileName)
 
@@ -138,7 +138,7 @@ def test_file_name():
 
 
 def test_exe_file_name():
-    from play_launcher_sdk.types import ExeFileName
+    from play_launcher_sdk.types_ import ExeFileName
 
     exe_file_name_adapter = TypeAdapter(ExeFileName)
 
@@ -156,7 +156,7 @@ def test_exe_file_name():
 
 
 def test_png_url():
-    from play_launcher_sdk.types import PngUrl
+    from play_launcher_sdk.types_ import PngUrl
 
     png_url_adapter = TypeAdapter(PngUrl)
 
@@ -170,7 +170,7 @@ def test_png_url():
 
 
 def test_webm_url():
-    from play_launcher_sdk.types import WebmUrl
+    from play_launcher_sdk.types_ import WebmUrl
 
     webm_url_adapter = TypeAdapter(WebmUrl)
 
@@ -184,7 +184,7 @@ def test_webm_url():
 
 
 def test_icon_url():
-    from play_launcher_sdk.types import IconUrl
+    from play_launcher_sdk.types_ import IconUrl
 
     icon_url_adapter = TypeAdapter(IconUrl)
 
@@ -198,7 +198,7 @@ def test_icon_url():
 
 
 def test_image_url():
-    from play_launcher_sdk.types import ImageUrl
+    from play_launcher_sdk.types_ import ImageUrl
 
     image_url_adapter = TypeAdapter(ImageUrl)
 
@@ -213,7 +213,7 @@ def test_image_url():
 
 
 def test_zip_url():
-    from play_launcher_sdk.types import ZipUrl
+    from play_launcher_sdk.types_ import ZipUrl
 
     zip_url_adapter = TypeAdapter(ZipUrl)
 
@@ -227,7 +227,7 @@ def test_zip_url():
 
 
 def test_archive_url():
-    from play_launcher_sdk.types import ArchiveUrl
+    from play_launcher_sdk.types_ import ArchiveUrl
 
     archive_url_adapter = TypeAdapter(ArchiveUrl)
 
@@ -241,7 +241,7 @@ def test_archive_url():
 
 
 def test_split_archive_url():
-    from play_launcher_sdk.types import SplitArchiveUrl
+    from play_launcher_sdk.types_ import SplitArchiveUrl
 
     split_archive_url_adapter = TypeAdapter(SplitArchiveUrl)
 
@@ -257,7 +257,7 @@ def test_split_archive_url():
 
 
 def test_hex_md5():
-    from play_launcher_sdk.types import HexMd5
+    from play_launcher_sdk.types_ import HexMd5
 
     hex_md5_adapter = TypeAdapter(HexMd5)
 
@@ -274,15 +274,15 @@ def test_hex_md5():
         hex_md5_adapter.validate_python(b"\xd4\x1d\x8c\xd9\x8f\x00\xb2\x04\xe9\x80\t\x98\xec\xf8B~~")
 
 
-def test_metadata_version():
-    from play_launcher_sdk.types import MetadataVersion
+def test_four_part_version():
+    from play_launcher_sdk.types_ import FourPartVersion
 
-    metadata_version_adapter = TypeAdapter(MetadataVersion)
+    four_part_version_adapter = TypeAdapter(FourPartVersion)
 
-    metadata_version_adapter.validate_strings("1.0.0.12345")
-    metadata_version_adapter.validate_strings("1.2.3.4")
+    four_part_version_adapter.validate_strings("1.0.0.12345")
+    four_part_version_adapter.validate_strings("1.2.3.4")
 
     with pytest.raises(ValidationError):
-        metadata_version_adapter.validate_strings("1.0.0")
+        four_part_version_adapter.validate_strings("1.0.0")
     with pytest.raises(ValidationError):
-        metadata_version_adapter.validate_strings("1.0.0.")
+        four_part_version_adapter.validate_strings("1.0.0.")

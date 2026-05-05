@@ -2,7 +2,7 @@ from typing import Literal
 
 from pydantic import HttpUrl
 
-from play_launcher_sdk.types import ImageUrl
+from play_launcher_sdk.types_ import ImageUrl
 
 from .base import Base
 

@@ -3,9 +3,9 @@ from typing import Literal
 from pydantic import ByteSize
 from pydantic import HttpUrl
 
-from play_launcher_sdk.types import HexMd5
-from play_launcher_sdk.types import IconUrl
-from play_launcher_sdk.types import PngUrl
+from play_launcher_sdk.types_ import HexMd5
+from play_launcher_sdk.types_ import IconUrl
+from play_launcher_sdk.types_ import PngUrl
 
 from .base import Base
 

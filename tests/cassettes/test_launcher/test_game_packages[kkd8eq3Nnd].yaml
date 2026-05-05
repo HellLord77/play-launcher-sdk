@@ -8,23 +8,23 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGamePackages?launcher_id=kkd8eq3Nnd
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_packages":[{"game":{"id":"uxB4MC7nzC","biz":"bh3_global"},"main":{"major":{"version":"8.7.0","game_pkgs":[{"url":"https://autopatchkr.honkaiimpact3.com/ptpublic/bh3_kr/20260225183026_oeu6HqdQLopd9Nrw/BH3_v8.7.0_3cd541758856.7z","md5":"f77fd78fb68addd8fc7d05a849ec480b","size":"25211053977","decompressed_size":"50432593714"}],"audio_pkgs":[],"res_list_url":"https://autopatchkr.honkaiimpact3.com/ptpublic/bh3_kr/20260225183026_oeu6HqdQLopd9Nrw/extract"},"patches":[],"required_client_version":""},"pre_download":{"major":{"version":"8.8.0","game_pkgs":[{"url":"https://autopatchkr.honkaiimpact3.com/ptpublic/bh3_kr/20260421113050_xjzsIsJm2Wp2GTmE/BH3_v8.8.0_cec468aad479.7z","md5":"1f11d1e5c5663b00ca29128dea4b09e4","size":"25544282407","decompressed_size":"51099050574"}],"audio_pkgs":[],"res_list_url":"https://autopatchkr.honkaiimpact3.com/ptpublic/bh3_kr/20260421113050_xjzsIsJm2Wp2GTmE/extract"},"patches":[],"required_client_version":""}}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_packages":[{"game":{"id":"uxB4MC7nzC","biz":"bh3_global"},"main":{"major":{"version":"8.8.0","game_pkgs":[{"url":"https://autopatchkr.honkaiimpact3.com/ptpublic/bh3_kr/20260421113050_xjzsIsJm2Wp2GTmE/BH3_v8.8.0_cec468aad479.7z","md5":"1f11d1e5c5663b00ca29128dea4b09e4","size":"25544282407","decompressed_size":"51099050574"}],"audio_pkgs":[],"res_list_url":"https://autopatchkr.honkaiimpact3.com/ptpublic/bh3_kr/20260421113050_xjzsIsJm2Wp2GTmE/extract"},"patches":[],"required_client_version":""},"pre_download":{"major":null,"patches":[],"required_client_version":""}}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '989'
+      - '614'
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:10:54 GMT
+      - Tue, 05 May 2026 15:22:00 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 081f4dccbf59d5fd34750786ea392d28.cloudfront.net (CloudFront)
+      - 1.1 5319c0b4be6b1e62f56f0f16cb84fae2.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - fPDO3dl735vMv9HT0s3EUarujWnYBuIptU_nl-ax8_jcLNvClHfaDg==
+      - Ri9o1Yp3hjwEEJvSixy3Qv0D0VMk5eCJdnE6ZrBS82eZe5czUFqprA==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 7175e2f536370a84:7175e2f536370a84:0:1
+      - 17e15214143754d6:17e15214143754d6:0:1
     status:
       code: 200
       message: OK

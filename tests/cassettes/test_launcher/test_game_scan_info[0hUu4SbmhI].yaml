@@ -8,23 +8,23 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameScanInfo?launcher_id=0hUu4SbmhI
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"FUoEmzPdP3","game_exe_list":[{"version":"2.7.0","md5":"2f54c8b747935132943b8a161c79c9ad"},{"version":"2.6.0","md5":"c16580087dd0cf580caa1bf64684a92e"},{"version":"2.5.0","md5":"9147c0f7eba65e674e713aa9fadceaee"},{"version":"2.4.0","md5":"ecf39d6c3a2fb54d6b3a91d6d543607f"},{"version":"2.3.0","md5":"e47d20240104c70eb57c14c6a2106a44"},{"version":"2.2.0","md5":"72f89d42594e556ed9050980ec790da3"},{"version":"2.1.0","md5":"725dbe2242d83d799010ba3cbcbb8768"},{"version":"2.0.0","md5":"b4c6d3dc0604ed0c457e8e31d2afa35b"},{"version":"1.7.0","md5":"5909e4a596299cce9708c556325b0815"},{"version":"1.6.0","md5":"f62c6b281474cc411013ac75d89da791"}]}]}}'
+      string: '{"retcode":0,"message":"OK","data":{"game_scan_info":[{"game_id":"FUoEmzPdP3","game_exe_list":[{"version":"2.8.0","md5":"52481c54e1c4809e0771a221714a87c4"},{"version":"2.7.0","md5":"2f54c8b747935132943b8a161c79c9ad"},{"version":"2.6.0","md5":"c16580087dd0cf580caa1bf64684a92e"},{"version":"2.5.0","md5":"9147c0f7eba65e674e713aa9fadceaee"},{"version":"2.4.0","md5":"ecf39d6c3a2fb54d6b3a91d6d543607f"},{"version":"2.3.0","md5":"e47d20240104c70eb57c14c6a2106a44"},{"version":"2.2.0","md5":"72f89d42594e556ed9050980ec790da3"},{"version":"2.1.0","md5":"725dbe2242d83d799010ba3cbcbb8768"},{"version":"2.0.0","md5":"b4c6d3dc0604ed0c457e8e31d2afa35b"},{"version":"1.7.0","md5":"5909e4a596299cce9708c556325b0815"},{"version":"1.6.0","md5":"f62c6b281474cc411013ac75d89da791"}]}]}}'
     headers:
       Connection:
       - keep-alive
       Content-Length:
-      - '709'
+      - '770'
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:10:47 GMT
+      - Tue, 05 May 2026 15:21:52 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 d5cd038617a87be7fffeb86d2af3d7e6.cloudfront.net (CloudFront)
+      - 1.1 2772dc2f85c8ae7ee8f6b6a61b5aa782.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - Xpyk95TSclrgOlSxVtAG8YwmorghrQqtBorliWXJsX9o9hp6cUpPmQ==
+      - 4ZDgJvQ5zrZdyI1ZL6vN0LVaVAH0M2_3TbbCPxQQ7VchGX6f0rrOPA==
       X-Amz-Cf-Pop:
       - CCU50-P4
       X-Cache:
@@ -32,7 +32,7 @@ interactions:
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 63b4d12a3017da5:63b4d12a3017da5:0:1
+      - 4ea69ca3f00b995a:4ea69ca3f00b995a:0:1
     status:
       code: 200
       message: OK

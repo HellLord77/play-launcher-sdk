@@ -20,22 +20,22 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:55:51 GMT
+      - Tue, 05 May 2026 15:22:03 GMT
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 d2bf6e8429807ec6b44496cc5ab410ae.cloudfront.net (CloudFront)
+      - 1.1 d3de0e63ef4080c592301d7d3624b984.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - J90JMrvik1q7zAE_rUEeqA4d3V4tNqoTUsPTx8_48mzH29ik28MDiQ==
+      - RJCu0yudd1IDwfaYk8nGlbjBwmlRP0sRW6fEy4tDucxzrazeGYQBvQ==
       X-Amz-Cf-Pop:
-      - MAA51-P3
+      - CCU50-P4
       X-Cache:
       - Miss from cloudfront
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 38369fd80d0ae462:38369fd80d0ae462:0:1
+      - 1ace3a8dabfe7c58:1ace3a8dabfe7c58:0:1
     status:
       code: 200
       message: OK
@@ -48,35 +48,35 @@ interactions:
     uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=GTLARRVLB5&game_id=bxPTXSET5t
   response:
     body:
-      string: '{"retcode":0,"message":"OK","data":{"content":{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"language":"","banners":[{"id":"xjHxjOG1u9","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/29/a236e58965c89004c8b3069169d3a581_4303242414416246527.png","link":"https://www.hoyolab.com/article/44762731","login_state_in_link":false},"i18n_identifier":""},{"id":"ovwu8OVKDX","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/24/0b97ae9073814e191221bdf2125e0f86_6666664233713161691.png","link":"https://youtu.be/yndQJUDhL4I","login_state_in_link":false},"i18n_identifier":""},{"id":"eB7GSOWrOy","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/08/1385db96557220c0ed5c5a7e13446b20_6053339232264794238.jpg","link":"https://hoyo.link/HJRnuiBtA","login_state_in_link":false},"i18n_identifier":""}],"posts":[{"id":"LhWA1w2sxD","type":"POST_TYPE_ANNOUNCE","title":"New
-        AstralOp \"Bailu Youyun\" and Divine Key \"Blue Thunder Shuttle EX19\" debut!","link":"https://www.hoyolab.com/article/44762731","date":"04/29","login_state_in_link":false,"i18n_identifier":""},{"id":"lS57C0aoKa","type":"POST_TYPE_ANNOUNCE","title":"v8.8
-        Maintenance Announcement and New Events Preview","link":"https://www.hoyolab.com/article/44750704","date":"04/23","login_state_in_link":false,"i18n_identifier":""},{"id":"jcPCIvIRb7","type":"POST_TYPE_ACTIVITY","title":"Valkyries''
-        Get-Together | Leave a comment to claim 100 Crystals, and stand a chance to
-        win the 1200 USD \"One-Year Snack Fund\" and other fabulous prizes!","link":"https://hoyo.link/HJRnuiBtA","date":"04/13","login_state_in_link":false,"i18n_identifier":""}],"social_media_list":[{"id":"wrYikJmecb","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/33a1c76536265a82344a200b29da408d_4348248340134718046.png","hover_url":"","link":"https://honkaiimpact3.mihoyo.com/asia/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"S8SUFCGy3O","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/4f88c988da20e30a9a0e13eafe4b102c_3115423271616927153.png","hover_url":"","link":"https://www.facebook.com/HonkaiImpact3rd/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"lnJ3GbDdnT","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/879ab65b973fe41a1a6866f9bd25d1a2_2354015201453461194.png","hover_url":"","link":"https://twitter.com/HonkaiImpact3rd","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"WIViiwPD9R","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/40264556b28596d0a341adad12de7e71_8451408668060010298.png","hover_url":"","link":"https://www.instagram.com/honkaiimpact3rd/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"iTackHFEX4","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/f5791d34a7ad83161c5a191729e8aa90_9141804452127153833.png","hover_url":"","link":"https://www.youtube.com/channel/UCko6H6LokKM__B03i5_vBQQ","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"OErAsEsQT7","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/ca9481b418f0cf5ea7acafffa9f82df9_8212955308913393058.png","hover_url":"","link":"https://www.hoyolab.com/accountCenter/postList?id=147839994","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"000k0FURMl","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/17/d38c58957c07609b40c5f0fcd31260ab_4411508097210423987.png","hover_url":"","link":"https://www.hoyolab.com/article_pre/18014398241029629","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""}]}}}'
+      string: '{"retcode":0,"message":"OK","data":{"content":{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"language":"","banners":[{"id":"xjHxjOG1u9","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/29/a236e58965c89004c8b3069169d3a581_4303242414416246527.png","link":"https://www.hoyolab.com/article/44762731","login_state_in_link":false},"i18n_identifier":""},{"id":"pV3CNlilbB","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/28/9c8cafe538a19e0ef4721613864606ed_753062538352947432.png","link":"https://hoyo.link/Lm9dmNHli","login_state_in_link":false},"i18n_identifier":""},{"id":"ovwu8OVKDX","image":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/04/24/0b97ae9073814e191221bdf2125e0f86_6666664233713161691.png","link":"https://youtu.be/yndQJUDhL4I","login_state_in_link":false},"i18n_identifier":""}],"posts":[{"id":"MPoQq6Mmug","type":"POST_TYPE_ANNOUNCE","title":"v8.8
+        Adrift in the Sea of Data Update Announcement","link":"https://hoyo.link/HgTck0tX5","date":"04/30","login_state_in_link":false,"i18n_identifier":""},{"id":"Mecy1hsODm","type":"POST_TYPE_ACTIVITY","title":"Bailu
+        Youyun''s First Impressions Survey | Participate for a chance to win a $100
+        Gift Card! A server-wide redemption code for 100 Crystals also awaits~","link":"https://hoyo.link/Lm9dmNHli","date":"04/30","login_state_in_link":false,"i18n_identifier":""},{"id":"LhWA1w2sxD","type":"POST_TYPE_ANNOUNCE","title":"New
+        AstralOp \"Bailu Youyun\" and Divine Key \"Blue Thunder Shuttle EX19\" debut!","link":"https://www.hoyolab.com/article/44762731","date":"04/29","login_state_in_link":false,"i18n_identifier":""}],"social_media_list":[{"id":"wrYikJmecb","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/33a1c76536265a82344a200b29da408d_4348248340134718046.png","hover_url":"","link":"https://honkaiimpact3.mihoyo.com/asia/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"S8SUFCGy3O","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/4f88c988da20e30a9a0e13eafe4b102c_3115423271616927153.png","hover_url":"","link":"https://www.facebook.com/HonkaiImpact3rd/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"lnJ3GbDdnT","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/879ab65b973fe41a1a6866f9bd25d1a2_2354015201453461194.png","hover_url":"","link":"https://twitter.com/HonkaiImpact3rd","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"WIViiwPD9R","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/40264556b28596d0a341adad12de7e71_8451408668060010298.png","hover_url":"","link":"https://www.instagram.com/honkaiimpact3rd/","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"iTackHFEX4","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/f5791d34a7ad83161c5a191729e8aa90_9141804452127153833.png","hover_url":"","link":"https://www.youtube.com/channel/UCko6H6LokKM__B03i5_vBQQ","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"OErAsEsQT7","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/ca9481b418f0cf5ea7acafffa9f82df9_8212955308913393058.png","hover_url":"","link":"https://www.hoyolab.com/accountCenter/postList?id=147839994","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""},{"id":"000k0FURMl","icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/17/d38c58957c07609b40c5f0fcd31260ab_4411508097210423987.png","hover_url":"","link":"https://www.hoyolab.com/article_pre/18014398241029629","login_state_in_link":false,"md5":"","size":0},"qr_image":{"url":"","link":"","login_state_in_link":false},"qr_desc":"","links":[],"enable_red_dot":false,"red_dot_content":""}]}}}'
     headers:
       Connection:
       - keep-alive
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:55:51 GMT
+      - Tue, 05 May 2026 15:22:03 GMT
       Transfer-Encoding:
       - chunked
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - 1.1 d2bf6e8429807ec6b44496cc5ab410ae.cloudfront.net (CloudFront)
+      - 1.1 5795cfb7762205b7d50d5ba7ce4d8746.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - gxJCUdzvkmXfuUAeXD5PHkzF-NjW1sEoVdRlZoke7I6cRjblXCE5nQ==
+      - W9RJ8W7Upeo56VVe1orKJ0IoIaurb6_gx12XXd1GVf2AnRbXsFSg_Q==
       X-Amz-Cf-Pop:
-      - MAA51-P3
+      - CCU50-P4
       X-Cache:
       - Miss from cloudfront
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 9d18f53bb82fc22:9d18f53bb82fc22:0:1
+      - 5d3b7ed0e7f42a07:5d3b7ed0e7f42a07:0:1
     status:
       code: 200
       message: OK

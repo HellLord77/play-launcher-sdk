@@ -1,7 +1,7 @@
 from pydantic import ByteSize
 
-from play_launcher_sdk.types import HexMd5
-from play_launcher_sdk.types import SplitArchiveUrl
+from play_launcher_sdk.types_ import HexMd5
+from play_launcher_sdk.types_ import SplitArchiveUrl
 
 from .base import Base
 

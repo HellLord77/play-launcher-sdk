@@ -1,12 +1,12 @@
 from typing import Literal
 
-from play_launcher_sdk.types import ExeFileName
-from play_launcher_sdk.types import ExpandablePath
-from play_launcher_sdk.types import FileName
-from play_launcher_sdk.types import RelativeExePath
-from play_launcher_sdk.types import RelativeJsonPath
-from play_launcher_sdk.types import RelativePath
-from play_launcher_sdk.types import RelativeTxtPath
+from play_launcher_sdk.types_ import ExeFileName
+from play_launcher_sdk.types_ import ExpandablePath
+from play_launcher_sdk.types_ import FileName
+from play_launcher_sdk.types_ import RelativeExePath
+from play_launcher_sdk.types_ import RelativeJsonPath
+from play_launcher_sdk.types_ import RelativePath
+from play_launcher_sdk.types_ import RelativeTxtPath
 
 from .base import Base
 from .game import Game
@@ -18,18 +18,18 @@ class LaunchConfig(Base):
     game: Game
     exe_file_name: ExeFileName
     installation_dir: FileName
-    audio_pkg_scan_dir: Literal[""] | RelativePath
-    audio_pkg_res_dir: Literal[""] | RelativePath
-    audio_pkg_cache_dir: Literal[""] | RelativePath
-    game_cached_res_dir: Literal[""] | RelativePath
+    audio_pkg_scan_dir: RelativePath
+    audio_pkg_res_dir: RelativePath
+    audio_pkg_cache_dir: RelativePath
+    game_cached_res_dir: RelativePath
     game_screenshot_dir: RelativePath
     game_log_gen_dir: Literal[""] | ExpandablePath
     game_crash_file_gen_dir: ExpandablePath
     default_download_mode: Literal["DOWNLOAD_MODE_CHUNK"]
     enable_customer_service: bool
-    local_res_dir: Literal[""] | RelativePath
-    local_res_cache_dir: Literal[""] | RelativePath
-    res_category_dir: Literal[""] | RelativePath
+    local_res_dir: RelativePath
+    local_res_cache_dir: RelativePath
+    res_category_dir: RelativePath
     game_res_cut_dir: Literal[""] | FileName
     enable_game_log_export: bool
     game_log_export_config: GameLogExportConfig | None

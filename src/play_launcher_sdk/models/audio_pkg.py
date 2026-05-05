@@ -1,8 +1,8 @@
 from pydantic import ByteSize
 
 from play_launcher_sdk.enums.language import Language
-from play_launcher_sdk.types import ArchiveUrl
-from play_launcher_sdk.types import HexMd5
+from play_launcher_sdk.types_ import ArchiveUrl
+from play_launcher_sdk.types_ import HexMd5
 
 from .base import Base
 

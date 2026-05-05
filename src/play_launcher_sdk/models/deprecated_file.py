@@ -1,4 +1,4 @@
-from play_launcher_sdk.types import RelativePath
+from play_launcher_sdk.types_ import RelativePath
 
 from .base import Base
 

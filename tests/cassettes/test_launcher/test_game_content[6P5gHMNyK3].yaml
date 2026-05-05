@@ -17,27 +17,27 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:55:54 GMT
+      - Tue, 05 May 2026 15:22:13 GMT
       EagleId:
-      - 2b6d3d9717774781548565194e
+      - 2b6d3d9517779945331304185e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d3d9717774781548565194e8297b2cc4a8352a29a5e407a87992c34;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d3d9717774781548565194e8297b2cc4a8352a29a5e407a87992c34;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=53010d26c506be13c63a08e3531f584d|1777478154|1777478154;Path=/
-      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1777478154|1777478154;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9517779945331304185e7f50867b8b2953aac8dbf3d2e1ad3f48;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9517779945331304185e7f50867b8b2953aac8dbf3d2e1ad3f48;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=20f2d56a643deece0f843a9a1c91e249|1777994533|1777994533;Path=/
+      - SERVERCORSID=20f2d56a643deece0f843a9a1c91e249|1777994533|1777994533;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache10.l2eu95-4[18,0], ens-cache5.l2sg7[106,0], ens-cache3.bd8[159,0]
+      - ens-cache37.l2eu95-10[40,0], ens-cache34.l2sg7[131,0], ens-cache1.bd8[182,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 54b77fd79823cef:54b77fd79823cef:0:1
+      - e787d9f63cbc0f9:e787d9f63cbc0f9:0:1
     status:
       code: 200
       message: OK
@@ -59,27 +59,27 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 29 Apr 2026 15:55:55 GMT
+      - Tue, 05 May 2026 15:22:13 GMT
       EagleId:
-      - 2b6d3d9517774781550707258e
+      - 2b6d3d9b17779945333503206e
       Server:
       - Tengine
       Set-Cookie:
-      - acw_tc=2b6d3d9517774781550707258e8004e8b5b3e8949b081eea52b962628d;path=/;HttpOnly;Max-Age=3600
-      - cdn_sec_tc=2b6d3d9517774781550707258e8004e8b5b3e8949b081eea52b962628d;path=/;HttpOnly;Max-Age=3600
-      - SERVERID=53010d26c506be13c63a08e3531f584d|1777478155|1777478155;Path=/
-      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1777478155|1777478155;Path=/;SameSite=None;Secure
+      - acw_tc=2b6d3d9b17779945333503206ef8d0067447e695d0e7581c4f07dc786f;path=/;HttpOnly;Max-Age=3600
+      - cdn_sec_tc=2b6d3d9b17779945333503206ef8d0067447e695d0e7581c4f07dc786f;path=/;HttpOnly;Max-Age=3600
+      - SERVERID=53010d26c506be13c63a08e3531f584d|1777994533|1777994533;Path=/
+      - SERVERCORSID=53010d26c506be13c63a08e3531f584d|1777994533|1777994533;Path=/;SameSite=None;Secure
       Timing-Allow-Origin:
       - '*'
       Vary:
       - Origin
       - Accept-Encoding
       Via:
-      - cache18.l2eu95-4[36,0], ens-cache5.l2sg7[127,0], ens-cache1.bd8[174,0]
+      - ens-cache37.l2eu95-10[75,0], ens-cache8.l2sg7[164,0], ens-cache7.bd8[212,0]
       X-Powered-By:
       - takumi
       X-Trace-Id:
-      - 2afc1dfb1837c0a8:2afc1dfb1837c0a8:0:1
+      - 22ca8a3239615d4a:22ca8a3239615d4a:0:1
     status:
       code: 200
       message: OK

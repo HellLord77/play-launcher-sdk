@@ -3,7 +3,7 @@ from typing import Literal
 from pydantic import HttpUrl
 
 from play_launcher_sdk.enums.post_type import PostType
-from play_launcher_sdk.types import Date
+from play_launcher_sdk.types_ import Date
 
 from .base import Base
 

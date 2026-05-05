@@ -1,6 +1,6 @@
 from pydantic_extra_types.semantic_version import SemanticVersion
 
-from play_launcher_sdk.types import HexMd5
+from play_launcher_sdk.types_ import HexMd5
 
 from .base import Base
 
