@@ -125,11 +125,11 @@ class Launcher:
 
 class AsyncLauncher(Launcher):
     @override
-    def __init__(self, *, client: AsyncClient | None = None) -> None:
+    def __init__(self, id: Id = GlobalId.OFFICIAL, *, client: AsyncClient | None = None) -> None:
         if client is None:
             client = AsyncClient()
 
-        super().__init__(client=client)
+        super().__init__(id, client=client)
 
     @override
     async def _get_response(self, request: Request) -> Response:

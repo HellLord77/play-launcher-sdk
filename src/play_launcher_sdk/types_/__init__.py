@@ -8,11 +8,11 @@ from typing import Annotated  # noqa: TID251
 
 from annotated_types import Not
 from annotated_types import Predicate
+from pydantic import BeforeValidator
 from pydantic import EncodedBytes
 from pydantic import Field
 from pydantic import HttpUrl
 from pydantic import ValidateAs
-from pydantic.experimental.pipeline import validate_as
 from pydantic_extra_types.semantic_version import SemanticVersion
 
 from .hex_encoder import HexEncoder
@@ -46,7 +46,4 @@ HexBytes = Annotated[bytes, EncodedBytes(encoder=HexEncoder)]
 
 HexMd5 = Annotated[HexBytes, Field(min_length=16, max_length=16)]  # MD-5
 
-FourPartVersion = Annotated[
-    SemanticVersion,
-    validate_as(str).transform(lambda version: "+".join(version.rsplit(".", 1))).validate_as(SemanticVersion),
-]
+FourPartVersion = Annotated[SemanticVersion, BeforeValidator(lambda version: "+".join(str(version).rsplit(".", 1)))]
