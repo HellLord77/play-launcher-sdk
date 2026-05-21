@@ -3,29 +3,28 @@ from collections.abc import Awaitable
 from httpx import AsyncClient
 from httpx import Client
 from httpx import Request
-from httpx import Response as Response
+from httpx import Response
 
-from .enums.language import Language as Language
-from .enums.notification_type import NotificationType as NotificationType
-from .enums.path import Path as Path
-from .id import GlobalId as GlobalId
-from .id import Id as Id
-from .models import AllGameBasicInfo as AllGameBasicInfo
-from .models import GameBranches as GameBranches
-from .models import GameChannelSdks as GameChannelSdks
-from .models import GameConfigs as GameConfigs
-from .models import GameContent as GameContent
-from .models import GameDeprecatedFileConfigs as GameDeprecatedFileConfigs
-from .models import GamePackages as GamePackages
-from .models import GamePlugins as GamePlugins
-from .models import Games as Games
-from .models import GameScanInfo as GameScanInfo
-from .models import Notification as Notification
-from .models import WpfPackages as WpfPackages
-from .models.base import Base as Base
-from .models.game import Game as Game
-from .models.game_status import GameStatus as GameStatus
-from .models.response_body import ResponseBody as ResponseBody
+from .enums.language import Language
+from .enums.notification_type import NotificationType
+from .enums.path import Path
+from .id import Id
+from .models import AllGameBasicInfo
+from .models import GameBranches
+from .models import GameChannelSdks
+from .models import GameComboInfo
+from .models import GameConfigs
+from .models import GameContent
+from .models import GameDeprecatedFileConfigs
+from .models import GamePackages
+from .models import GamePlugins
+from .models import Games
+from .models import GameScanInfo
+from .models import Notification
+from .models import WpfPackages
+from .models.base import Base
+from .models.game import Game
+from .models.game_status import GameStatus
 
 def parse_json_response_as[T: Base](model_type: type[T], response: Response) -> T: ...
 
@@ -64,6 +63,7 @@ class Launcher:
     def get_game_content(self, game_id: Game | GameStatus, language: Language | None = None) -> GameContent: ...
     def get_all_game_basic_info(self, game_id: Game | GameStatus | None = None) -> AllGameBasicInfo: ...
     def get_notification(self, type: NotificationType | None = None) -> Notification: ...  # noqa: A002
+    def get_game_combo_info(self, *game_ids: Game | GameStatus) -> GameComboInfo: ...
 
 class AsyncLauncher(Launcher):
     client: AsyncClient
@@ -95,3 +95,4 @@ class AsyncLauncher(Launcher):
     ) -> Awaitable[GameContent]: ...
     def get_all_game_basic_info(self, game_id: Game | GameStatus | None = None) -> Awaitable[AllGameBasicInfo]: ...
     def get_notification(self, type: NotificationType | None = None) -> Awaitable[Notification]: ...  # noqa: A002
+    def get_game_combo_info(self, *game_ids: Game | GameStatus) -> Awaitable[GameComboInfo]: ...

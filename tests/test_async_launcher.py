@@ -95,3 +95,10 @@ async def test_notification(launcher):
 
     notification = await launcher.get_notification()
     assert isinstance(notification, Notification)
+
+
+async def test_game_combo_info(launcher):
+    from play_launcher_sdk.models import GameComboInfo
+
+    game_combo_info = await launcher.get_game_combo_info()
+    assert isinstance(game_combo_info, GameComboInfo)

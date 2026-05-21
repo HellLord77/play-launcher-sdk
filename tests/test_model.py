@@ -91,3 +91,10 @@ def test_notification(json_data):
 
     notification = Notification.model_validate_json(json_data)
     assert isinstance(notification, Notification)
+
+
+def test_game_combo_info(json_data):
+    from play_launcher_sdk.models import GameComboInfo
+
+    combo_info = GameComboInfo.model_validate_json(json_data)
+    assert isinstance(combo_info, GameComboInfo)

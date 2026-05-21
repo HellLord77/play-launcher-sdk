@@ -1,0 +1,42 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameComboInfo?launcher_id=GTLARRVLB5
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"launch_configs":[{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"exe_file_name":"BH3.exe","installation_dir":"Honkai
+        Impact 3 game","audio_pkg_scan_dir":"","audio_pkg_res_dir":"","audio_pkg_cache_dir":"","game_cached_res_dir":"","game_screenshot_dir":"ScreenShot","game_log_gen_dir":"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/Honkai
+        Impact 3","game_crash_file_gen_dir":"%systemdrive%/Users/%username%/AppData/LocalLow/miHoYo/Honkai
+        Impact 3/Crashes","default_download_mode":"DOWNLOAD_MODE_CHUNK","enable_customer_service":true,"local_res_dir":"","local_res_cache_dir":"","res_category_dir":"","game_res_cut_dir":"","enable_game_log_export":false,"game_log_export_config":null,"blacklist_dir":"","wpf_exe_dir":"","wpf_pkg_version_dir":"","enable_audio_pkg_mgmt":false,"audio_pkg_config_dir":"","enable_resource_deletion_adapter":false,"enable_resource_blacklist":false,"enable_redundant_file_cleanup":false,"redundant_file_cleanup_paths":[],"enable_v2_game_detection":false,"related_processes":[""],"enable_ldiff":false,"scenario_pkg_info":null,"local_scenario_config_path":"","enable_full_pkg_recommend":false,"enable_scenario_pkg":false,"enable_dx_switch":false,"enable_write_verify_result":false,"write_verify_result_path":""}],"game_branches":[{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"main":{"package_id":"shWAaVlXdV","branch":"main","password":"PLK4QHtxc7Ui","tag":"8.8.0","diff_tags":[],"categories":[{"category_id":"10176","matching_field":"game","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]},{"category_id":"10181","matching_field":"asb","type":"CATEGORY_TYPE_RESOURCE","scenarios":["CATEGORY_SCENARIO_FULL"]}],"required_client_version":""},"pre_download":null,"enable_base_pkg_predownload":false}],"game_packages":[{"game":{"id":"bxPTXSET5t","biz":"bh3_global"},"main":{"major":{"version":"8.8.0","game_pkgs":[{"url":"https://autopatchos.honkaiimpact3.com/ptpublic/bh3_overseas/20260421111739_jgH07SN6onniVyRp/BH3_v8.8.0_cec468aad479.7z","md5":"7e7bfdd8892c55f79045252601cbf8a8","size":"26413032853","decompressed_size":"52836551466"}],"audio_pkgs":[],"res_list_url":"https://autopatchos.honkaiimpact3.com/ptpublic/bh3_overseas/20260421111739_jgH07SN6onniVyRp/extract"},"patches":[],"required_client_version":""},"pre_download":{"major":null,"patches":[],"required_client_version":""}}],"game_channel_sdks":[],"deprecated_file_configs":[]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 21 May 2026 06:05:14 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 7aa37237e11e6e6039dc11fe35425ecc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - h8iCiDG2WQGItBAIWxrKIUK0eto5bXkFa2X2m6AzJPKBAdgj8Ah8Fg==
+      X-Amz-Cf-Pop:
+      - DEL51-P6
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 72e1f02937b2a7ec:72e1f02937b2a7ec:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

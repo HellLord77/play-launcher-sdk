@@ -2,6 +2,7 @@ from enum import StrEnum
 
 
 class Path(StrEnum):
+    GAME_COMBO_INFO = "/hyp/hyp-connect/api/getGameComboInfo"
     GAME_CONFIGS = "/hyp/hyp-connect/api/getGameConfigs"
     GAME_CHANNEL_SDKS = "/hyp/hyp-connect/api/getGameChannelSDKs"
     GAME_DEPRECATED_FILE_CONFIGS = "/hyp/hyp-connect/api/getGameDeprecatedFileConfigs"

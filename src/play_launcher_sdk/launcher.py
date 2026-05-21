@@ -15,6 +15,7 @@ from .id import Id
 from .models import AllGameBasicInfo
 from .models import GameBranches
 from .models import GameChannelSdks
+from .models import GameComboInfo
 from .models import GameConfigs
 from .models import GameContent
 from .models import GameDeprecatedFileConfigs
@@ -121,6 +122,9 @@ class Launcher:
 
     def get_notification(self, type: NotificationType | None = None) -> Notification:  # noqa: A002
         return self._get_data(Path.NOTIFICATION, type_=type, data=Notification)
+
+    def get_game_combo_info(self, *game_ids: Game | GameStatus) -> GameComboInfo:
+        return self._get_data(Path.GAME_COMBO_INFO, *game_ids, data=GameComboInfo)
 
 
 class AsyncLauncher(Launcher):
