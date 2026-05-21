@@ -10,8 +10,8 @@ from httpx import Response
 from .enums.language import Language
 from .enums.notification_type import NotificationType
 from .enums.path import Path
-from .id import GlobalId
-from .id import Id
+from .launcher_id import GlobalLauncherId
+from .launcher_id import LauncherId
 from .models import AllGameBasicInfo
 from .models import GameBranches
 from .models import GameChannelSdks
@@ -36,7 +36,7 @@ def parse_json_response_as[T: Base](model_type: type[T], response: Response) -> 
 
 
 class Launcher:
-    def __init__(self, id: Id = GlobalId.OFFICIAL, *, client: Client | None = None) -> None:
+    def __init__(self, id: LauncherId = GlobalLauncherId.OFFICIAL, *, client: Client | None = None) -> None:
         self.id = id
 
         if client is None:
@@ -129,7 +129,7 @@ class Launcher:
 
 class AsyncLauncher(Launcher):
     @override
-    def __init__(self, id: Id = GlobalId.OFFICIAL, *, client: AsyncClient | None = None) -> None:
+    def __init__(self, id: LauncherId = GlobalLauncherId.OFFICIAL, *, client: AsyncClient | None = None) -> None:
         if client is None:
             client = AsyncClient()
 

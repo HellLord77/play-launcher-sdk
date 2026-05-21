@@ -4,11 +4,11 @@ from typing import ClassVar
 from .enums.host import Host
 
 
-class Id(StrEnum):
+class LauncherId(StrEnum):
     HOST: ClassVar[Host]
 
 
-class GlobalId(Id):
+class GlobalLauncherId(LauncherId):
     EPIC_GOOGLE_GENSHIN_IMPACT = "8fANlj5K7I"
     EPIC_GOOGLE_HONKAI_STAR_RAIL = "gGoJxKOusQ"
     EPIC_GOOGLE_ZENLESS_ZONE_ZERO = "0hUu4SbmhI"
@@ -22,7 +22,7 @@ class GlobalId(Id):
     OFFICIAL = "VYTpXlbWo8"
 
 
-class ChinaId(Id):
+class ChinaLauncherId(LauncherId):
     BILIBILI_GENSHIN_IMPACT = "umfgRO5gh5"
     BILIBILI_HONKAI_STAR_RAIL = "6P5gHMNyK3"
     BILIBILI_ZENLESS_ZONE_ZERO = "xV0f4r1GT0"
@@ -30,5 +30,5 @@ class ChinaId(Id):
     OFFICIAL = "jGHBHlcOq1"
 
 
-GlobalId.HOST = Host.GLOBAL
-ChinaId.HOST = Host.CHINA
+GlobalLauncherId.HOST = Host.GLOBAL
+ChinaLauncherId.HOST = Host.CHINA

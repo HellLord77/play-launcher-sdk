@@ -8,9 +8,13 @@ def pytest_addoption(parser: pytest.Parser):
 
 
 def pytest_generate_tests(metafunc: pytest.Metafunc):
-    from play_launcher_sdk import ChinaId
-    from play_launcher_sdk import GlobalId
+    from play_launcher_sdk import ChinaLauncherId
+    from play_launcher_sdk import GlobalLauncherId
 
     if "id" in metafunc.fixturenames:
-        id = chain(GlobalId, ChinaId) if metafunc.config.getoption("--all") else (GlobalId.OFFICIAL,)
+        id = (
+            chain(GlobalLauncherId, ChinaLauncherId)
+            if metafunc.config.getoption("--all")
+            else (GlobalLauncherId.OFFICIAL,)
+        )
         metafunc.parametrize("id", id, scope="module")
