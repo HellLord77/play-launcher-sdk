@@ -1,7 +1,8 @@
 from enum import StrEnum
+from enum import nonmember
 from typing import ClassVar
 
-from .enums.host import Host
+from .host import Host
 
 
 class LauncherId(StrEnum):
@@ -20,6 +21,7 @@ class GlobalLauncherId(LauncherId):
     EPIC_GOOGLE_HONKAI_IMPACT_3RD_SEA = "GTLARRVLB5"
 
     OFFICIAL = "VYTpXlbWo8"
+    HOST = nonmember(Host.GLOBAL)
 
 
 class ChinaLauncherId(LauncherId):
@@ -28,7 +30,4 @@ class ChinaLauncherId(LauncherId):
     BILIBILI_ZENLESS_ZONE_ZERO = "xV0f4r1GT0"
 
     OFFICIAL = "jGHBHlcOq1"
-
-
-GlobalLauncherId.HOST = Host.GLOBAL
-ChinaLauncherId.HOST = Host.CHINA
+    HOST = nonmember(Host.CHINA)

@@ -6,9 +6,9 @@ from httpx import Request
 from httpx import Response
 
 from .enums.language import Language
+from .enums.launcher_id import LauncherId
 from .enums.notification_type import NotificationType
 from .enums.path import Path
-from .launcher_id import LauncherId
 from .models import AllGameBasicInfo
 from .models import GameBranches
 from .models import GameChannelSdks
