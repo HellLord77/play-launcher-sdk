@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGamePlugins?launcher_id=FpjStNkPwp
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"plugin_releases":[{"game":{"id":"aQ3R4jKmdo","biz":"nap_global"},"plugins":[{"plugin_id":"CbVcAGw76b","release_id":"WCAHNXCij9","version":"3.0.0","plugin_pkg":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2026/06/05/1780649243289/UnityPlayer_os.zip","md5":"a2eba700a5f379a3dc37ef11e1841140","size":"18438775","decompressed_size":"36877550","command":"","validation":"[{\"path\":\"UnityPlayer.dll\",\"md5\":\"04ed086ab02b924da8e958be9c229cd9\",\"size\":\"37794096\"}]"}}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '530'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 19 Jun 2026 06:28:42 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 8378f09761db68ab0db137d2ada9ad68.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 4yJGHqJvA3tJreYUmqc_tMX9ljgQR9SpFM9RWCRKkJdo2qBWOIx7Nw==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 6bc795cb4b85d751:6bc795cb4b85d751:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

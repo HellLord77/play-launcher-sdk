@@ -10,6 +10,8 @@ class LauncherId(StrEnum):
 
 
 class GlobalLauncherId(LauncherId):
+    STEAM_ZENLESS_ZONE_ZERO = "FpjStNkPwp"
+
     EPIC_GOOGLE_GENSHIN_IMPACT = "8fANlj5K7I"
     EPIC_GOOGLE_HONKAI_STAR_RAIL = "gGoJxKOusQ"
     EPIC_GOOGLE_ZENLESS_ZONE_ZERO = "0hUu4SbmhI"

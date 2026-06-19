@@ -1,0 +1,84 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=FpjStNkPwp
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"games\":[{\"id\":\"aQ3R4jKmdo\",\"biz\":\"nap_global\",\"display\":{\"language\":\"en-us\",\"name\":\"Zenless
+        Zone Zero\",\"icon\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2026/04/21/db01dfe29c36a283b774d295b2322b54_6609498868301438567.png\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"title\":\"\",\"subtitle\":\"\",\"background\":null,\"logo\":null,\"thumbnail\":null,\"korea_rating\":null,\"shortcut\":{\"url\":\"https://launcher-webstatic.hoyoverse.com/launcher-public/2026/04/21/6d1cf7d5575dfb9d0518ba9ecb42ad7c_3222246961299498831.ico\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"6d1cf7d5575dfb9d0518ba9ecb42ad7c\",\"size\":116372},\"wpf_icon\":{\"url\":\"\",\"hover_url\":\"\",\"link\":\"\",\"login_state_in_link\":false,\"md5\":\"\",\"size\":0},\"top_left_logo\":null,\"introduction\":\"An
+        original IP action game proudly presented by HoYoverse.\\nWelcome to New Eridu
+        \u2014 Where humanity rises anew!\"},\"reservation\":null,\"display_status\":\"LAUNCHER_GAME_DISPLAY_STATUS_AVAILABLE\",\"game_server_configs\":[]}]}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1048'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 19 Jun 2026 06:28:42 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 9b54024ea9e954a7b4ed1fb94b9efefe.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - pajm-tjQ3jIFGAyc4hodB-aTHflGaqHRblL0kv4YzRLD9bech262kg==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 20837ac2816da667:20837ac2816da667:0:1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameContent?launcher_id=FpjStNkPwp&game_id=aQ3R4jKmdo
+  response:
+    body:
+      string: "{\"retcode\":0,\"message\":\"OK\",\"data\":{\"content\":{\"game\":{\"id\":\"aQ3R4jKmdo\",\"biz\":\"nap_global\"},\"language\":\"\",\"banners\":[{\"id\":\"bHMjlxQchI\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/06/17/e344574c305c248a06fef2004c731a2b_76007144328497353.png\",\"link\":\"https://www.hoyolab.com/article/45490247?utm_source=launcher\\u0026utm_medium=banner\\u0026utm_id=8\",\"login_state_in_link\":true},\"i18n_identifier\":\"\"},{\"id\":\"rpts1YkXrz\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/06/16/3c1303d6d450926956ec22a77a8b01d8_6933516662559156322.jpg\",\"link\":\"https://youtu.be/iUNYuELxJZ0\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"ygsCHSodb9\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/06/13/526a9ae6a989655d58f45a755b813c3f_8975495468680534149.jpg\",\"link\":\"https://hoyo.link/LwV8skfrU\",\"login_state_in_link\":true},\"i18n_identifier\":\"\"},{\"id\":\"pJf4lDzh9w\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/06/12/827a5d0b27998850f67074260224a7c1_3614503770497062356.jpg\",\"link\":\"https://youtu.be/XwRh8mviOKA\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"sNoU1DYuPB\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/06/09/b1ba95bd774efcdc9c9c943c6341bccf_800263501042983288.jpg\",\"link\":\"https://youtu.be/3OSaIysG08k\",\"login_state_in_link\":false},\"i18n_identifier\":\"\"},{\"id\":\"ibpLxK2RLY\",\"image\":{\"url\":\"https://fastcdn.hoyoverse.com/static-resource-v2/2026/06/06/5b019a5b601b7595a84337a8eec34295_3562543418453965555.jpg\",\"link\":\"https://hoyo.link/UEp52XJ8q\",\"login_state_in_link\":true},\"i18n_identifier\":\"\"}],\"posts\":[{\"id\":\"2iyANVWWWl\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Figurenvorschau
+        f\xFCr Velina \u2013 \u201EDramaturgie\u201C | Zenless Zone Zero\",\"link\":\"https://youtu.be/iUNYuELxJZ0\",\"date\":\"06/16\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"pVZ7PNcMI5\",\"type\":\"POST_TYPE_INFO\",\"title\":\"Figurenvorf\xFChrung
+        f\xFCr Velina \u2013 \u201ERoutinem\xE4\xDFige Teeparty\u201C | Zenless Zone
+        Zero\",\"link\":\"https://youtu.be/XwRh8mviOKA\",\"date\":\"06/12\",\"login_state_in_link\":false,\"i18n_identifier\":\"\"},{\"id\":\"zF4LUM6rOo\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"FAQ
+        zum Upgrade des visuellen Erlebnisses auf dem PC von Zenless Zone Zero\",\"link\":\"https://www.hoyolab.com/article/45490247?utm_source=launcher\\u0026utm_medium=notice\\u0026utm_id=8\",\"date\":\"06/17\",\"login_state_in_link\":true,\"i18n_identifier\":\"\"},{\"id\":\"B4cmizXIen\",\"type\":\"POST_TYPE_ANNOUNCE\",\"title\":\"Zeitlich
+        begrenzte Kan\xE4le der Version 3.0 (Phase 1)\",\"link\":\"https://www.hoyolab.com/article/45467484?utm_source=launcher\\u0026utm_medium=notice\\u0026utm_id=8\",\"date\":\"06/15\",\"login_state_in_link\":true,\"i18n_identifier\":\"\"}],\"social_media_list\":[]}}}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 19 Jun 2026 06:28:42 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 37c0dcd7dae200869d05b85e72ac6b66.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - hWpfkvtVQbBfTJVTmQLdv0jCexTWoqX6EY-_fReO3rHBrTJ-V_EMXg==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 71068f8915bb428b:71068f8915bb428b:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -49,6 +49,6 @@ class LaunchConfig(Base):
     local_scenario_config_path: RelativePath
     enable_full_pkg_recommend: bool
     enable_scenario_pkg: bool
-    enable_dx_switch: Literal[False]
+    enable_dx_switch: bool
     enable_write_verify_result: Literal[False]
     write_verify_result_path: Literal[""]

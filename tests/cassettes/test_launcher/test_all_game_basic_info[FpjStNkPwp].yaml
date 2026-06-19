@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Host:
+      - sg-hyp-api.hoyoverse.com
+    method: GET
+    uri: https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=FpjStNkPwp
+  response:
+    body:
+      string: '{"retcode":0,"message":"OK","data":{"game_info_list":[{"game":{"id":"aQ3R4jKmdo","biz":"nap_global"},"backgrounds":[{"id":"1GBS8W2xmr","background":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/06/15/2338676d50de6ec0aacd88ce2c3e7950_3163664460036080128.webp","link":"","login_state_in_link":false},"icon":{"url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/03/cad8a2c7157c839ec0f54fd5a7264544_5177108118458409447.png","hover_url":"https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/03/729dc33b21e0f978671e1d4e96f0fcbd_5803432973633683376.png","link":"https://www.hoyolab.com/article/45467484?utm_source=launcher\u0026utm_medium=backgroundbanner\u0026utm_id=8","login_state_in_link":true,"md5":"","size":0},"video":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/06/15/343b877316803c967c764dd908342405_5423339030858207720.webm","size":0},"theme":{"url":"https://fastcdn.hoyoverse.com/static-resource-v2/2026/06/15/6b068803a0b9f8d29f2a76040504ad06_4297552159686900030.webp","link":"","login_state_in_link":false},"type":"BACKGROUND_TYPE_VIDEO"}]}]}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1112'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 19 Jun 2026 06:28:43 GMT
+      Vary:
+      - Origin
+      - Accept-Encoding
+      Via:
+      - 1.1 f3774474598dd2c32211295e787adf8e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - AYpmXx35dOJqXbogtZMRaTLsCcUzJAhYNCBwTlVtA3j76w0qLSDMGg==
+      X-Amz-Cf-Pop:
+      - CCU50-P4
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - takumi
+      X-Trace-Id:
+      - 6a54511f15dc2c41:6a54511f15dc2c41:0:1
+    status:
+      code: 200
+      message: OK
+version: 1

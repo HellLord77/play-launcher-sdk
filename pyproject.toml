@@ -1,6 +1,6 @@
 [project]
 name = "play-launcher-sdk"
-version = "0.3.2"
+version = "0.3.3"
 requires-python = ">=3.12.3,<3.15"
 dependencies = [
     "annotated-types",
@@ -10,11 +10,7 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = [
-    { include-group = "lint" },
-    { include-group = "test" },
-    { include-group = "type" },
-]
+dev = [{ include-group = "lint" }, { include-group = "test" }]
 lint = ["ruff"]
 test = [
     "pytest",
@@ -24,7 +20,6 @@ test = [
     "pytest-xdist",
     "tox",
 ]
-type = ["ty"]
 
 [build-system]
 requires = ["uv_build>=0.9.26,<0.10.0"]
@@ -48,7 +43,7 @@ ignorelist = ["id"]
 
 [tool.ruff.lint.flake8-tidy-imports.banned-api]
 "pydantic.BaseModel".msg = "Use play_launcher_sdk.models.base.Base instead."
-"typing.Annotated".msg = "Use from play_launcher_sdk.types instead."
+"typing.Annotated".msg = "Use from play_launcher_sdk.types_ instead."
 
 [tool.ruff.lint.isort]
 force-single-line = true

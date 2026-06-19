@@ -10,4 +10,4 @@ class GameBranch(Base):
     game: Game
     main: Branch
     pre_download: BranchPreDownload | None
-    enable_base_pkg_predownload: Literal[False]
+    enable_base_pkg_predownload: bool
