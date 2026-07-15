@@ -1,5 +1,3 @@
-from typing import Literal
-
 from .base import Base
 from .branch import Branch
 from .branch_pre_download import BranchPreDownload
