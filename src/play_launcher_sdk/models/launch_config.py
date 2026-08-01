@@ -52,3 +52,5 @@ class LaunchConfig(Base):
     enable_dx_switch: bool
     enable_write_verify_result: bool
     write_verify_result_path: RelativePath
+    enable_driver_upgrade_alert: Literal[False] | None = None
+    disable_reservation_auto_download: Literal[False] | None = None
